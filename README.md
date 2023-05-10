@@ -13,11 +13,11 @@ Create your own game without knowledge programming languages. Logic blocks only
 * Some blocks won't work without the Ganin plugin
 
 # Navigation
-* Core/Editor - Here is all the code for the expression editor
-* Core/Functions - All the functions of the expression editor for simulation are described here
-* Core/Interfaces - The listeners of the entire interface are stored here
-* Core/Modules - Various modules are stored here
-* Core/Simulation - Here is the code to start the simulation (start.lua)
+* Core/Editor/ - Here is all the code for the expression editor
+* Core/Functions/ - All the functions of the expression editor for simulation are described here
+* Core/Interfaces/ - The listeners of the entire interface are stored here
+* Core/Modules/ - Various modules are stored here
+* Core/Simulation/ - Here is the code to start the simulation (start.lua)
 * Data/ - Various shared data and independent modules are stored here
 * Emitter/ - Particles are stored here
 * Interfaces/ - Here is a description of the screens of the entire application
