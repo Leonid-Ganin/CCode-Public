@@ -18,5 +18,9 @@ Create your own game without knowledge programming languages. Logic blocks only
 * Core/Interfaces - The listeners of the entire interface are stored here
 * Core/Modules - Various modules are stored here
 * Core/Simulation - Here is the code to start the simulation (start.lua)
-* Data - Various shared data and independent modules are stored here
-* Emitter - Particles are stored here
+* Data/ - Various shared data and independent modules are stored here
+* Emitter/ - Particles are stored here
+* Interfaces/ - Here is a description of the screens of the entire application
+* Network/ - These are modules for local multiplayer
+* Sprites/ - All the sprites of the application are stored here
+* Strings/ - This is the folder of all available translations
