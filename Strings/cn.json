@@ -1,0 +1,2589 @@
+{
+    "interface": {
+        "lang.ru": "Русский",
+        "lang.en": "English",
+        "lang.pt": "Brasileiro",
+        "lang.pl": "Polski",
+        "lang.ua": "Українська",
+        "lang.by": "Беларускі",
+        "lang.cn": "中文",
+        "lang.jp": "日本語",
+        "lang.custom": "母语",
+        "button.yes": "是的",
+        "button.no": "不是",
+        "button.okay": "行",
+        "button.close": "关闭",
+        "button.download": "安装 ",
+        "button.change": "改变",
+        "button.remove": "删除",
+        "button.rename": "改名",
+        "button.copy": "复制",
+        "button.to.buffer": "缓冲",
+        "button.from.buffer": "从缓冲区",
+        "button.paste": "插入",
+        "button.alldelete": "删除一切",
+        "button.find": "寻找精灵",
+        "button.debug": "调试",
+        "button.comment": "关掉",
+        "button.uncomment": "打开",
+        "button.hide": "隐藏",
+        "button.show": "展示",
+        "button.addIfElse": "添加条件",
+        "button.block.find": "查找块",
+        "button.pasteFromClipboard": "从剪贴板粘贴",
+        "button.importLuaFile": "导入 .lua 文件",
+        "menu.myprogram": "我的节目",
+        "menu.continue": "继续",
+        "menu.settings": "设置",
+        "menu.testers": "测试版本：",
+        "menu.developers": "开发者版本：",
+        "menu.version.new": "测试人员的新版本已经发布，更新？",
+        "menu.version.wait": "等待更新，不要关闭应用程序",
+        "programs.entername": "输入程序名称",
+        "programs.changename": "更改程序名称",
+        "programs.noobmode": "简化模式",
+        "program.images": "精灵",
+        "program.pictures": "图片",
+        "program.scripts": "脚本：",
+        "program.scenarios": "Piratskiy",
+        "program.levels": "Levels",
+        "program.sounds": "声音",
+        "program.videos": "影片",
+        "program.fonts": "字体",
+        "program.resources": "Resources",
+        "program.psettings": "项目设置",
+        "program.export": "出口",
+        "program.build": "Build APK",
+        "program.aab": "Build AAB",
+        "program.editor": "表达式编辑器",
+        "scripts.entername": "输入脚本名称",
+        "scripts.entername.noob": "Enter scenario name",
+        "scripts.changename": "更改脚本名称",
+        "scripts.changename.noob": "Change scenario name",
+        "scripts.sandbox": "沙盒",
+        "scripts.sandbox.exit": "退出沙盒，选择所需的操作",
+        "scripts.sandbox.save": "救",
+        "scripts.sandbox.not.save": "不保存",
+        "images.entername": "输入精灵名称",
+        "images.entername.noob": "Enter picture name",
+        "images.changename": "更改精灵名称",
+        "images.changename.noob": "Change picture name",
+        "images.pixel": "像素精灵",
+        "images.pixel.noob": "Pixel picture",
+        "images.gif.convert": "Convert gif to sprite sheet?",
+        "images.gif.okay": "Convert",
+        "images.gif.complete": "Conversion is finished, remember the values:",
+        "sounds.entername": "输入声音名称",
+        "sounds.changename": "更改声音名称",
+        "videos.entername": "输入视频名称",
+        "videos.changename": "更改视频名称",
+        "resources.entername": "Enter resource name",
+        "resources.changename": "Change resource name",
+        "fonts.entername": "输入字体名称",
+        "fonts.changename": "更改字体名称",
+        "fonts.needexit": "CCode强制关闭，因为直到程序关闭才删除字体",
+        "settings.applang": "应用语言",
+        "settings.confirmdelete": "确认删除",
+        "settings.autoplace": "Autofill parameters:",
+        "settings.keystore": "Developer Key:",
+        "settings.keystore.testkey": "Testkey",
+        "settings.keystore.custom": "Custom",
+        "settings.keystore.alias": "Key alias",
+        "settings.keystore.pass": "Key password",
+        "settings.keystore.create": "Create",
+        "settings.keystore.import": "Import",
+        "settings.keystore.enteralias": "Enter key alias",
+        "settings.keystore.enterpass": "Enter key password",
+        "settings.keystore.create.successfully": "Key was successfully created",
+        "settings.keystore.import.successfully": "Key was successfully imported",
+        "settings.back": "底部面板",
+        "settings.backCCode": "应用",
+        "settings.backSystem": "系统",
+        "settings.backNo": "消除",
+        "settings.showads": "雪地广告：",
+        "settings.posads": "广告位置",
+        "settings.topads": "最佳",
+        "settings.bottomads": "底部",
+        "settings.orientation": "方向",
+        "psettings.icon": "项目图标",
+        "psettings.orientation": "项目定位",
+        "psettings.build": "建造",
+        "psettings.version": "版本",
+        "psettings.package": "包裹",
+        "psettings.enterbuild": "输入内部版本号",
+        "psettings.enterversion": "输入版本名称",
+        "psettings.enterpackage": "输入包裹",
+        "errors.build": "错误，输入整数",
+        "errors.package": "乙错误，请输入有效的包名",
+        "errors.name": "错误，名称已被使用",
+        "errors.filter": "错误，不能使用空名称",
+        "errors.min8sym": "Error, at least 8 characters are required",
+        "errors.max32sym": "Error, maximum 32 characters allowed",
+        "build.start": "APK 构建开始，请稍候  ",
+        "build.start.aab": "AAB build started, please wait",
+        "export.start": "开始导出，请稍候",
+        "import.error": "导入错误#",
+        "game.debug": "程序 lua 代码保存到剪贴板",
+        "game.isbug": "模拟启动失败"
+    },
+    "blocks": {
+        "blocks.create.var": "创建变量",
+        "blocks.create.var.noob": "Create value",
+        "blocks.create.table": "创建表",
+        "blocks.create.fun": "创建函数",
+        "blocks.create.fun.noob": "Create action",
+        "blocks.create.objects": "对象",
+        "blocks.create.filters": "过滤器",
+        "blocks.create.groups": "团体",
+        "blocks.create.tags": "标签",
+        "blocks.create.transition": "过渡",
+        "blocks.create.particle": "粒子",
+        "blocks.create.block": "Create",
+        "blocks.create.color": "颜色",
+        "blocks.create.copy": "复制",
+        "blocks.create.block.save.lua": "保存（lua 代码） ",
+        "blocks.create.block.save.sandbox": "保存（沙盒）",
+        "blocks.create.block.save.lua.title": "导入 lua 代码的两个选项中选择一个",
+        "blocks.select.dynamic": "动态的",
+        "blocks.select.static": "静止的",
+        "blocks.select.forward": "向前",
+        "blocks.select.bounce": "弹跳",
+        "blocks.select.inputDefault": "默认",
+        "blocks.select.inputNumber": "数字",
+        "blocks.select.inputDecimal": "十进制",
+        "blocks.select.inputPhone": "电话",
+        "blocks.select.inputUrl": "URL",
+        "blocks.select.inputEmail": "邮件",
+        "blocks.select.inputNoEmoji": "没有表情符号",
+        "blocks.select.alignLeft": "剩下",
+        "blocks.select.alignRight": "正确的",
+        "blocks.select.alignCenter": "中心",
+        "blocks.select.backgroundTrue": "离开",
+        "blocks.select.backgroundFalse": "消除",
+        "blocks.select.ruleTrue": "允许",
+        "blocks.select.ruleFalse": "禁止",
+        "blocks.select.switchRadio": "收音机",
+        "blocks.select.switchCheckbox": "复选框",
+        "blocks.select.switchToggle": "切换",
+        "blocks.select.switchOn": "在",
+        "blocks.select.switchOff": "离开",
+        "blocks.select.adsInterstitial": "Banner",
+        "blocks.select.adsRewardedVideo": "RewardedVideo",
+        "blocks.select.adsVideo": "Video",
+        "blocks.select.pic": "Picture",
+        "blocks.select.obj": "目的",
+        "blocks.select.text": "文本",
+        "blocks.select.group": "团体",
+        "blocks.select.tag": "标签",
+        "blocks.select.widget": "微件",
+        "blocks.select.snapshot": "Snapshot",
+        "blocks.select.progressDefault": "默认",
+        "blocks.select.progressDownload": "安装",
+        "blocks.select.progressUpload": "上传",
+        "blocks.select.redirectsTrue": "自动的",
+        "blocks.select.redirectsFalse": "手动的",
+        "blocks.select.canvasModeAppend": "Append",
+        "blocks.select.canvasModeDiscard": "Discard",
+        "blocks.select.snapshotGroup": "Group",
+        "blocks.select.snapshotCanvas": "Canvas",
+        "blocks.color.red": "红色的",
+        "blocks.color.green": "绿色的",
+        "blocks.color.blue": "蓝色的",
+        "blocks.color.hex": "进入 HEX",
+        "blocks.sure?": "你确定吗？",
+        "blocks.delete.yes": "是的，删除",
+        "blocks.delete.no": "不，不要删除",
+        "blocks.entertext": "输入文字",
+        "blocks.everyone": "所有街区",
+        "blocks.custom": "我的积木",
+        "blocks.none": "没有任何",
+        "blocks.not.exist": "块不存在",
+        "blocks.type.noobmode": "以简化模式关闭对该类别的访问",
+        "blocks.default": "区块名称",
+        "blocks.": "区块名称",
+        "blocks.params": "范围",
+        "blocks.params.add": "添加参数",
+        "blocks.params.remove": "移除参数",
+        "blocks..params": {}
+    },
+    "events": {
+        "blocks.events": "事件",
+        "blocks.onStart": "开始时",
+        "blocks.onStart.params": [
+            "笔记："
+        ],
+        "blocks.onFun": "创建函数",
+        "blocks.onFun.params": [
+            "函数名称"
+        ],
+        "blocks.onFunParams": "创建带参数的函数",
+        "blocks.onFunParams.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onCondition": "只要条件为真",
+        "blocks.onCondition.params": [
+            "健康）状况"
+        ],
+        "blocks.onTouchBegan": "When finger touches object",
+        "blocks.onTouchBegan.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onTouchEnded": "When finger releases object",
+        "blocks.onTouchEnded.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onTouchMoved": "When finger moves over object",
+        "blocks.onTouchMoved.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onTouchDisplayBegan": "When finger touches screen",
+        "blocks.onTouchDisplayBegan.params": [
+            "表名"
+        ],
+        "blocks.onTouchDisplayEnded": "When finger releases screen",
+        "blocks.onTouchDisplayEnded.params": [
+            "表名"
+        ],
+        "blocks.onTouchDisplayMoved": "When finger moves over screen",
+        "blocks.onTouchDisplayMoved.params": [
+            "表名"
+        ],
+        "blocks.onFirebase": "从 Firebase 收到的响应",
+        "blocks.onFirebase.params": [
+            "函数名称",
+            "回应"
+        ],
+        "blocks.onBackPress": "当您点击 “返回”",
+        "blocks.onSuspend": "应用程序已从屏幕最小化",
+        "blocks.onResume": "应用程序返回到屏幕",
+        "blocks.onLocalCollisionBegan": "开始局部碰撞",
+        "blocks.onLocalCollisionBegan.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onLocalCollisionEnded": "结束局部碰撞 ",
+        "blocks.onLocalCollisionEnded.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onLocalPreCollision": "局部碰撞前",
+        "blocks.onLocalPreCollision.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onLocalPostCollision": "局部碰撞后",
+        "blocks.onLocalPostCollision.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onGlobalCollisionBegan": "开始全球碰撞",
+        "blocks.onGlobalCollisionBegan.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onGlobalCollisionEnded": "结束全球碰撞",
+        "blocks.onGlobalCollisionEnded.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onGlobalPreCollision": "全球碰撞前",
+        "blocks.onGlobalPreCollision.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onGlobalPostCollision": "全局碰撞后",
+        "blocks.onGlobalPostCollision.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onWebViewCallback": "网络视图发生了变化",
+        "blocks.onWebViewCallback.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onSwitchCallback": "在开关中启动一个事件",
+        "blocks.onSwitchCallback.params": [
+            "函数名称",
+            "Variable name:"
+        ],
+        "blocks.onSliderMoved": "滑块移动时",
+        "blocks.onSliderMoved.params": [
+            "函数名称",
+            "变量名"
+        ],
+        "blocks.onFieldBegan": "字段编辑已开始",
+        "blocks.onFieldBegan.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onFieldEditing": "编辑文本字段时",
+        "blocks.onFieldEditing.params": [
+            "函数名称",
+            "表名"
+        ],
+        "blocks.onFieldEnded": "字段编辑完成",
+        "blocks.onFieldEnded.params": [
+            "函数名称",
+            "表名"
+        ]
+    },
+    "vars": {
+        "blocks.vars": "数据 & 文本 ",
+        "blocks.setVar": "设置变量值",
+        "blocks.setVar.params": [
+            "变量名",
+            "价值"
+        ],
+        "blocks.updVar": "为变量添加值",
+        "blocks.updVar.params": [
+            "变量名",
+            "价值"
+        ],
+        "blocks.setObjVar": "设置对象变量",
+        "blocks.setObjVar.params": [
+            "钥匙",
+            "对象名称",
+            "价值"
+        ],
+        "blocks.addTable": "将值设置为表",
+        "blocks.addTable.params": [
+            "钥匙",
+            "表名",
+            "价值"
+        ],
+        "blocks.insertTable": "将值插入数组",
+        "blocks.insertTable.params": [
+            "钥匙",
+            "表名",
+            "价值"
+        ],
+        "blocks.removeTable": "Remove value from array",
+        "blocks.removeTable.params": [
+            "表名",
+            "钥匙"
+        ],
+        "blocks.resetTable": "覆盖表",
+        "blocks.resetTable.params": [
+            "表名",
+            "JSON 代码"
+        ],
+        "blocks.saveValue": "节省价值",
+        "blocks.saveValue.params": [
+            "钥匙",
+            "价值"
+        ],
+        "blocks.setRandomSeed": "设置随机种子",
+        "blocks.setRandomSeed.params": [
+            "种子"
+        ],
+        "blocks.newText": "创建文本",
+        "blocks.newText.params": [
+            "文本名称",
+            "文本",
+            "字体",
+            "尺寸",
+            "颜色",
+            "不透明度 (0-100)",
+            "X",
+            "Y"
+        ],
+        "blocks.newText2": "创建具有宽度和高度的文本",
+        "blocks.newText2.params": [
+            "文本名称",
+            "文本",
+            "字体",
+            "尺寸",
+            "颜色",
+            "阿里",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.setText": "Edit text",
+        "blocks.setText.params": [
+            "文本名称",
+            "Text"
+        ],
+        "blocks.setTextSize": "设置文字字体大小",
+        "blocks.setTextSize.params": [
+            "文本名称",
+            "尺寸"
+        ],
+        "blocks.hideText": "隐藏文字",
+        "blocks.hideText.params": [
+            "文本名称"
+        ],
+        "blocks.showText": "显示文字",
+        "blocks.showText.params": [
+            "文本名称"
+        ],
+        "blocks.removeText": "删除文本",
+        "blocks.removeText.params": [
+            "文本名称"
+        ],
+        "blocks.setTextPos": "设置文本位置",
+        "blocks.setTextPos.params": [
+            "文本名称",
+            "X",
+            "Y"
+        ],
+        "blocks.setTextPosX": "设置文本位置 X",
+        "blocks.setTextPosX.params": [
+            "文本名称",
+            "X"
+        ],
+        "blocks.setTextPosY": "设置文本位置 y",
+        "blocks.setTextPosY.params": [
+            "文本名称",
+            "Y"
+        ],
+        "blocks.setTextRotation": "设置文字旋转",
+        "blocks.setTextRotation.params": [
+            "文本名称",
+            "回转"
+        ],
+        "blocks.setTextAlpha": "设置文本不透明度",
+        "blocks.setTextAlpha.params": [
+            "文本名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.setTextColor": "设置文字颜色",
+        "blocks.setTextColor.params": [
+            "文本名称",
+            "颜色"
+        ],
+        "blocks.setTextRGB": "设置 RGB 文本颜色",
+        "blocks.setTextRGB.params": [
+            "文本名称",
+            "颜色（R）",
+            "颜色  (G)",
+            "颜色 (B) "
+        ],
+        "blocks.setTextHEX": "设置 HEX 文本颜色",
+        "blocks.setTextHEX.params": [
+            "文本名称",
+            "颜色（HEX）"
+        ],
+        "blocks.setTextAnchor": "设置文本锚点",
+        "blocks.setTextAnchor.params": [
+            "文本名称",
+            "锚 X (0-100)",
+            "锚 Y (0-100)"
+        ],
+        "blocks.updTextPosX": "更改文本位置 x",
+        "blocks.updTextPosX.params": [
+            "文本名称",
+            "X"
+        ],
+        "blocks.updTextPosY": "更改文本位置 y",
+        "blocks.updTextPosY.params": [
+            "文本名称",
+            "Y"
+        ],
+        "blocks.updTextRotation": "更改文本旋转",
+        "blocks.updTextRotation.params": [
+            "文本名称",
+            "回转"
+        ],
+        "blocks.updTextAlpha": "更改文本不透明度",
+        "blocks.updTextAlpha.params": [
+            "文本名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.frontText": "将文本设置到上面的图层",
+        "blocks.frontText.params": [
+            "文本名称"
+        ],
+        "blocks.backText": "将文本设置为图层波纹管",
+        "blocks.backText.params": [
+            "文本名称"
+        ]
+    },
+    "objects": {
+        "blocks.objects": "对象",
+        "blocks.newObject": "创建对象",
+        "blocks.newObject.params": [
+            "对象名称",
+            "精灵名称",
+            "X",
+            "Y"
+        ],
+        "blocks.newSprite": "从部分精灵创建对象",
+        "blocks.newSprite.params": [
+            "对象名称",
+            "精灵名称",
+            "帧宽度",
+            "车架高度",
+            "数框",
+            "列表动画",
+            "X",
+            "Y"
+        ],
+        "blocks.newGif": "Create object from gif sprite",
+        "blocks.newGif.params": [
+            "Object name:",
+            "Sprite name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setPos": "设置对象位置",
+        "blocks.setPos.params": [
+            "对象名称",
+            "X",
+            "Y"
+        ],
+        "blocks.setPosX": "设置对象位置 X",
+        "blocks.setPosX.params": [
+            "对象名称",
+            "X"
+        ],
+        "blocks.setPosY": "设置物体位置 Y",
+        "blocks.setPosY.params": [
+            "对象名称",
+            "Y"
+        ],
+        "blocks.setSize": "设置对象大小",
+        "blocks.setSize.params": [
+            "对象名称",
+            "尺寸 (%)"
+        ],
+        "blocks.setRotation": "设置对象旋转",
+        "blocks.setRotation.params": [
+            "对象名称",
+            "回转"
+        ],
+        "blocks.setRotationTo": "将旋转设置为目的 2",
+        "blocks.setRotationTo.params": [
+            "对象名称 1",
+            "对象名称 2"
+        ],
+        "blocks.setAlpha": "设置对象不透明度",
+        "blocks.setAlpha.params": [
+            "对象名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.setWidth": "设置对象宽度",
+        "blocks.setWidth.params": [
+            "对象名称",
+            "宽度"
+        ],
+        "blocks.setHeight": "设置对象高度",
+        "blocks.setHeight.params": [
+            "对象名称",
+            "高度"
+        ],
+        "blocks.setAnchor": "设置对象的锚点",
+        "blocks.setAnchor.params": [
+            "对象名称",
+            "锚 X (0-100)",
+            "锚 Y (0-100)"
+        ],
+        "blocks.updPosX": "更改对象位置 x",
+        "blocks.updPosX.params": [
+            "对象名称",
+            "X"
+        ],
+        "blocks.updPosY": "改变物体位置 y",
+        "blocks.updPosY.params": [
+            "对象名称",
+            "Y"
+        ],
+        "blocks.updSize": "更改对象大小",
+        "blocks.updSize.params": [
+            "对象名称",
+            "尺寸 (%)"
+        ],
+        "blocks.updRotation": "更改对象旋转",
+        "blocks.updRotation.params": [
+            "对象名称",
+            "回转"
+        ],
+        "blocks.updAlpha": "更改对象不透明度",
+        "blocks.updAlpha.params": [
+            "对象名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.updWidth": "更改对象宽度",
+        "blocks.updWidth.params": [
+            "对象名称",
+            "宽度"
+        ],
+        "blocks.updHeight": "更改对象高度",
+        "blocks.updHeight.params": [
+            "对象名称",
+            "高度"
+        ],
+        "blocks.hideObject": "隐藏对象",
+        "blocks.hideObject.params": [
+            "对象名称"
+        ],
+        "blocks.showObject": "雪对象",
+        "blocks.showObject.params": [
+            "对象名称"
+        ],
+        "blocks.removeObject": "删除对象",
+        "blocks.removeObject.params": [
+            "对象名称"
+        ],
+        "blocks.frontObject": "将对象放在上面的图层上",
+        "blocks.frontObject.params": [
+            "对象名称"
+        ],
+        "blocks.backObject": "将对象放在下面的图层上",
+        "blocks.backObject.params": [
+            "对象名称"
+        ]
+    },
+    "control": {
+        "blocks.control": "控制",
+        "blocks.timerEnd": "结束定时器",
+        "blocks.timer": "定时器",
+        "blocks.timer.params": [
+            "时间（秒）",
+            "重复次数"
+        ],
+        "blocks.timerNameEnd": "结束定时器",
+        "blocks.timerName": "带名字的定时器",
+        "blocks.timerName.params": [
+            "定时器名称",
+            "时间（秒）",
+            "重复次数"
+        ],
+        "blocks.timerPause": "暂停定时器",
+        "blocks.timerPause.params": [
+            "定时器名称"
+        ],
+        "blocks.timerResume": "恢复定时器",
+        "blocks.timerResume.params": [
+            "定时器名称"
+        ],
+        "blocks.timerCancel": "取消时间",
+        "blocks.timerCancel.params": [
+            "时间名称"
+        ],
+        "blocks.timerPauseAll": "暂停所有计时器",
+        "blocks.timerResumeAll": "恢复所有计时器",
+        "blocks.timerCancelAll": "取消所有计时器",
+        "blocks.ifEnd": "结束条件",
+        "blocks.ifElse": "否则，如果条件为真",
+        "blocks.ifElse.params": [
+            "健康）状况"
+        ],
+        "blocks.if": "如果条件为真",
+        "blocks.if.params": [
+            "健康）状况"
+        ],
+        "blocks.foreverEnd": "Бесконечность не предел",
+        "blocks.forever": "永远重复",
+        "blocks.repeatEnd": "结束重复",
+        "blocks.repeat": "重复N次",
+        "blocks.repeat.params": [
+            "重复次数"
+        ],
+        "blocks.forEnd": "Конец цикла нафиг",
+        "blocks.for": "循环",
+        "blocks.for.params": [
+            "С",
+            "То",
+            "Вариабле наме",
+            "Шаг хз чего"
+        ],
+        "blocks.whileEnd": "结束重复",
+        "blocks.while": "重复直到条件为真",
+        "blocks.while.params": [
+            "健康）状况"
+        ],
+        "blocks.foreachEnd": "结束循环",
+        "blocks.foreach": "绕过所有表格元素",
+        "blocks.foreach.params": [
+            "表名",
+            "Element:",
+            "Key:"
+        ],
+        "blocks.break": "停止循环",
+        "blocks.requestFun": "请求函数",
+        "blocks.requestFun.params": [
+            "函数名称"
+        ],
+        "blocks.requestFunParams": "带参数的请求函数",
+        "blocks.requestFunParams.params": [
+            "函数名称",
+            "参数"
+        ],
+        "blocks.setListener": "见触摸功能",
+        "blocks.setListener.params": [
+            "对象名称",
+            "函数名称"
+        ],
+        "blocks.setListener3": "Set all touch functions",
+        "blocks.setListener3.params": [
+            "Object name:",
+            "Function name:",
+            "Function name:",
+            "Function name:"
+        ],
+        "blocks.setLocalCollision": "设置碰撞函数",
+        "blocks.setLocalCollision.params": [
+            "对象名称",
+            "函数名称"
+        ],
+        "blocks.setLocalPreCollision": "查看碰撞前的功能",
+        "blocks.setLocalPreCollision.params": [
+            "对象名称",
+            "函数名称"
+        ],
+        "blocks.setLocalPostCollision": "碰撞后查看功能",
+        "blocks.setLocalPostCollision.params": [
+            "对象名称",
+            "函数名称"
+        ],
+        "blocks.setGlobalCollision": "全局碰撞函数",
+        "blocks.setGlobalCollision.params": [
+            "函数名称"
+        ],
+        "blocks.setGlobalPreCollision": "全局碰撞前的函数",
+        "blocks.setGlobalPreCollision.params": [
+            "函数名称"
+        ],
+        "blocks.setGlobalPostCollision": "全局碰撞后的函数",
+        "blocks.setGlobalPostCollision.params": [
+            "函数名称"
+        ],
+        "blocks.setFocus": "设置触摸焦点",
+        "blocks.setFocus.params": [
+            "对象名称"
+        ],
+        "blocks.setFocusMultitouch": "设置多点触控焦点",
+        "blocks.setFocusMultitouch.params": [
+            "对象名称",
+            "唯一身份"
+        ],
+        "blocks.activateMultitouch": "激活多点触控",
+        "blocks.deactivateMultitouch": "停用多点触控",
+        "blocks.returnValue": "返回值",
+        "blocks.returnValue.params": [
+            "价值"
+        ],
+        "blocks.requestApi": "请求API方法",
+        "blocks.requestApi.params": [
+            "Lua代码"
+        ],
+        "blocks.requestApiRes": "Request API method from resource",
+        "blocks.requestApiRes.params": [
+            "Resource name:"
+        ],
+        "blocks.toastShort": "简短的弹出通知",
+        "blocks.toastShort.params": [
+            "文本"
+        ],
+        "blocks.toastLong": "长吐司通知",
+        "blocks.toastLong.params": [
+            "文本"
+        ],
+        "blocks.comment": "评论（给自己）",
+        "blocks.comment.params": [
+            "笔记"
+        ],
+        "blocks.requestExit": "关闭程序",
+        "blocks.setBackgroundColor": "设置背景颜色",
+        "blocks.setBackgroundColor.params": [
+            "颜色"
+        ],
+        "blocks.setBackgroundRGB": "设置 RGB 背景色",
+        "blocks.setBackgroundRGB.params": [
+            "颜色（R）",
+            "颜色（G）",
+            "颜色（B）"
+        ],
+        "blocks.setBackgroundHEX": "设置 HEX 背景颜色",
+        "blocks.setBackgroundHEX.params": [
+            "颜色（HEX）"
+        ],
+        "blocks.newLevel": "Load level",
+        "blocks.newLevel.params": [
+            "Level name:"
+        ],
+        "blocks.removeLevel": "Unload level",
+        "blocks.removeLevel.params": [
+            "Level name:"
+        ],
+        "blocks.showLevel": "Show level",
+        "blocks.showLevel.params": [
+            "Level name:"
+        ],
+        "blocks.hideLevel": "Hide level",
+        "blocks.hideLevel.params": [
+            "Level name:"
+        ],
+        "blocks.setPortraitOrientation": "设置垂直方向",
+        "blocks.setPortraitOrientation.params": [
+            "函数名称"
+        ],
+        "blocks.setLandscapeOrientation": "设置水平方向",
+        "blocks.setLandscapeOrientation.params": [
+            "函数名称"
+        ],
+        "blocks.turnOnAccelerometer": "设置加速度计功能",
+        "blocks.turnOnAccelerometer.params": [
+            "函数名称"
+        ],
+        "blocks.setAccelerometerFrequency": "设置加速度计频率",
+        "blocks.setAccelerometerFrequency.params": [
+            "频率 (Hz)"
+        ],
+        "blocks.scheduleNotification": "注册一个通知",
+        "blocks.scheduleNotification.params": [
+            "文本",
+            "时间（秒）"
+        ],
+        "blocks.cancelNotification": "Cancel all notifications",
+        "blocks.readFileRes": "Read file from resources",
+        "blocks.readFileRes.params": [
+            "Variable name:",
+            "Resource name:"
+        ],
+        "blocks.pasteboardCopy": "Copy to Clipboard",
+        "blocks.pasteboardCopy.params": [
+            "Текст:"
+        ],
+        "blocks.pasteboardPaste": "Read from Clipboard",
+        "blocks.pasteboardPaste.params": [
+            "Variable name:"
+        ],
+        "blocks.pasteboardClear": "Clear the Clipboard"
+    },
+    "shapes": {
+        "blocks.shapes": "纹理和形状",
+        "blocks.setSprite": "设置对象精灵",
+        "blocks.setSprite.params": [
+            "对象名称",
+            "精灵名称"
+        ],
+        "blocks.newRect": "用颜色创建矩形",
+        "blocks.newRect.params": [
+            "对象名称",
+            "颜色",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.newRoundedRect": "创建带角的矩形",
+        "blocks.newRoundedRect.params": [
+            "对象名称",
+            "圆角",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.newCircle": "创建圈子",
+        "blocks.newCircle.params": [
+            "对象名称",
+            "半径",
+            "X",
+            "Y"
+        ],
+        "blocks.newPolygon": "创建多边形",
+        "blocks.newPolygon.params": [
+            "对象名称",
+            "角度表",
+            "X",
+            "Y"
+        ],
+        "blocks.newLine": "创建行",
+        "blocks.newLine.params": [
+            "对象名称",
+            "颜色",
+            "X1",
+            "Y1",
+            "X2",
+            "Y2"
+        ],
+        "blocks.appendLine": "将点附加到线",
+        "blocks.appendLine.params": [
+            "对象名称",
+            "坐标表"
+        ],
+        "blocks.newBitmap": "创建位图纹理",
+        "blocks.newBitmap.params": [
+            "位图名称",
+            "宽度",
+            "高度"
+        ],
+        "blocks.setPixel": "设置像素颜色",
+        "blocks.setPixel.params": [
+            "位图名称",
+            "X",
+            "Y",
+            "颜色"
+        ],
+        "blocks.setPixelRGB": "设置 RGB 像素颜色",
+        "blocks.setPixelRGB.params": [
+            "位图名称",
+            "X",
+            "Y",
+            "颜色 (R)",
+            "颜色 (G)",
+            "颜色 (B)"
+        ],
+        "blocks.removePixel": "去除像素颜色",
+        "blocks.removePixel.params": [
+            "位图名称",
+            "X",
+            "Y"
+        ],
+        "blocks.updBitmap": "更新位图文本",
+        "blocks.updBitmap.params": [
+            "位图名称"
+        ],
+        "blocks.setBitmapSprite": "设置对象的位图纹理",
+        "blocks.setBitmapSprite.params": [
+            "对象名称",
+            "位图名称"
+        ],
+        "blocks.getBitmapSprite": "获取精灵的位图纹理",
+        "blocks.getBitmapSprite.params": [
+            "精灵名称",
+            "位图名称"
+        ],
+        "blocks.setColor": "设置对象颜色",
+        "blocks.setColor.params": [
+            "对象名称",
+            "颜色"
+        ],
+        "blocks.setRGB": "设置 RGB 对象颜色",
+        "blocks.setRGB.params": [
+            "对象名称",
+            "颜色 (R)",
+            "颜色 (G)",
+            "颜色 (B)"
+        ],
+        "blocks.setHEX": "设置 HEX 对象颜色",
+        "blocks.setHEX.params": [
+            "对象名称",
+            "颜色（Hex)"
+        ],
+        "blocks.setStrokeWidth": "设置描边宽度",
+        "blocks.setStrokeWidth.params": [
+            "对象名称",
+            "宽度"
+        ],
+        "blocks.updStrokeWidth": "更改笔划宽度",
+        "blocks.updStrokeWidth.params": [
+            "对象名称",
+            "宽度"
+        ],
+        "blocks.setStrokeColor": "设置描边颜色",
+        "blocks.setStrokeColor.params": [
+            "对象名称",
+            "颜色"
+        ],
+        "blocks.setStrokeRGB": "设置 RGB 描边颜色",
+        "blocks.setStrokeRGB.params": [
+            "对象名称",
+            "颜色 (R)",
+            "颜色 (G)",
+            "颜色 (B)"
+        ],
+        "blocks.setGradientPaint": "设置渐变油漆",
+        "blocks.setGradientPaint.params": [
+            "对象名称",
+            "颜色1",
+            "颜色2",
+            "不透明度1 (0-100)",
+            "不透明度2 (0-100)"
+        ]
+    },
+    "objects2": {
+        "blocks.objects2": "动画和面具",
+        "blocks.setScale": "设置对象比例",
+        "blocks.setScale.params": [
+            "对象名称",
+            "规模（％）"
+        ],
+        "blocks.setScaleX": "设置对象比例 x",
+        "blocks.setScaleX.params": [
+            "对象名称",
+            "规模 （％)"
+        ],
+        "blocks.setScaleY": "设置对象比例 y",
+        "blocks.setScaleY.params": [
+            "对象名称",
+            "规模 （％）"
+        ],
+        "blocks.newSeqAnimation": "创建序列动画",
+        "blocks.newSeqAnimation.params": [
+            "动画名称",
+            "动画类型",
+            "起始帧",
+            "数框",
+            "重复次数",
+            "时间（秒）"
+        ],
+        "blocks.newParAnimation": "创建平行动画",
+        "blocks.newParAnimation.params": [
+            "帧表",
+            "动画名称",
+            "动画类型",
+            "重复次数",
+            "时间（秒）"
+        ],
+        "blocks.playAnimation": "播放动画",
+        "blocks.playAnimation.params": [
+            "对象名称",
+            "动画名称"
+        ],
+        "blocks.pauseAnimation": "暂停动画",
+        "blocks.pauseAnimation.params": [
+            "对象名称",
+            "动画名称"
+        ],
+        "blocks.setFrame": "设置对象框",
+        "blocks.setFrame.params": [
+            "对象名称",
+            "框架"
+        ],
+        "blocks.newMask": "创建遮罩",
+        "blocks.newMask.params": [
+            "口罩呐",
+            "精灵名称"
+        ],
+        "blocks.addMaskToObject": "为对象添加蒙版",
+        "blocks.addMaskToObject.params": [
+            "对象名称",
+            "口罩名称"
+        ],
+        "blocks.setMaskPos": "设置遮罩位置",
+        "blocks.setMaskPos.params": [
+            "对象名称",
+            "X",
+            "Y"
+        ],
+        "blocks.setMaskScale": "设置遮罩比例",
+        "blocks.setMaskScale.params": [
+            "对象名称",
+            "规模 （％）"
+        ],
+        "blocks.setMaskScaleX": "设置遮罩比例 X",
+        "blocks.setMaskScaleX.params": [
+            "对象名称",
+            "规模 （％）"
+        ],
+        "blocks.setMaskScaleY": "设置遮罩比例 Y",
+        "blocks.setMaskScaleY.params": [
+            "对象名称",
+            "规模 （％）"
+        ],
+        "blocks.setMaskHitTrue": "设置蒙版不可点击性",
+        "blocks.setMaskHitTrue.params": [
+            "对象名称"
+        ],
+        "blocks.setMaskHitFalse": "设置蒙版点击可点击性",
+        "blocks.setMaskHitFalse.params": [
+            "对象名称"
+        ]
+    },
+    "groups": {
+        "blocks.groups": "组和标签",
+        "blocks.newGroup": "创建组",
+        "blocks.newGroup.params": [
+            "组的名字"
+        ],
+        "blocks.removeGroup": "删除组",
+        "blocks.removeGroup.params": [
+            "组的名字"
+        ],
+        "blocks.showGroup": "显示组",
+        "blocks.showGroup.params": [
+            "组的名字"
+        ],
+        "blocks.hideGroup": "隐藏群组",
+        "blocks.hideGroup.params": [
+            "组的名字"
+        ],
+        "blocks.addGroupObject": "将对象插入组",
+        "blocks.addGroupObject.params": [
+            "组的名字",
+            "对象名称"
+        ],
+        "blocks.addGroupText": "向组中插入文本",
+        "blocks.addGroupText.params": [
+            "组的名字",
+            "文本名称"
+        ],
+        "blocks.addGroupWidget": "将小部件插入组",
+        "blocks.addGroupWidget.params": [
+            "组的名字",
+            "小部件名称"
+        ],
+        "blocks.addGroupMedia": "将媒体插入组",
+        "blocks.addGroupMedia.params": [
+            "组的名字",
+            "媒体名称"
+        ],
+        "blocks.addGroupTag": "将标签插入组",
+        "blocks.addGroupTag.params": [
+            "标签名称",
+            "组的名字"
+        ],
+        "blocks.addGroupGroup": "将 团体2 插入 团体1",
+        "blocks.addGroupGroup.params": [
+            "第一组",
+            "团体2名称"
+        ],
+        "blocks.setGroupPos": "设置组位置",
+        "blocks.setGroupPos.params": [
+            "组的名字",
+            "X",
+            "Y"
+        ],
+        "blocks.setGroupSize": "设置组大小",
+        "blocks.setGroupSize.params": [
+            "组的名字",
+            "宽度",
+            "高度"
+        ],
+        "blocks.setGroupRotation": "设置组轮换",
+        "blocks.setGroupRotation.params": [
+            "组的名字",
+            "回转 (0-360)"
+        ],
+        "blocks.setGroupAlpha": "设置组不透明度",
+        "blocks.setGroupAlpha.params": [
+            "组的名字",
+            "不透明度 (0-100)"
+        ],
+        "blocks.updGroupPosX": "更改组位置 x",
+        "blocks.updGroupPosX.params": [
+            "组的名字",
+            "X"
+        ],
+        "blocks.updGroupPosY": "更改组位置 y",
+        "blocks.updGroupPosY.params": [
+            "组的名字",
+            "Y"
+        ],
+        "blocks.updGroupWidth": "更改组宽度",
+        "blocks.updGroupWidth.params": [
+            "组的名字",
+            "宽度"
+        ],
+        "blocks.updGroupHeight": "更改组高度",
+        "blocks.updGroupHeight.params": [
+            "组的名字",
+            "高度"
+        ],
+        "blocks.updGroupRotation": "更改组轮换",
+        "blocks.updGroupRotation.params": [
+            "组的名字",
+            "回转 (0-360)"
+        ],
+        "blocks.updGroupAlpha": "更改组不透明度",
+        "blocks.updGroupAlpha.params": [
+            "组的名字",
+            "不透明度（0-100)"
+        ],
+        "blocks.frontGroup": "Place group on layer above",
+        "blocks.frontGroup.params": [
+            "Group name:"
+        ],
+        "blocks.backGroup": "Place group on layer below",
+        "blocks.backGroup.params": [
+            "Group name:"
+        ],
+        "blocks.newTag": "创建标签",
+        "blocks.newTag.params": [
+            "标签名称"
+        ],
+        "blocks.removeTag": "Remove everyone with tag",
+        "blocks.removeTag.params": [
+            "标签名称"
+        ],
+        "blocks.showTag": "Show everyone with tag",
+        "blocks.showTag.params": [
+            "标签名称"
+        ],
+        "blocks.hideTag": "Hide everyone with tag",
+        "blocks.hideTag.params": [
+            "标签名称"
+        ],
+        "blocks.addTagObject": "给对象添加标签",
+        "blocks.addTagObject.params": [
+            "标签名称",
+            "对象名称"
+        ],
+        "blocks.addTagText": "给文本添加标签",
+        "blocks.addTagText.params": [
+            "标签名称",
+            "文本名称"
+        ],
+        "blocks.addTagWidget": "将标签添加到小部件",
+        "blocks.addTagWidget.params": [
+            "标签名称",
+            "小部件名称"
+        ],
+        "blocks.addTagMedia": "向媒体添加标签",
+        "blocks.addTagMedia.params": [
+            "标签名称",
+            "媒体名称"
+        ],
+        "blocks.addTagGroup": "将标签添加到组",
+        "blocks.addTagGroup.params": [
+            "标签名称",
+            "组的名字"
+        ],
+        "blocks.addTagTag": "将标签 1 添加到标签 2",
+        "blocks.addTagTag.params": [
+            "标签名称1",
+            "标签名称2"
+        ],
+        "blocks.setTagPos": "Set position everyone with tag",
+        "blocks.setTagPos.params": [
+            "标签名称",
+            "X",
+            "Y"
+        ],
+        "blocks.setTagSize": "Set size everyone with tag",
+        "blocks.setTagSize.params": [
+            "标签名称",
+            "宽度",
+            "高度"
+        ],
+        "blocks.setTagRotation": "Set rotation everyone with tag",
+        "blocks.setTagRotation.params": [
+            "标签名称",
+            "回转 (0-360)"
+        ],
+        "blocks.setTagAlpha": "Set opacity everyone with tag",
+        "blocks.setTagAlpha.params": [
+            "标签名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.updTagPosX": "Change position X everyone with tag",
+        "blocks.updTagPosX.params": [
+            "标签名称",
+            "X"
+        ],
+        "blocks.updTagPosY": "Change position Y everyone with tag",
+        "blocks.updTagPosY.params": [
+            "标签名称",
+            "Y"
+        ],
+        "blocks.updTagWidth": "Change width everyone with tag",
+        "blocks.updTagWidth.params": [
+            "标记名称",
+            "宽度"
+        ],
+        "blocks.updTagHeight": "Change height everyone with tag",
+        "blocks.updTagHeight.params": [
+            "标签名称",
+            "高度"
+        ],
+        "blocks.updTagRotation": "Change rotation everyone with tag",
+        "blocks.updTagRotation.params": [
+            "标签名称",
+            "回转 (0-360)"
+        ],
+        "blocks.updTagAlpha": "Change opacity everyone with tag",
+        "blocks.updTagAlpha.params": [
+            "标签名称",
+            "不透明度 (0-100)"
+        ],
+        "blocks.frontTag": "Place everyone with tag on layer above",
+        "blocks.frontTag.params": [
+            "Tag name:"
+        ],
+        "blocks.backTag": "Place everyone with tag on layer below",
+        "blocks.backTag.params": [
+            "Tag name:"
+        ]
+    },
+    "physics": {
+        "blocks.physics": "物理",
+        "blocks.setBody": "设置对象的物理主体",
+        "blocks.setBody.params": [
+            "对象名称",
+            "类型",
+            "密度",
+            "弹跳",
+            "摩擦",
+            "格拉",
+            "碰撞过滤器",
+            "碰撞表"
+        ],
+        "blocks.removeBody": "Remove physical body of object",
+        "blocks.removeBody.params": [
+            "对象名称"
+        ],
+        "blocks.setBodyType": "设置对象类型",
+        "blocks.setBodyType.params": [
+            "对象名称",
+            "类型"
+        ],
+        "blocks.setHitboxBox": "设置矩形碰撞箱",
+        "blocks.setHitboxBox.params": [
+            "对象名称",
+            "回转",
+            "宽度",
+            "高度",
+            "偏移 X",
+            "偏移 Y"
+        ],
+        "blocks.setHitboxCircle": "设置圆形碰撞箱",
+        "blocks.setHitboxCircle.params": [
+            "对象名称",
+            "半径"
+        ],
+        "blocks.setHitboxMesh": "设置网格碰撞箱（通过精灵）",
+        "blocks.setHitboxMesh.params": [
+            "对象名称",
+            "粗糙纹素"
+        ],
+        "blocks.setHitboxPolygon": "设置多边形碰撞箱",
+        "blocks.setHitboxPolygon.params": [
+            "对象名称",
+            "命中框"
+        ],
+        "blocks.updHitbox": "更新物体碰撞箱",
+        "blocks.updHitbox.params": [
+            "对象名称"
+        ],
+        "blocks.setGravity": "设置物体重力",
+        "blocks.setGravity.params": [
+            "对象名称",
+            "重力"
+        ],
+        "blocks.setLinearVelocity": "跳一跳",
+        "blocks.setLinearVelocity.params": [
+            "对象名称",
+            "速度 X速度 X",
+            "速度 Y"
+        ],
+        "blocks.setLinearVelocityX": "沿 X 跳跃",
+        "blocks.setLinearVelocityX.params": [
+            "对象名称",
+            "速度 X"
+        ],
+        "blocks.setLinearVelocityY": "沿 Y 跳跃",
+        "blocks.setLinearVelocityY.params": [
+            "对象名称",
+            "速度 Y"
+        ],
+        "blocks.setSensor": "设置发送者模式",
+        "blocks.setSensor.params": [
+            "对象名称"
+        ],
+        "blocks.removeSensor": "移除传感器模式",
+        "blocks.removeSensor.params": [
+            "对象名称"
+        ],
+        "blocks.setFixedRotation": "使身体不可旋转",
+        "blocks.setFixedRotation.params": [
+            "对象名称"
+        ],
+        "blocks.removeFixedRotation": "使身体可以旋转",
+        "blocks.removeFixedRotation.params": [
+            "对象名称"
+        ],
+        "blocks.setBullet": "设置子弹模式",
+        "blocks.setBullet.params": [
+            "对象名称"
+        ],
+        "blocks.removeBullet": "去除子弹头",
+        "blocks.removeBullet.params": [
+            "对象名称"
+        ],
+        "blocks.setWorldGravity": "设置世界重力",
+        "blocks.setWorldGravity.params": [
+            "重力 X",
+            "重力 Y"
+        ],
+        "blocks.setAwake": "唤醒身体",
+        "blocks.setAwake.params": [
+            "对象名称"
+        ],
+        "blocks.setBounce": "设置反弹系数",
+        "blocks.setBounce.params": [
+            "身体接触",
+            "弹跳"
+        ],
+        "blocks.setFriction": "设置摩擦系数",
+        "blocks.setFriction.params": [
+            "身体接触",
+            "摩擦"
+        ],
+        "blocks.setTangentSpeed": "设置切向速度",
+        "blocks.setTangentSpeed.params": [
+            "身体接触",
+            "速度"
+        ],
+        "blocks.disableCollision": "禁用物理碰撞",
+        "blocks.disableCollision.params": [
+            "身体接触"
+        ],
+        "blocks.setAngularVelocity": "设置角速度",
+        "blocks.setAngularVelocity.params": [
+            "对象名称",
+            "速度"
+        ],
+        "blocks.setAngularDamping": "设置角度阻尼",
+        "blocks.setAngularDamping.params": [
+            "对象名称",
+            "减震"
+        ],
+        "blocks.setLinearDamping": "设置线性阻尼",
+        "blocks.setLinearDamping.params": [
+            "对象名称",
+            "减震"
+        ],
+        "blocks.setForce": "施力",
+        "blocks.setForce.params": [
+            "对象名称",
+            "力量 X",
+            "力量 Y",
+            "抵消 X",
+            "抵消 Y"
+        ],
+        "blocks.setTorque": "施加扭矩",
+        "blocks.setTorque.params": [
+            "对象名称",
+            "力量"
+        ],
+        "blocks.setLinearImpulse": "应用线性脉冲",
+        "blocks.setLinearImpulse.params": [
+            "对象名称",
+            "力量 X",
+            "力量 Y",
+            "抵消 X",
+            "抵消 Y"
+        ],
+        "blocks.setAngularImpulse": "施加角脉冲",
+        "blocks.setAngularImpulse.params": [
+            "对象名称",
+            "力量"
+        ],
+        "blocks.setHitboxVisible": "显示命中框",
+        "blocks.removeHitboxVisible": "隐藏碰撞箱",
+        "blocks.startPhysics": "启用物理引擎",
+        "blocks.pausePhysics": "暂停物理引擎",
+        "blocks.stopPhysics": "禁用物理引擎",
+        "blocks.setTextBody": "设置文本的物理正文",
+        "blocks.setTextBody.params": [
+            "对象名称",
+            "类型",
+            "密度",
+            "弹跳",
+            "摩擦",
+            "重力"
+        ]
+    },
+    "widgets": {
+        "blocks.widgets": "小部件",
+        "blocks.newWebView": "创建网页视图",
+        "blocks.newWebView.params": [
+            "小部件名称",
+            "Url",
+            "宽度",
+            "高度"
+        ],
+        "blocks.newHSlider": "创建水平滑块",
+        "blocks.newHSlider.params": [
+            "小部件名称",
+            "宽度",
+            "聆听者",
+            "X",
+            "Y"
+        ],
+        "blocks.newVSlider": "创建垂直滑块",
+        "blocks.newVSlider.params": [
+            "小部件名称",
+            "高度",
+            "聆听者",
+            "X",
+            "Y"
+        ],
+        "blocks.newField": "创建单行文本框",
+        "blocks.newField.params": [
+            "小部件名称",
+            "文本",
+            "输入时间",
+            "文字颜色",
+            "尺寸",
+            "现场背景",
+            "对齐",
+            "字体",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.newBox": "创建多行文本框",
+        "blocks.newBox.params": [
+            "小部件名称",
+            "文本",
+            "文字颜色",
+            "尺寸",
+            "现场背景",
+            "对齐",
+            "字体",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.setWidgetPos": "设置小部件位置 ",
+        "blocks.setWidgetPos.params": [
+            "小部件名称",
+            "X",
+            "Y"
+        ],
+        "blocks.setWidgetSize": "设置小部件大小",
+        "blocks.setWidgetSize.params": [
+            "小部件名称",
+            "宽度",
+            "高度"
+        ],
+        "blocks.setWidgetListener": "设定变更功能",
+        "blocks.setWidgetListener.params": [
+            "小部件名称",
+            "函数名称"
+        ],
+        "blocks.setWebViewFront": "去前面的网站",
+        "blocks.setWebViewFront.params": [
+            "小部件名称"
+        ],
+        "blocks.setWebViewBack": "返回网站",
+        "blocks.setWebViewBack.params": [
+            "小部件名称"
+        ],
+        "blocks.updWebViewSite": "在 Web 视图中更新站点",
+        "blocks.updWebViewSite.params": [
+            "小部件名称"
+        ],
+        "blocks.setWebViewLink": "放 Url 在网站上",
+        "blocks.setWebViewLink.params": [
+            "小部件名称",
+            "Url"
+        ],
+        "blocks.setSliderValue": "将值设置为滑块",
+        "blocks.setSliderValue.params": [
+            "小部件名称",
+            "值（0-100）"
+        ],
+        "blocks.setFieldSecure": "设置密码模式",
+        "blocks.setFieldSecure.params": [
+            "小部件名称"
+        ],
+        "blocks.removeFieldSecure": "删除密码模式",
+        "blocks.removeFieldSecure.params": [
+            "小部件名称"
+        ],
+        "blocks.setFieldRule": "在文本字段中输入的权限",
+        "blocks.setFieldRule.params": [
+            "小部件名称",
+            "规则"
+        ],
+        "blocks.setFieldText": "在文本字段中设置文本",
+        "blocks.setFieldText.params": [
+            "小部件名称",
+            "文本"
+        ],
+        "blocks.setFieldFocus": "将焦点放在文本字段上",
+        "blocks.setFieldFocus.params": [
+            "小部件名称"
+        ],
+        "blocks.setFieldFocusNil": "关闭键盘",
+        "blocks.hidePanelInterface": "隐藏界面面板",
+        "blocks.showPanelInterface": "显示界面面板",
+        "blocks.newScrollView": "创建卷轴",
+        "blocks.newScrollView.params": [
+            "小部件名称",
+            "滚动",
+            "聆听者",
+            "弹跳",
+            "摩擦",
+            "在 X 上滚动",
+            "在 Y 上滚动",
+            "颜色",
+            "背景",
+            "宽度",
+            "高度",
+            "X",
+            "Y"
+        ],
+        "blocks.newSwitch": "创建开关",
+        "blocks.newSwitch.params": [
+            "小部件名称",
+            "类型",
+            "状态",
+            "宽度",
+            "高度",
+            "X",
+            "Y",
+            "触摸时",
+            "触摸后"
+        ],
+        "blocks.setSwitchState": "设置开关状态",
+        "blocks.setSwitchState.params": [
+            "小部件名称",
+            "状态"
+        ],
+        "blocks.insertToScroll": "插入滚动",
+        "blocks.insertToScroll.params": [
+            "小部件名称",
+            "名称",
+            "类型"
+        ],
+        "blocks.takeFocusScroll": "Set focus to scroll",
+        "blocks.takeFocusScroll.params": [
+            "Чо",
+            "Event table:"
+        ],
+        "blocks.removeWidget": "删除宽度",
+        "blocks.removeWidget.params": [
+            "小部件名称"
+        ],
+        "blocks.showWidget": "Show widget",
+        "blocks.showWidget.params": [
+            "Widget name:"
+        ],
+        "blocks.hideWidget": "Hide widget",
+        "blocks.hideWidget.params": [
+            "Widget name:"
+        ]
+    },
+    "media": {
+        "blocks.media": "媒体",
+        "blocks.newVideo": "创建视频",
+        "blocks.newVideo.params": [
+            "媒体名称",
+            "视频名称",
+            "执行后",
+            "X",
+            "Y",
+            "宽度",
+            "高度"
+        ],
+        "blocks.newRemoteVideo": "创建远程视频",
+        "blocks.newRemoteVideo.params": [
+            "媒体名称",
+            "Url",
+            "执行后",
+            "X",
+            "Y",
+            "宽度",
+            "高度"
+        ],
+        "blocks.loadSound": "加载声音",
+        "blocks.loadSound.params": [
+            "媒体名称",
+            "音名"
+        ],
+        "blocks.loadStream": "加载流媒体声音",
+        "blocks.loadStream.params": [
+            "媒体名称",
+            "音名"
+        ],
+        "blocks.playSound": "播放声音",
+        "blocks.playSound.params": [
+            "媒体名称",
+            "重复次数",
+            "处决后",
+            "时间（秒)",
+            "衰落（秒)"
+        ],
+        "blocks.resumeMedia": "简历媒体",
+        "blocks.resumeMedia.params": [
+            "媒体名称"
+        ],
+        "blocks.pauseMedia": "暂停媒体",
+        "blocks.pauseMedia.params": [
+            "媒体名称"
+        ],
+        "blocks.seekMedia": "将媒体倒回时间戳",
+        "blocks.seekMedia.params": [
+            "媒体名称",
+            "时间（秒)"
+        ],
+        "blocks.setVolume": "设置音量",
+        "blocks.setVolume.params": [
+            "媒体名称",
+            "体积"
+        ],
+        "blocks.fadeVolume": "淡出音量",
+        "blocks.fadeVolume.params": [
+            "媒体名称",
+            "时间（秒)",
+            "体积"
+        ],
+        "blocks.stopSound": "停止声音",
+        "blocks.stopSound.params": [
+            "媒体名称"
+        ],
+        "blocks.stopTimerSound": "用定时器停止声音",
+        "blocks.stopTimerSound.params": [
+            "媒体名称",
+            "时间（秒)"
+        ],
+        "blocks.disposeSound": "配置声音",
+        "blocks.disposeSound.params": [
+            "媒体名称"
+        ],
+        "blocks.removeVideo": "删除视频",
+        "blocks.removeVideo.params": [
+            "媒体名称"
+        ]
+    },
+    "snapshot": {
+        "blocks.snapshot": "快照和捕获",
+        "blocks.newSnapshot": "Create snapshot",
+        "blocks.newSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot mode:",
+            "Width:",
+            "Height:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.invalidateSnapshot": "Update snapshot",
+        "blocks.invalidateSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:"
+        ],
+        "blocks.addToSnapshot": "Add to snapshot",
+        "blocks.addToSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.removeFromSnapshot": "Remove from snapshot",
+        "blocks.removeFromSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.setSnapshotColor": "Set snapshot color",
+        "blocks.setSnapshotColor.params": [
+            "Snapshot name:",
+            "Color:"
+        ],
+        "blocks.setSnapshotPos": "Set snapshot position",
+        "blocks.setSnapshotPos.params": [
+            "Snapshot name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setSnapshotSize": "Set snapshot size",
+        "blocks.setSnapshotSize.params": [
+            "Snapshot name:",
+            "Width:",
+            "Height:"
+        ],
+        "blocks.setSnapshotRotation": "Set snapshot rotation",
+        "blocks.setSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.setSnapshotAlpha": "Set snapshot opacity",
+        "blocks.setSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.updSnapshotPosX": "Change snapshot position X",
+        "blocks.updSnapshotPosX.params": [
+            "Snapshot name:",
+            "Position (X):"
+        ],
+        "blocks.updSnapshotPosY": "Change snapshot position Y",
+        "blocks.updSnapshotPosY.params": [
+            "Snapshot name:",
+            "Position (Y):"
+        ],
+        "blocks.updSnapshotWidth": "Change snapshot width",
+        "blocks.updSnapshotWidth.params": [
+            "Snapshot name:",
+            "Width:"
+        ],
+        "blocks.updSnapshotHeight": "Change snapshot height",
+        "blocks.updSnapshotHeight.params": [
+            "Snapshot name:",
+            "Height:"
+        ],
+        "blocks.updSnapshotRotation": "Change snapshot rotation",
+        "blocks.updSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.updSnapshotAlpha": "Change snapshot opacity",
+        "blocks.updSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.frontSnapshot": "Place snapshot on layer above",
+        "blocks.frontSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.backSnapshot": "Place snapshot on layer below",
+        "blocks.backSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.removeSnapshot": "Remove snapshot",
+        "blocks.removeSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.showSnapshot": "Show snapshot",
+        "blocks.showSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.hideSnapshot": "Hide snapshot",
+        "blocks.hideSnapshot.params": [
+            "Snapshot name:"
+        ]
+    },
+    "network": {
+        "blocks.network": "网络",
+        "blocks.openURL": "在浏览器中打开链接",
+        "blocks.openURL.params": [
+            "Url"
+        ],
+        "blocks.createServer": "创建本地服务器",
+        "blocks.createServer.params": [
+            "港口",
+            "服务器侦听器"
+        ],
+        "blocks.connectToServer": "连接到本地服务器",
+        "blocks.connectToServer.params": [
+            "IP",
+            "港口",
+            "客户端侦听器"
+        ],
+        "blocks.requestGET": "异步 GET 要求",
+        "blocks.requestGET.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.requestPOST": "异步 POST 要求",
+        "blocks.requestPOST.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.requestPUT": "异步 PUT 要求",
+        "blocks.requestPUT.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.requestPATCH": "异步PATCH 要求",
+        "blocks.requestPATCH.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.requestHEAD": "异步HEAD 要求",
+        "blocks.requestHEAD.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.requestDELETE": "异步DELETE要求",
+        "blocks.requestDELETE.params": [
+            "Url",
+            "请求正文",
+            "请求头",
+            "请求监听器",
+            "类型侦听器",
+            "重定向",
+            "超时（秒)"
+        ],
+        "blocks.firebasePUT": "写入 Firebase",
+        "blocks.firebasePUT.params": [
+            "代币",
+            "价值",
+            "Key",
+            "请求监听器"
+        ],
+        "blocks.firebasePATCH": "在 Firebase 中更新",
+        "blocks.firebasePATCH.params": [
+            "代币",
+            "价值",
+            "钥匙",
+            "请求监听器"
+        ],
+        "blocks.firebaseGET": "从 Firebase 获取",
+        "blocks.firebaseGET.params": [
+            "代币",
+            "钥匙",
+            "请求监听器"
+        ],
+        "blocks.firebaseDELETE": "从 Firebase 中移除",
+        "blocks.firebaseDELETE.params": [
+            "代币",
+            "钾钥匙",
+            "请求监听器"
+        ],
+        "blocks.initAdsStartApp": "Initialize StartApp ads",
+        "blocks.initAdsStartApp.params": [
+            "Token:",
+            "Listener:"
+        ],
+        "blocks.loadAdsStartApp": "Load StartApp ads",
+        "blocks.loadAdsStartApp.params": [
+            "Ads type:"
+        ],
+        "blocks.showAdsStartApp": "Show StartApp ads",
+        "blocks.showAdsStartApp.params": [
+            "Ads type:"
+        ]
+    },
+    "transition": {
+        "blocks.transition": "过渡和粒子",
+        "blocks.setTransitionTo": "开始过渡",
+        "blocks.setTransitionTo.params": [
+            "名称",
+            "类型",
+            "动画类型",
+            "Number repetitions",
+            "时间（秒)",
+            "宽度",
+            "高度",
+            "X",
+            "Y",
+            "规模 （X）",
+            "规模 （Y）",
+            "不透明度 (0-100)",
+            "旋转（0-360）",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionPos": "设置位置转换",
+        "blocks.setTransitionPos.params": [
+            "名称",
+            "类型",
+            "动画",
+            "重复次数",
+            "时间（秒）",
+            "X",
+            "Y",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionSize": "设置大小翻译",
+        "blocks.setTransitionSize.params": [
+            "名称",
+            "类型",
+            "动画类型",
+            "重复次数",
+            "时间（秒）",
+            "宽度",
+            "高度",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionScale": "设置比例过渡",
+        "blocks.setTransitionScale.params": [
+            "名称",
+            "类型",
+            "动画类型",
+            "重复次数",
+            "时间（秒）",
+            "规模 （X）",
+            "规模 （Y）",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionRotation": "设置旋转过渡",
+        "blocks.setTransitionRotation.params": [
+            "名称",
+            "动画类型",
+            "类型",
+            "时间（秒）",
+            "重复次数",
+            "旋转（0-360)",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionAlpha": "设置 alpha 过渡",
+        "blocks.setTransitionAlpha.params": [
+            "名称",
+            "动画类型",
+            "类型",
+            "时间（秒）",
+            "重复次数",
+            "不透明度（0-100)",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionAngles": "设置角度过渡",
+        "blocks.setTransitionAngles.params": [
+            "名称",
+            "动画类型",
+            "类型",
+            "时间（秒)",
+            "重复次数",
+            "角度表",
+            "过渡时间表",
+            "执行后",
+            "暂停时",
+            "暂停后",
+            "停止时",
+            "重复时"
+        ],
+        "blocks.setTransitionPause": "暂停过渡",
+        "blocks.setTransitionPause.params": [
+            "名称",
+            "类型"
+        ],
+        "blocks.setTransitionResume": "恢复过渡",
+        "blocks.setTransitionResume.params": [
+            "名称",
+            "类型"
+        ],
+        "blocks.setTransitionCancel": "取消过渡",
+        "blocks.setTransitionCancel.params": [
+            "名称",
+            "类型"
+        ],
+        "blocks.setTransitionPauseAll": "暂停所有过渡",
+        "blocks.setTransitionResumeAll": "恢复所有过渡",
+        "blocks.setTransitionCancelAll": "取消所有中转"
+    },
+    "varsNoob": {
+        "blocks.setVarNoob": "Create value",
+        "blocks.setVarNoob.params": [
+            "Value name:",
+            "Value:"
+        ],
+        "blocks.updVarNoob": "Add value",
+        "blocks.updVarNoob.params": [
+            "Value name:",
+            "Value:"
+        ],
+        "blocks.saveValueNoob": "Save value",
+        "blocks.saveValueNoob.params": [
+            "Value name:"
+        ],
+        "blocks.readValueNoob": "Read value from saves",
+        "blocks.readValueNoob.params": [
+            "Value name:"
+        ],
+        "blocks.addGroupObjectNoob": "Insert picture to group",
+        "blocks.addGroupObjectNoob.params": [
+            "Group name:",
+            "Picture name:"
+        ],
+        "blocks.addTagObjectNoob": "Add tag to picture",
+        "blocks.addTagObjectNoob.params": [
+            "Tag name:",
+            "Picture name:"
+        ]
+    },
+    "mediaNoob": {
+        "blocks.mediaNoob": "Sounds",
+        "blocks.playSoundNoob": "Play sound",
+        "blocks.playSoundNoob.params": [
+            "Sound name:",
+            "Number repetitions:"
+        ],
+        "blocks.resumeMediaNoob": "Resume sound",
+        "blocks.resumeMediaNoob.params": [
+            "Sound name:"
+        ],
+        "blocks.pauseMediaNoob": "Pause sound",
+        "blocks.pauseMediaNoob.params": [
+            "Sound name:"
+        ],
+        "blocks.seekMediaNoob": "Rewind sound to timestamp",
+        "blocks.seekMediaNoob.params": [
+            "Sound name:",
+            "Time (Seconds):"
+        ],
+        "blocks.setVolumeNoob": "Set sound volume",
+        "blocks.setVolumeNoob.params": [
+            "Sound name:",
+            "Volume:"
+        ],
+        "blocks.fadeVolumeNoob": "Fade sound volume",
+        "blocks.fadeVolumeNoob.params": [
+            "Sound name:",
+            "Time (Seconds):",
+            "Volume:"
+        ],
+        "blocks.stopSoundNoob": "Stop sound",
+        "blocks.stopSoundNoob.params": [
+            "Sound name:"
+        ],
+        "blocks.stopTimerSoundNoob": "Stop sound with timer",
+        "blocks.stopTimerSoundNoob.params": [
+            "Sound name:",
+            "Time (Seconds):"
+        ]
+    },
+    "objectsNoob": {
+        "blocks.objectsNoob": "Pictures",
+        "blocks.newObjectNoob": "Create picture",
+        "blocks.newObjectNoob.params": [
+            "Picture name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.newGifNoob": "Create gif picture",
+        "blocks.newGifNoob.params": [
+            "Picture name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setPosNoob": "Set picture position",
+        "blocks.setPosNoob.params": [
+            "Picture name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setPosXNoob": "Set picture position X",
+        "blocks.setPosXNoob.params": [
+            "Picture name:",
+            "Position (X):"
+        ],
+        "blocks.setPosYNoob": "Set picture position Y",
+        "blocks.setPosYNoob.params": [
+            "Picture name:",
+            "Position (Y):"
+        ],
+        "blocks.setSizeNoob": "Set picture size",
+        "blocks.setSizeNoob.params": [
+            "Picture name:",
+            "Size (%):"
+        ],
+        "blocks.setRotationNoob": "Set picture rotation",
+        "blocks.setRotationNoob.params": [
+            "Picture name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.setRotationToNoob": "Set rotation to picture2",
+        "blocks.setRotationToNoob.params": [
+            "Picture name1:",
+            "Picture name2:"
+        ],
+        "blocks.setAlphaNoob": "Set picture opacity",
+        "blocks.setAlphaNoob.params": [
+            "Picture name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.setWidthNoob": "Set picture width",
+        "blocks.setWidthNoob.params": [
+            "Picture name:",
+            "Width:"
+        ],
+        "blocks.setHeightNoob": "Set picture height",
+        "blocks.setHeightNoob.params": [
+            "Picture name:",
+            "Height:"
+        ],
+        "blocks.updPosXNoob": "Change picture position X",
+        "blocks.updPosXNoob.params": [
+            "Picture name:",
+            "Position (X):"
+        ],
+        "blocks.updPosYNoob": "Change picture position Y",
+        "blocks.updPosYNoob.params": [
+            "Picture name:",
+            "Position (Y):"
+        ],
+        "blocks.updSizeNoob": "Change picture size",
+        "blocks.updSizeNoob.params": [
+            "Picture name:",
+            "Size (%):"
+        ],
+        "blocks.updRotationNoob": "Change picture rotation",
+        "blocks.updRotationNoob.params": [
+            "Picture name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.updAlphaNoob": "Change picture opacity",
+        "blocks.updAlphaNoob.params": [
+            "Picture name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.updWidthNoob": "Change picture width",
+        "blocks.updWidthNoob.params": [
+            "Picture name:",
+            "Width:"
+        ],
+        "blocks.updHeightNoob": "Change picture height",
+        "blocks.updHeightNoob.params": [
+            "Picture name:",
+            "Height:"
+        ]
+    },
+    "shapesNoob": {
+        "blocks.shapesNoob": "Shapes",
+        "blocks.setSpriteNoob": "Overlay picture2 on picture1",
+        "blocks.setSpriteNoob.params": [
+            "Picture name1:",
+            "Picture name2:"
+        ],
+        "blocks.newRectNoob": "Create rect with color",
+        "blocks.newRectNoob.params": [
+            "Picture name:",
+            "Color:",
+            "Width:",
+            "Height:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.newRoundedRectNoob": "Create rect with corners",
+        "blocks.newRoundedRectNoob.params": [
+            "Picture name:",
+            "Rounded corners:",
+            "Width:",
+            "Height:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.newCircleNoob": "Create circle",
+        "blocks.newCircleNoob.params": [
+            "Picture name:",
+            "Radius:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setColorNoob": "Set picture color",
+        "blocks.setColorNoob.params": [
+            "Picture name:",
+            "Color:"
+        ],
+        "blocks.hideObjectNoob": "Hide picture",
+        "blocks.hideObjectNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.showObjectNoob": "Show picture",
+        "blocks.showObjectNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.removeObjectNoob": "Remove picture",
+        "blocks.removeObjectNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.frontObjectNoob": "Place picture on layer above",
+        "blocks.frontObjectNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.backObjectNoob": "Place picture on layer below",
+        "blocks.backObjectNoob.params": [
+            "Picture name:"
+        ]
+    },
+    "physicsNoob": {
+        "blocks.setBodyNoob": "Make picture physical",
+        "blocks.setBodyNoob.params": [
+            "Picture name:",
+            "Type:",
+            "Bounce:",
+            "Gravity:"
+        ],
+        "blocks.removeBodyNoob": "Remove physics of picture",
+        "blocks.removeBodyNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.setLinearVelocityXNoob": "Make a jump along X",
+        "blocks.setLinearVelocityXNoob.params": [
+            "Picture name:",
+            "Speed (X):"
+        ],
+        "blocks.setLinearVelocityYNoob": "Make a jump along Y",
+        "blocks.setLinearVelocityYNoob.params": [
+            "Picture name:",
+            "Speed (Y):"
+        ],
+        "blocks.setSensorNoob": "Remove possibility picture collide",
+        "blocks.setSensorNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.removeSensorNoob": "Return possibility picture collisions",
+        "blocks.removeSensorNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.setFixedRotationNoob": "Make picture non-rotatable",
+        "blocks.setFixedRotationNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.removeFixedRotationNoob": "Make picture can rotate",
+        "blocks.removeFixedRotationNoob.params": [
+            "Picture name:"
+        ]
+    },
+    "transitionNoob": {
+        "blocks.transitionNoob": "Transitions",
+        "blocks.setTransitionPosNoob": "Set position transition",
+        "blocks.setTransitionPosNoob.params": [
+            "Name:",
+            "Type:",
+            "Time (Seconds):",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setTransitionSizeNoob": "Set size transition",
+        "blocks.setTransitionSizeNoob.params": [
+            "Name:",
+            "Type:",
+            "Time (Seconds):",
+            "Width:",
+            "Height:"
+        ],
+        "blocks.setTransitionScaleNoob": "Set scale transition",
+        "blocks.setTransitionScaleNoob.params": [
+            "Name:",
+            "Type:",
+            "Time (Seconds):",
+            "Scale (X):",
+            "Scale (Y):"
+        ],
+        "blocks.setTransitionRotationNoob": "Set rotation transition",
+        "blocks.setTransitionRotationNoob.params": [
+            "Name:",
+            "Type:",
+            "Time (Seconds):",
+            "Rotation (0-360):"
+        ],
+        "blocks.setTransitionAlphaNoob": "Set opacity transition",
+        "blocks.setTransitionAlphaNoob.params": [
+            "Name:",
+            "Type:",
+            "Time (Seconds):",
+            "Opacity (0-100):"
+        ]
+    },
+    "eventsNoob": {
+        "blocks.onConditionNoob": "Repeat until condition is true",
+        "blocks.onConditionNoob.params": [
+            "Condition:"
+        ],
+        "blocks.onFunNoob": "Create action",
+        "blocks.onFunNoob.params": [
+            "Action:"
+        ],
+        "blocks.onTouchBeganNoob": "When finger touches picture",
+        "blocks.onTouchBeganNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.onTouchEndedNoob": "When finger releases picture",
+        "blocks.onTouchEndedNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.onTouchMovedNoob": "When finger moves over picture",
+        "blocks.onTouchMovedNoob.params": [
+            "Picture name:"
+        ],
+        "blocks.onTouchDisplayBeganNoob": "When finger touches screen",
+        "blocks.onTouchDisplayEndedNoob": "When finger releases screen",
+        "blocks.onTouchDisplayMovedNoob": "When finger moves over screen",
+        "blocks.onLocalCollisionBeganNoob": "When pictures collide",
+        "blocks.onLocalCollisionBeganNoob.params": [
+            "Picture name1:",
+            "Picture name2:"
+        ],
+        "blocks.requestFunNoob": "Perform action",
+        "blocks.requestFunNoob.params": [
+            "Action:"
+        ]
+    },
+    "editor.interface": {
+        "editor.window.error": "表达错误",
+        "editor.button.error": "使固定",
+        "editor.button.text": "文本",
+        "editor.button.local": "{ }",
+        "editor.button.hide": "隐藏",
+        "editor.list.var": "变量",
+        "editor.list.var.noob": "Values",
+        "editor.list.table": "表",
+        "editor.list.funs": "职能",
+        "editor.list.funs.noob": "Actions",
+        "editor.list.fun": "方法",
+        "editor.list.fun.noob": "Tools",
+        "editor.list.math": "数学",
+        "editor.list.prop": "特性",
+        "editor.list.log": "逻辑",
+        "editor.list.device": "设备",
+        "editor.list.custom": "风俗",
+        "editor.list.event": "事件",
+        "editor.list.script": "脚本",
+        "editor.list.project": "项目",
+        "editor.list.prop.obj": "目的",
+        "editor.list.prop.obj.noob": "Picture",
+        "editor.list.prop.text": "文本",
+        "editor.list.prop.media": "媒体",
+        "editor.list.prop.group": "团体",
+        "editor.list.prop.widget": "微件"
+    },
+    "editor.fun": {
+        "editor.list.fun.get_text": "获取文本",
+        "editor.list.fun.read_save": "读取保存",
+        "editor.list.fun.random_str": "随机字符串",
+        "editor.list.fun.concat": "连接字符串",
+        "editor.list.fun.tonumber": "到数字",
+        "editor.list.fun.tostring": "到文本",
+        "editor.list.fun.totable": "到桌子",
+        "editor.list.fun.len_table": "伦桌子",
+        "editor.list.fun.unix_time": "unix时间",
+        "editor.list.fun.encode": "编码_json",
+        "editor.list.fun.gsub": "替换文本",
+        "editor.list.fun.sub": "字符输入文本",
+        "editor.list.fun.len": "长度文本",
+        "editor.list.fun.find": "在文本中查找",
+        "editor.list.fun.split": "拆分文本",
+        "editor.list.fun.match": "正则表达式",
+        "editor.list.fun.color_pixel": "颜色_像素",
+        "editor.list.fun.get_ip": "获取自己的IP",
+        "editor.list.fun.noise": "perlin_noise"
+    },
+    "editor.math": {
+        "editor.list.math.random": "随机的",
+        "editor.list.math.radical": "激进的",
+        "editor.list.math.power": "力量",
+        "editor.list.math.round": "圆形的",
+        "editor.list.math.remainder": "余",
+        "editor.list.math.module": "模块",
+        "editor.list.math.max": "米",
+        "editor.list.math.min": "分钟",
+        "editor.list.math.sin": "罪",
+        "editor.list.math.cos": "余弦",
+        "editor.list.math.tan": "棕褐色",
+        "editor.list.math.ctan": "余切",
+        "editor.list.math.pi": "π",
+        "editor.list.math.exp": "指数",
+        "editor.list.math.factorial": "阶乘",
+        "editor.list.math.log": "日志",
+        "editor.list.math.log10": "日志10",
+        "editor.list.math.asin": "阿信",
+        "editor.list.math.acos": "阿科斯",
+        "editor.list.math.atan": "晒黑",
+        "editor.list.math.atan2": "晒黑2",
+        "editor.list.math.raycast": "射线投射"
+    },
+    "editor.prop": {
+        "editor.list.prop.obj.touch": "触碰",
+        "editor.list.prop.obj.tag": "标签",
+        "editor.list.prop.obj.var": "变量",
+        "editor.list.prop.obj.pos_x": "位置 x",
+        "editor.list.prop.obj.pos_y": "位置 y",
+        "editor.list.prop.obj.width": "宽度",
+        "editor.list.prop.obj.height": "高度",
+        "editor.list.prop.obj.rotation": "回转",
+        "editor.list.prop.obj.alpha": "不透明度",
+        "editor.list.prop.obj.name_texture": "名称_纹理",
+        "editor.list.prop.obj.velocity_x": "速度_x",
+        "editor.list.prop.obj.velocity_y": "速度_y",
+        "editor.list.prop.obj.angular_velocity": "角速度",
+        "editor.list.prop.text.get_text": "get_text",
+        "editor.list.prop.text.tag": "文本标签",
+        "editor.list.prop.text.pos_x": "文本_x_位置",
+        "editor.list.prop.text.pos_y": "文本_y_位置",
+        "editor.list.prop.text.width": "文本宽度",
+        "editor.list.prop.text.height": "文字高度",
+        "editor.list.prop.text.rotation": "文字旋转",
+        "editor.list.prop.text.alpha": "文本不透明度",
+        "editor.list.prop.group.tag": "组标签",
+        "editor.list.prop.group.pos_x": "组_x_位置",
+        "editor.list.prop.group.pos_y": "团体_y_位置",
+        "editor.list.prop.group.width": "组宽",
+        "editor.list.prop.group.height": "组高",
+        "editor.list.prop.group.rotation": "组轮换",
+        "editor.list.prop.group.alpha": "团体 不透明度",
+        "editor.list.prop.widget.tag": "小部件问 标签",
+        "editor.list.prop.widget.pos_x": "小部件_x_位置",
+        "editor.list.prop.widget.pos_y": "小部件_y_位置",
+        "editor.list.prop.widget.value": "滑块值",
+        "editor.list.prop.widget.state": "开关状态",
+        "editor.list.prop.widget.text": "文本从场地",
+        "editor.list.prop.widget.link": "网络视图关联",
+        "editor.list.prop.media.current_time": "当前视频时间",
+        "editor.list.prop.media.total_time": "全部的视频时间",
+        "editor.list.prop.media.sound_volume": "音量",
+        "editor.list.prop.media.sound_total_time": "全部的声音时间",
+        "editor.list.prop.media.sound_pause": "声音暂停",
+        "editor.list.prop.media.sound_play": "播放声音"
+    },
+    "editor.log": {
+        "editor.list.log.true": "真的",
+        "editor.list.log.false": "错误的",
+        "editor.list.log.nil": "¯\\_(ツ)_/¯",
+        "editor.list.log.>": ">",
+        "editor.list.log.<": "<",
+        "editor.list.log.>=": "≥",
+        "editor.list.log.<=": "≤",
+        "editor.list.log.~=": "≠",
+        "editor.list.log.and": "和",
+        "editor.list.log.or": "或者",
+        "editor.list.log.not": "不是"
+    },
+    "editor.device": {
+        "editor.list.device.fps": "fps",
+        "editor.list.device.read_save": "读取保存",
+        "editor.list.device.device_id": "设备编号",
+        "editor.list.device.width_screen": "宽度_屏幕",
+        "editor.list.device.height_screen": "屏幕高度",
+        "editor.list.device.top_point_screen": "v最佳观点屏幕",
+        "editor.list.device.bottom_point_screen": "底部观点屏幕",
+        "editor.list.device.right_point_screen": "右点屏幕",
+        "editor.list.device.left_point_screen": "左点屏幕",
+        "editor.list.device.height_top": "顶部边框高度",
+        "editor.list.device.height_bottom": "底部边框高度",
+        "editor.list.device.finger_touching_screen": "手指触摸屏幕",
+        "editor.list.device.finger_touching_screen_x": "手指触摸屏幕 x",
+        "editor.list.device.finger_touching_screen_y": "手指触摸屏幕 y",
+        "editor.list.device.get_ip": "获取自己的IP"
+    }
+}

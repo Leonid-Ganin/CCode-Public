@@ -1,0 +1,2589 @@
+{
+    "interface": {
+        "lang.ru": "Русский",
+        "lang.en": "English",
+        "lang.pt": "Brasileiro",
+        "lang.pl": "Polski",
+        "lang.ua": "Українська",
+        "lang.by": "Беларускі",
+        "lang.cn": "中文",
+        "lang.jp": "日本語",
+        "lang.custom": "Свой",
+        "button.yes": "Так",
+        "button.no": "Не",
+        "button.okay": "Добра",
+        "button.close": "Закрыць",
+        "button.download": "Загрузіць",
+        "button.change": "Змяніць",
+        "button.remove": "Выдаліць",
+        "button.rename": "Перайменаваць",
+        "button.copy": "Скапіраваць",
+        "button.to.buffer": "У бефер",
+        "button.from.buffer": "З буфера",
+        "button.paste": "Паставіць",
+        "button.alldelete": "Выдаліць усё",
+        "button.find": "Пашук",
+        "button.debug": "Адладка",
+        "button.comment": "Выключыць",
+        "button.uncomment": "Уключыць",
+        "button.hide": "Схаваць",
+        "button.show": "Паказаць",
+        "button.addIfElse": "Дадаць умову",
+        "button.block.find": "Блок пошуку",
+        "button.pasteFromClipboard": "Размясціць з буфера абмену",
+        "button.importLuaFile": "Імпартаваць файл .lua",
+        "menu.myprogram": "Мае праграмы",
+        "menu.continue": "Працягнуць",
+        "menu.settings": "Параметры",
+        "menu.testers": "Версія тэстараў:",
+        "menu.developers": "Версія распрацоўнікаў:",
+        "menu.version.new": "Выйшла новая тэстарская версія!",
+        "menu.version.wait": "Пачакайце, калі ласка, не згартуйце дадатак!",
+        "programs.entername": "Увядзіце назву праграмы",
+        "programs.changename": "Змяніце назву праграмы",
+        "programs.noobmode": " Спрошчаны рэжым",
+        "program.images": "Спрайты",
+        "program.pictures": "Малюнкі",
+        "program.scripts": "Скрыпты",
+        "program.scenarios": "Сцэнарыі",
+        "program.levels": "Levels",
+        "program.sounds": "Гукі",
+        "program.videos": "Відэа",
+        "program.fonts": "Шрыфты",
+        "program.resources": "Рэсурсы",
+        "program.psettings": "Параметры кампаніі",
+        "program.export": "Экспарт",
+        "program.build": "Build APK",
+        "program.aab": "Build AAB",
+        "program.editor": "editor​​​​выразаў",
+        "scripts.entername": "Увядзіце імя скрыпта",
+        "scripts.entername.noob": "Увядзіце назву сцэнарыя",
+        "scripts.changename": "Змяніце імя скрыпта",
+        "scripts.changename.noob": "Змяніць назву сцэнарыя",
+        "scripts.sandbox": "Пясочніца",
+        "scripts.sandbox.exit": "Выберыце неабходнае дзеянне",
+        "scripts.sandbox.save": "Захаваць",
+        "scripts.sandbox.not.save": "Не націсніце",
+        "images.entername": "Увядзіце імя спрайту",
+        "images.entername.noob": "Увядзіце назву малюнка",
+        "images.changename": "Змяніце імя спрайта",
+        "images.changename.noob": "Змяніць назву малюнка ",
+        "images.pixel": "Піксельны спрайт",
+        "images.pixel.noob": "Піксельны малюнак",
+        "images.gif.convert": "Пераўтварыць gif у аркуш спрайтаў?",
+        "images.gif.okay": "Пераўтварыць",
+        "images.gif.complete": "Пераўтварэнне скончана, запомніце значэнні:",
+        "sounds.entername": "Увядзіце імя гуку",
+        "sounds.changename": "Змяніце імя гуку",
+        "videos.entername": "Увядзіце імя відэа",
+        "videos.changename": "Змяніце імя відэа",
+        "resources.entername": "Увядзіце назву рэсурсу",
+        "resources.changename": "Змяніце назву рэсурсу",
+        "fonts.entername": "Увядзіце назву шрыфта",
+        "fonts.changename": "Змяніце імя шрыфта",
+        "fonts.needexit": "CCode прымушаны выключацца, т. к. шрыфт не выдаляецца для закрыцця праграм",
+        "settings.applang": "Мова праграмы:",
+        "settings.confirmdelete": "Паказаць выдаленне:",
+        "settings.autoplace": "Параметры аўтазапаўнення:",
+        "settings.keystore": "Developer Key:",
+        "settings.keystore.testkey": "Testkey",
+        "settings.keystore.custom": "Custom",
+        "settings.keystore.alias": "Key alias",
+        "settings.keystore.pass": "Key password",
+        "settings.keystore.create": "Create",
+        "settings.keystore.import": "Import",
+        "settings.keystore.enteralias": "Enter key alias",
+        "settings.keystore.enterpass": "Enter key password",
+        "settings.keystore.create.successfully": "Key was successfully created",
+        "settings.keystore.import.successfully": "Key was successfully imported",
+        "settings.back": "Ніжняя панэль:",
+        "settings.backCCode": "Праграма",
+        "settings.backSystem": "Сістэма",
+        "settings.backNo": "Схаваць",
+        "settings.showads": "Паказваць рэкламу:",
+        "settings.posads": "Размяшчэнне рэкламы:",
+        "settings.topads": "Зверху",
+        "settings.bottomads": "Знізу",
+        "settings.orientation": "Арыентацыя:",
+        "psettings.icon": "Абразок праграмы:",
+        "psettings.orientation": "Арыентацыя праграмы:",
+        "psettings.build": "Нумар версіі:",
+        "psettings.version": "Назва версіі :",
+        "psettings.package": "Імя пакета:",
+        "psettings.enterbuild": "У адной версіі",
+        "psettings.enterversion": "Увядзіце назву версіі",
+        "psettings.enterpackage": "Увядзіце імя пакета",
+        "errors.build": "Памылка, утрымліваючы ЦЭЛЫ ЛІК",
+        "errors.package": "Памылка, у складзе карэктнае імя пакета",
+        "errors.name": "Памылка, імя ўжо існуе",
+        "errors.filter": " Памылка, нельга выкарыстоўваць пустое імя",
+        "errors.min8sym": "Error, at least 8 characters are required",
+        "errors.max32sym": "Error, maximum 32 characters allowed",
+        "build.start": "Зборка APK пачынаецца, чакайце",
+        "build.start.aab": "AAB build started, please wait",
+        "export.start": "Экспарт неадкладна чакаецца",
+        "import.error": "Памылка імпарту #",
+        "game.debug": "У буфер абмену захаваны код lua",
+        "game.isbug": "Не ўдалося запусціць сімуляцыю"
+    },
+    "blocks": {
+        "blocks.create.var": "Стварыць пераменную",
+        "blocks.create.var.noob": "Стварыць каштоўнасць",
+        "blocks.create.table": "Стварыць табліцу",
+        "blocks.create.fun": "Стварыць функцыю",
+        "blocks.create.fun.noob": "Стварыць дзеянне",
+        "blocks.create.objects": " Аб'екты",
+        "blocks.create.filters": "Фільтры",
+        "blocks.create.groups": "Групы",
+        "blocks.create.tags": "Тэгі",
+        "blocks.create.transition": " Пераходы",
+        "blocks.create.particle": "Часціцы",
+        "blocks.create.block": "Стварыць",
+        "blocks.create.color": "Колер",
+        "blocks.create.copy": "Копія",
+        "blocks.create.block.save.lua": "Захаваць (код Lua)",
+        "blocks.create.block.save.sandbox": "Захаваць (Пясочніца)",
+        "blocks.create.block.save.lua.title": "Выберыце адзін з двух варыянтаў імпарту кода lua",
+        "blocks.select.dynamic": "Дынамічнае",
+        "blocks.select.static": "Статычнае",
+        "blocks.select.forward": "Лінейная",
+        "blocks.select.bounce": "Зваротная",
+        "blocks.select.inputDefault": "Стандартны",
+        "blocks.select.inputNumber": "Нумар",
+        "blocks.select.inputDecimal": "Дзесятковы лік",
+        "blocks.select.inputPhone": "Тэлефон",
+        "blocks.select.inputUrl": "Url",
+        "blocks.select.inputEmail": "Пошта",
+        "blocks.select.inputNoEmoji": "Без эмодзі",
+        "blocks.select.alignLeft": "Злева",
+        "blocks.select.alignRight": "Справа",
+        "blocks.select.alignCenter": "Па незалежна",
+        "blocks.select.backgroundTrue": "Пакінуць",
+        "blocks.select.backgroundFalse": "Схаваць",
+        "blocks.select.ruleTrue": "Дазволена",
+        "blocks.select.ruleFalse": "Забаронена",
+        "blocks.select.switchRadio": "Радыё",
+        "blocks.select.switchCheckbox": "Сцяжок",
+        "blocks.select.switchToggle": "Тумблер",
+        "blocks.select.switchOn": "Уключаны",
+        "blocks.select.switchOff": "Выключаны",
+        "blocks.select.adsInterstitial": "Banner",
+        "blocks.select.adsRewardedVideo": "RewardedVideo",
+        "blocks.select.adsVideo": "Video",
+        "blocks.select.pic": "Малюнак",
+        "blocks.select.obj": "Аб'ект",
+        "blocks.select.text": "Тэкст",
+        "blocks.select.group": "Група",
+        "blocks.select.tag": "Тэг",
+        "blocks.select.widget": "Віджэт",
+        "blocks.select.snapshot": "Snapshot",
+        "blocks.select.progressDefault": "Стандарт",
+        "blocks.select.progressDownload": "Спампаваць",
+        "blocks.select.progressUpload": "Загрузіць",
+        "blocks.select.redirectsTrue": "Аўтамат",
+        "blocks.select.redirectsFalse": "Ручное",
+        "blocks.select.canvasModeAppend": "Append",
+        "blocks.select.canvasModeDiscard": "Discard",
+        "blocks.select.snapshotGroup": "Group",
+        "blocks.select.snapshotCanvas": "Canvas",
+        "blocks.color.red": "Чырвоны",
+        "blocks.color.green": "Зялёныя",
+        "blocks.color.blue": "Сіні",
+        "blocks.color.hex": "Увядзіце hex",
+        "blocks.sure?": "Вы дадатковы?",
+        "blocks.delete.yes": "Так, ліш",
+        "blocks.delete.no": "Не, не выдаляць",
+        "blocks.entertext": "Увядзіце тэкст",
+        "blocks.everyone": "Выкарыстоўвайце blocks",
+        "blocks.custom": "Свае blocks",
+        "blocks.none": "Пуста",
+        "blocks.not.exist": "Блок не існуе",
+        "blocks.type.noobmode": "Дазволіць гэтую катэгорыю зачыніць у спрошчаным рэжыме",
+        "blocks.default": "Назва блока",
+        "blocks.": "Назва блока",
+        "blocks.params": "Параметр",
+        "blocks.params.add": "Дадаць параметр",
+        "blocks.params.remove": "Удаліць параметр",
+        "blocks..params": {}
+    },
+    "events": {
+        "blocks.events": "Падзеі",
+        "blocks.onStart": "Пры старце",
+        "blocks.onStart.params": [
+            "Нататка:"
+        ],
+        "blocks.onFun": "Стварыць функцыю",
+        "blocks.onFun.params": [
+            "Імя функцый:"
+        ],
+        "blocks.onFunParams": "Стварыць функцыю з параметрамі",
+        "blocks.onFunParams.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onCondition": "Пакуль умова выконваецца праўда",
+        "blocks.onCondition.params": [
+            "Умова:"
+        ],
+        "blocks.onTouchBegan": "Калі палец дакранаецца да прадмета",
+        "blocks.onTouchBegan.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onTouchEnded": "Калі палец адпускае аб'ект",
+        "blocks.onTouchEnded.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onTouchMoved": "Калі палец рухаецца над аб'ектам",
+        "blocks.onTouchMoved.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onTouchDisplayBegan": " Калі палец дакранаецца экрана",
+        "blocks.onTouchDisplayBegan.params": [
+            "Назва табліцы:"
+        ],
+        "blocks.onTouchDisplayEnded": "Калі палец адпускае экран",
+        "blocks.onTouchDisplayEnded.params": [
+            "Назва асобна:"
+        ],
+        "blocks.onTouchDisplayMoved": "Калі палец рухаецца па экране",
+        "blocks.onTouchDisplayMoved.params": [
+            "Назва двір:"
+        ],
+        "blocks.onFirebase": "Атрыманы адказ ад Firebase",
+        "blocks.onFirebase.params": [
+            "Назва функцыі:",
+            "Адказ:"
+        ],
+        "blocks.onBackPress": " Калі вы націснеце \"Назад\"",
+        "blocks.onSuspend": "Прыкладанне было згорнута з экрана",
+        "blocks.onResume": "Прыкладанне было вернута на экран",
+        "blocks.onLocalCollisionBegan": "Пачатак лакальнага сутыкнення",
+        "blocks.onLocalCollisionBegan.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onLocalCollisionEnded": "Скончыць лакальнае сутыкненне",
+        "blocks.onLocalCollisionEnded.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onLocalPreCollision": "Да лакальнага сутыкнення",
+        "blocks.onLocalPreCollision.params": [
+            "Назва функцыi:",
+            "Імя табліцы:"
+        ],
+        "blocks.onLocalPostCollision": "Пасля лакальнага сутыкнення",
+        "blocks.onLocalPostCollision.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onGlobalCollisionBegan": "Пачатак глабальнага сутыкнення",
+        "blocks.onGlobalCollisionBegan.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onGlobalCollisionEnded": "Завяршыць глабальнае сутыкненне",
+        "blocks.onGlobalCollisionEnded.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onGlobalPreCollision": "Да глабальнага сутыкнення",
+        "blocks.onGlobalPreCollision.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onGlobalPostCollision": "Пасля глабальнага сутыкнення",
+        "blocks.onGlobalPostCollision.params": [
+            "Назва функцыі:",
+            " Назва табліцы:"
+        ],
+        "blocks.onWebViewCallback": "У webview адбыліся змены",
+        "blocks.onWebViewCallback.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onSwitchCallback": "Падзея ў камутатары пачалася",
+        "blocks.onSwitchCallback.params": [
+            "Назва функцыі:",
+            "Назва зменнай:"
+        ],
+        "blocks.onSliderMoved": "Пакуль паўзунок рухаецца",
+        "blocks.onSliderMoved.params": [
+            "Назва функцыі:",
+            "Назва зменнай:"
+        ],
+        "blocks.onFieldBegan": "Поле рэдагаванне пачалося",
+        "blocks.onFieldBegan.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onFieldEditing": "Падчас рэдагавання тэкставага поля",
+        "blocks.onFieldEditing.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ],
+        "blocks.onFieldEnded": "Рэдагаванне поля скончана",
+        "blocks.onFieldEnded.params": [
+            "Назва функцыі:",
+            "Назва табліцы:"
+        ]
+    },
+    "vars": {
+        "blocks.vars": "Даныя\n& тэкст",
+        "blocks.setVar": "Усталяваць зменную value",
+        "blocks.setVar.params": [
+            "Імя зменнай:",
+            "Значэнне:"
+        ],
+        "blocks.updVar": "Дадаць значэнне да зменнай",
+        "blocks.updVar.params": [
+            "Імя зменнай: ",
+            "Значэнне:"
+        ],
+        "blocks.setObjVar": "Задаць зменную аб'екта",
+        "blocks.setObjVar.params": [
+            "Ключ [K]:",
+            "Назва аб'екта:",
+            "Значэнне:"
+        ],
+        "blocks.addTable": "Усталяваць значэнне для табліцы",
+        "blocks.addTable.params": [
+            "Ключ [K]:",
+            "Назва табліцы:",
+            "Значэнне :"
+        ],
+        "blocks.insertTable": "Уставіць значэнне ў масіў",
+        "blocks.insertTable.params": [
+            "Ключ [N]:",
+            "Назва табліцы:",
+            "Значэнне:"
+        ],
+        "blocks.removeTable": "Выдаліць значэнне з масіва",
+        "blocks.removeTable.params": [
+            "Імя табліцы:",
+            "Ключ [N]:"
+        ],
+        "blocks.resetTable": "Перапісаць табліцу",
+        "blocks.resetTable.params": [
+            "Назва табліцы:",
+            "Json-код:"
+        ],
+        "blocks.saveValue": "Захаваць значэнне",
+        "blocks.saveValue.params": [
+            "Ключ [K]':",
+            "Значэнне:"
+        ],
+        "blocks.setRandomSeed": "Усталяваць выпадковае пачатковае значэнне",
+        "blocks.setRandomSeed.params": [
+            "Начальнае значэнне:"
+        ],
+        "blocks.newText": "Стварыць тэкст",
+        "blocks.newText.params": [
+            "Назва тэксту:",
+            "Тэкст:",
+            "Шрыфт:",
+            "Памер:",
+            "Колер:",
+            "Непразрыстасць (0-100):",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newText2": "Стварыць тэкст з шырынёй і вышынёй",
+        "blocks.newText2.params": [
+            "Назва тэксту:",
+            "Тэкст:",
+            "Шрыфт:",
+            "Памер:",
+            "Колер:",
+            "Выраўнаваць:",
+            "Шырыня:",
+            "Вышыня:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setText": "Рэдагаваць тэкст",
+        "blocks.setText.params": [
+            "Назва тэксту:",
+            "Тэкст:"
+        ],
+        "blocks.setTextSize": "Усталяваць памер шрыфта тэксту",
+        "blocks.setTextSize.params": [
+            "Назва тэксту:",
+            "Памер:"
+        ],
+        "blocks.hideText": "Схаваць тэкст",
+        "blocks.hideText.params": [
+            "Назва тэксту:"
+        ],
+        "blocks.showText": "Паказаць тэкст",
+        "blocks.showText.params": [
+            "Назва тэксту:"
+        ],
+        "blocks.removeText": "Выдаліць тэкст",
+        "blocks.removeText.params": [
+            "Назва тэксту:"
+        ],
+        "blocks.setTextPos": "Усталяваць пазіцыю тэксту",
+        "blocks.setTextPos.params": [
+            "Назва тэксту:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setTextPosX": "Задаць пазіцыю тэксту X",
+        "blocks.setTextPosX.params": [
+            "Назва тэксту:",
+            "Пазіцыя (X):"
+        ],
+        "blocks.setTextPosY": "Задаць пазіцыю тэксту Y",
+        "blocks.setTextPosY.params": [
+            "Назва тэксту:",
+            "Палажэнне ( Y):"
+        ],
+        "blocks.setTextRotation": "Наладзіць паварот тэксту",
+        "blocks.setTextRotation.params": [
+            "Назва тэксту:",
+            "Паварот:"
+        ],
+        "blocks.setTextAlpha": "Усталяваць празрыстасць тэксту",
+        "blocks.setTextAlpha.params": [
+            "Назва тэксту:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.setTextColor": "Усталяваць колер тэксту ",
+        "blocks.setTextColor.params": [
+            "Назва тэксту:",
+            "Колер:"
+        ],
+        "blocks.setTextRGB": "Усталяваць колер тэксту RGB",
+        "blocks.setTextRGB.params": [
+            "Назва тэксту:",
+            "Колер (R):",
+            "Колер (G):",
+            "Колер (B):"
+        ],
+        "blocks.setTextHEX": "Задаць колер тэксту HEX",
+        "blocks.setTextHEX.params": [
+            "Назва тэксту:",
+            "Колер (Hex):"
+        ],
+        "blocks.setTextAnchor": "Усталяваць кропку прывязкі тэксту",
+        "blocks.setTextAnchor.params": [
+            "Назва тэксту :",
+            "Якар X (0-100):",
+            "Якар Y (0-100):"
+        ],
+        "blocks.updTextPosX": "Змяніць пазіцыю тэксту X",
+        "blocks.updTextPosX.params": [
+            "Тэкст імя:",
+            "Палажэнне (X):"
+        ],
+        "blocks.updTextPosY": "Змяніць становішча тэксту Y",
+        "blocks.updTextPosY.params": [
+            "Назва тэксту:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.updTextRotation": "Змяніць паварот тэксту",
+        "blocks.updTextRotation.params": [
+            "Назва тэксту:",
+            "Паварот:"
+        ],
+        "blocks.updTextAlpha": "Змяніць непразрыстасць тэксту",
+        "blocks.updTextAlpha.params": [
+            "Назва тэксту:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.frontText": "Усталяваць тэкст на пласт вышэй",
+        "blocks.frontText.params": [
+            "Назва тэксту:"
+        ],
+        "blocks.backText": "Усталяваць тэкст на пласт ніжэй",
+        "blocks.backText.params": [
+            "Назва тэксту:"
+        ]
+    },
+    "objects": {
+        "blocks.objects": "Аб'екты",
+        "blocks.newObject": "Стварыць аб'ект",
+        "blocks.newObject.params": [
+            "Імя аб'екта:",
+            "Імя спрайта:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newSprite": "Стварыць аб'ект з частак спрайта",
+        "blocks.newSprite.params": [
+            "Назва аб'екта:",
+            "Назва спрайта :",
+            "Шырыня рамкі:",
+            "Вышыня рамкі:",
+            "Нумарныя кадры:",
+            "Спіс анімацыі:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.newGif": "Стварыць аб'ект са спрайта gif",
+        "blocks.newGif.params": [
+            "Назва аб'екта:",
+            "Назва спрайта:",
+            "Палажэнне (X): ",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setPos": "Задаць пазіцыю аб'екта",
+        "blocks.setPos.params": [
+            "Назва аб'екта:",
+            "Палажэнне (X):",
+            "Палажэнне (Y) ):"
+        ],
+        "blocks.setPosX": "Задаць пазіцыю аб'екта X",
+        "blocks.setPosX.params": [
+            "Імя аб'екта:",
+            "Палажэнне (X):"
+        ],
+        "blocks.setPosY": "Задаць пазіцыю аб'екта Y",
+        "blocks.setPosY.params": [
+            "Назва аб'екта:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setSize": "Задаць памер аб'екта",
+        "blocks.setSize.params": [
+            "Назва аб'екта:",
+            "Памер (%):"
+        ],
+        "blocks.setRotation": "Задаць паварот аб'екта",
+        "blocks.setRotation.params": [
+            "Назва аб'екта:",
+            "Rotation:"
+        ],
+        "blocks.setRotationTo": "Усталяваць паварот для object2",
+        "blocks.setRotationTo.params": [
+            "Імя аб'екта1:",
+            "Імя аб'екта2:"
+        ],
+        "blocks.setAlpha": "Задаць непразрыстасць аб'екта",
+        "blocks.setAlpha.params": [
+            "Назва аб'екта:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.setWidth": "Задаць шырыню аб'екта ",
+        "blocks.setWidth.params": [
+            "Назва аб'екта:",
+            "Шырыня:"
+        ],
+        "blocks.setHeight": "Задаць вышыню аб'екта",
+        "blocks.setHeight.params": [
+            "Назва аб'екта:",
+            "Вышыня:"
+        ],
+        "blocks.setAnchor": "Усталяваць кропку прывязкі аб'екта",
+        "blocks.setAnchor.params": [
+            "Імя аб'екта:",
+            "Якар X (0-100):",
+            "Якар Y (0-100):"
+        ],
+        "blocks.updPosX": "Змяніць пазіцыю аб'екта X",
+        "blocks.updPosX.params": [
+            "Імя аб'екта:",
+            "Пазіцыя (X):"
+        ],
+        "blocks.updPosY": "Змяніць пазіцыю аб'екта Y",
+        "blocks.updPosY.params": [
+            "Назва аб'екта:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.updSize": "Змяніць памер аб'екта",
+        "blocks.updSize.params": [
+            "Імя аб'екта:",
+            "Памер (%):"
+        ],
+        "blocks.updRotation": "Змяніць паварот аб'екта",
+        "blocks.updRotation.params": [
+            "Назва аб'екта:",
+            "Паварот:"
+        ],
+        "blocks.updAlpha": "Змяніць непразрыстасць аб'екта",
+        "blocks.updAlpha.params": [
+            "Назва аб'екта:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.updWidth": "Змяніць шырыню аб'екта",
+        "blocks.updWidth.params": [
+            "Назва аб'екта:",
+            "Шырыня:"
+        ],
+        "blocks.updHeight": "Змяніць вышыня аб'екта",
+        "blocks.updHeight.params": [
+            "Назва аб'екта:",
+            "Вышыня:"
+        ],
+        "blocks.hideObject": "Схаваць аб'ект",
+        "blocks.hideObject.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.showObject": "Паказаць аб'ект",
+        "blocks.showObject.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.removeObject": " Выдаліць аб'ект",
+        "blocks.removeObject.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.frontObject": "Размясціць аб'ект на пласт вышэй",
+        "blocks.frontObject.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.backObject": "Размясціце аб'ект на пласт ніжэй",
+        "blocks.backObject.params": [
+            "Імя аб'екта:"
+        ]
+    },
+    "control": {
+        "blocks.control": "Кантроль",
+        "blocks.timerEnd": "Завяршыць таймер",
+        "blocks.timer": "Таймер",
+        "blocks.timer.params": [
+            "Час ( Секунды):",
+            "Колькасць паўтораў:"
+        ],
+        "blocks.timerNameEnd": "Завяршыць таймер",
+        "blocks.timerName": "Таймер з імем",
+        "blocks.timerName.params": [
+            "Імя таймера:",
+            "Час (секунды):",
+            "Колькасць паўтораў:"
+        ],
+        "blocks.timerPause": "Прыпыніць таймер",
+        "blocks.timerPause.params": [
+            "Назва таймера:"
+        ],
+        "blocks.timerResume": "Аднавіць таймер",
+        "blocks.timerResume.params": [
+            "Назва таймера:"
+        ],
+        "blocks.timerCancel": "Адмяніць таймер",
+        "blocks.timerCancel.params": [
+            "Назва таймера :"
+        ],
+        "blocks.timerPauseAll": "Прыпыніць усе таймеры",
+        "blocks.timerResumeAll": "Аднавіць усе таймеры",
+        "blocks.timerCancelAll": "Адмяніць усе таймеры",
+        "blocks.ifEnd": "Умова заканчэння",
+        "blocks.ifElse": "Інакш, калі ўмова праўдзівая",
+        "blocks.ifElse.params": [
+            "Умова:"
+        ],
+        "blocks.if": "Калі ўмова праўдзівая",
+        "blocks.if.params": [
+            "Умова:"
+        ],
+        "blocks.foreverEnd": "Скончыць назаўсёды",
+        "blocks.forever": "Паўтараць заўсёды",
+        "blocks.repeatEnd": "Скончыць паўтор",
+        "blocks.repeat": "Паўтарыць N разоў",
+        "blocks.repeat.params": [
+            "Колькасць паўтораў:"
+        ],
+        "blocks.forEnd": "Завяршыць цыкл",
+        "blocks.for": "Цыкл",
+        "blocks.for.params": [
+            "З:",
+            "Па:",
+            "Назва зменнай:",
+            "Крок:"
+        ],
+        "blocks.whileEnd": "Канец паўтору",
+        "blocks.while": "Паўтараць, пакуль умова не выканае",
+        "blocks.while.params": [
+            "Умова:"
+        ],
+        "blocks.foreachEnd": "Завяршыць цыкл",
+        "blocks.foreach": "Абыходзіць усю табліцу элементы",
+        "blocks.foreach.params": [
+            "Імя табліцы:",
+            "Element:",
+            "Key:"
+        ],
+        "blocks.break": "Спыніць цыкл",
+        "blocks.requestFun": "Запыт функцыі",
+        "blocks.requestFun.params": [
+            "Назва функцыi:"
+        ],
+        "blocks.requestFunParams": "Запыт функцыі з параметрамі",
+        "blocks.requestFunParams.params": [
+            "Назва функцыі:",
+            "Параметры:"
+        ],
+        "blocks.setListener": "Усталяваць сэнсарную функцыю",
+        "blocks.setListener.params": [
+            "Назва аб'екта:",
+            "Назва функцыі:"
+        ],
+        "blocks.setListener3": "Усталяваць сэнсарную функцыю",
+        "blocks.setListener3.params": [
+            "Назва аб'екта:",
+            "Назва функцыі:",
+            "Назва функцыі:",
+            "Назва функцыі:"
+        ],
+        "blocks.setLocalCollision": " Усталяваць функцыю сутыкнення",
+        "blocks.setLocalCollision.params": [
+            "Імя аб'екта:",
+            "Назва функцыі:"
+        ],
+        "blocks.setLocalPreCollision": "Усталяваць функцыю перад сутыкненнем",
+        "blocks.setLocalPreCollision.params": [
+            "Назва аб'екта:",
+            "Назва функцыі:"
+        ],
+        "blocks.setLocalPostCollision": "Усталяваць функцыя пасля сутыкнення",
+        "blocks.setLocalPostCollision.params": [
+            "Назва аб'екта:",
+            "Назва функцыі:"
+        ],
+        "blocks.setGlobalCollision": "Глабальная функцыя сутыкнення",
+        "blocks.setGlobalCollision.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.setGlobalPreCollision": "Функцыя да глабальнага сутыкнення",
+        "blocks.setGlobalPreCollision.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.setGlobalPostCollision": "Функцыя пасля глабальнага сутыкнення",
+        "blocks.setGlobalPostCollision.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.setFocus": "Усталяваць сэнсарны фокус",
+        "blocks.setFocus.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setFocusMultitouch": "Усталяваць мультытач фокус",
+        "blocks.setFocusMultitouch.params": [
+            "Імя аб'екта:",
+            "Унікальны ідэнтыфікатар:"
+        ],
+        "blocks.activateMultitouch": "Актываваць мультытач",
+        "blocks.deactivateMultitouch": "Адключыць мультытач",
+        "blocks.returnValue": "Вяртанае значэнне",
+        "blocks.returnValue.params": [
+            "Значэнне:"
+        ],
+        "blocks.requestApi": "Запыт метаду API",
+        "blocks.requestApi.params": [
+            "Код Lua:"
+        ],
+        "blocks.requestApiRes": "Запыт метаду API з рэсурсу",
+        "blocks.requestApiRes.params": [
+            " Назва рэсурсу:"
+        ],
+        "blocks.toastShort": "Кароткае ўсплывальнае апавяшчэнне",
+        "blocks.toastShort.params": [
+            "Тэкст:"
+        ],
+        "blocks.toastLong": "Доўгае ўсплывальнае апавяшчэнне",
+        "blocks.toastLong.params": [
+            "Тэкст:"
+        ],
+        "blocks.comment": "Каментар (для сябе)",
+        "blocks.comment.params": [
+            "Нататка:"
+        ],
+        "blocks.requestExit": "Закрыць праграму",
+        "blocks.setBackgroundColor": "Усталяваць фонавы колер",
+        "blocks.setBackgroundColor.params": [
+            "Колер:"
+        ],
+        "blocks.setBackgroundRGB": "Задаць колер фону RGB",
+        "blocks.setBackgroundRGB.params": [
+            "Колер (R):",
+            "Колер (G):",
+            "Колер (B):"
+        ],
+        "blocks.setBackgroundHEX": "Усталяваць колер фону HEX",
+        "blocks.setBackgroundHEX.params": [
+            "Колер (Hex):"
+        ],
+        "blocks.newLevel": "Load level",
+        "blocks.newLevel.params": [
+            "Level name:"
+        ],
+        "blocks.removeLevel": "Unload level",
+        "blocks.removeLevel.params": [
+            "Level name:"
+        ],
+        "blocks.showLevel": "Show level",
+        "blocks.showLevel.params": [
+            "Level name:"
+        ],
+        "blocks.hideLevel": "Hide level",
+        "blocks.hideLevel.params": [
+            "Level name:"
+        ],
+        "blocks.setPortraitOrientation": "Усталяваць партрэтную арыентацыю ",
+        "blocks.setPortraitOrientation.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.setLandscapeOrientation": "Задаць альбомную арыентацыю",
+        "blocks.setLandscapeOrientation.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.turnOnAccelerometer": "Усталяваць частату акселерометра",
+        "blocks.turnOnAccelerometer.params": [
+            "Назва функцыі:"
+        ],
+        "blocks.setAccelerometerFrequency": "Усталяваць частату акселерометра",
+        "blocks.setAccelerometerFrequency.params": [
+            "Частата (Гц):"
+        ],
+        "blocks.scheduleNotification": "Зарэгістраваць апавяшчэнне",
+        "blocks.scheduleNotification.params": [
+            "Тэкст:",
+            "Час (секунды):"
+        ],
+        "blocks.cancelNotification": "Cancel all notifications",
+        "blocks.readFileRes": "Read file from resources",
+        "blocks.readFileRes.params": [
+            "Variable name:",
+            "Resource name:"
+        ],
+        "blocks.pasteboardCopy": "Copy to Clipboard",
+        "blocks.pasteboardCopy.params": [
+            "Текст:"
+        ],
+        "blocks.pasteboardPaste": "Read from Clipboard",
+        "blocks.pasteboardPaste.params": [
+            "Variable name:"
+        ],
+        "blocks.pasteboardClear": "Clear the Clipboard"
+    },
+    "shapes": {
+        "blocks.shapes": "Тэкстуры\n& формы",
+        "blocks.setSprite": "Усталяваць аб'ект спрайт",
+        "blocks.setSprite.params": [
+            "Імя аб'екта:",
+            "Імя спрайта:"
+        ],
+        "blocks.newRect": "Стварыць прастакутнік з колерам",
+        "blocks.newRect.params": [
+            "Назва аб'екта:",
+            "Колер:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newRoundedRect": "Стварыць прамавугольнік з кутамі",
+        "blocks.newRoundedRect.params": [
+            "Назва аб'екта:",
+            "Закругленыя вуглы:",
+            "Шырыня:",
+            " Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newCircle": "Стварыць круг",
+        "blocks.newCircle.params": [
+            "Назва аб'екта:",
+            "Радыус:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newPolygon": "Стварыць шматкутнік",
+        "blocks.newPolygon.params": [
+            "Назва аб'екта:",
+            "Табліца вуглоў:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newLine": "Стварыць лінію",
+        "blocks.newLine.params": [
+            "Назва аб'екта:",
+            "Колер:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.appendLine": "Дадаць кропку да лініі",
+        "blocks.appendLine.params": [
+            "Назва аб'екта:",
+            "Табліца каардынат:"
+        ],
+        "blocks.newBitmap": "Стварыць растравую тэкстуру",
+        "blocks.newBitmap.params": [
+            "Назва растравага малюнка:",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.setPixel": "Усталяваць колер пікселя",
+        "blocks.setPixel.params": [
+            "Назва растравага малюнка:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):",
+            "Колер:"
+        ],
+        "blocks.setPixelRGB": "Усталяваць колер пікселя RGB",
+        "blocks.setPixelRGB.params": [
+            "Назва растравага малюнка:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):",
+            "Колер (R): ",
+            "Колер (G):",
+            "Колер (B):"
+        ],
+        "blocks.removePixel": "Выдаліць колер пікселя",
+        "blocks.removePixel.params": [
+            "Назва растравага малюнка:",
+            "Палажэнне (X ):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.updBitmap": "Абнавіць растравую тэкстуру",
+        "blocks.updBitmap.params": [
+            "Імя растравага малюнка:"
+        ],
+        "blocks.setBitmapSprite": "Усталяваць растравую тэкстуру аб'екта",
+        "blocks.setBitmapSprite.params": [
+            "Назва аб'екта:",
+            "Назва растравага малюнка:"
+        ],
+        "blocks.getBitmapSprite": "Атрымаць растравую тэкстуру спрайта",
+        "blocks.getBitmapSprite.params": [
+            "Назва спрайта:",
+            "Назва растравага малюнка:"
+        ],
+        "blocks.setColor": "Задаць колер аб'екта",
+        "blocks.setColor.params": [
+            "Назва аб'екта:",
+            " Колер:"
+        ],
+        "blocks.setRGB": "Задаць колер аб'екта RGB",
+        "blocks.setRGB.params": [
+            "Імя аб'екта:",
+            "Колер (R):",
+            "Колер (G):",
+            "Колер (B):"
+        ],
+        "blocks.setHEX": "Задаць колер аб'екта HEX",
+        "blocks.setHEX.params": [
+            "Назва аб'екта :",
+            "Колер (Hex):"
+        ],
+        "blocks.setStrokeWidth": "Задаць шырыню абводкі",
+        "blocks.setStrokeWidth.params": [
+            "Назва аб'екта:",
+            "Шырыня:"
+        ],
+        "blocks.updStrokeWidth": "Змяніць шырыню абводкі",
+        "blocks.updStrokeWidth.params": [
+            "Назва аб'екта:",
+            "Шырыня:"
+        ],
+        "blocks.setStrokeColor": "Задаць колер абводкі",
+        "blocks.setStrokeColor.params": [
+            "Назва аб'екта:",
+            "Колер:"
+        ],
+        "blocks.setStrokeRGB": "Задаць колер абводкі RGB",
+        "blocks.setStrokeRGB.params": [
+            "Назва аб'екта:",
+            "Колер (R):",
+            "Колер (G):",
+            "Колер (B):"
+        ],
+        "blocks.setGradientPaint": "Усталяваць градыентную афарбоўку",
+        "blocks.setGradientPaint.params": [
+            "Імя аб'екта:",
+            "Колер1:",
+            "Колер2:",
+            "Непразрыстасць1 (0-100):",
+            "Непразрыстасць2 (0-100):"
+        ]
+    },
+    "objects2": {
+        "blocks.objects2": "Анімацыя\n& Маскі",
+        "blocks.setScale": "Задаць маштаб аб'екта",
+        "blocks.setScale.params": [
+            "Назва аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.setScaleX": "Задаць маштаб аб'екта X",
+        "blocks.setScaleX.params": [
+            "Назва аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.setScaleY": "Задаць маштаб аб'екта Y",
+        "blocks.setScaleY.params": [
+            "Імя аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.newSeqAnimation": "Стварыць паслядоўную анімацыю",
+        "blocks.newSeqAnimation.params": [
+            "Назва анімацыі:",
+            "Тып анімацыі:",
+            "Пачатковы кадр:",
+            "Колькасць кадраў:",
+            "Колькасць паўтораў:",
+            "Час (секунды):"
+        ],
+        "blocks.newParAnimation": "Стварыць паралельную анімацыю",
+        "blocks.newParAnimation.params": [
+            "Табліца кадраў:",
+            "Назва анімацыі:",
+            "Тып анімацыі:",
+            "Колькасць паўтораў:",
+            "Час (секунды):"
+        ],
+        "blocks.playAnimation": "Прайграць анімацыю",
+        "blocks.playAnimation.params": [
+            "Назва аб'екта:",
+            "Назва анімацыі:"
+        ],
+        "blocks.pauseAnimation": "Прыпыніць анімацыю",
+        "blocks.pauseAnimation.params": [
+            "Назва аб'екта:",
+            "Назва анімацыі:"
+        ],
+        "blocks.setFrame": "Усталяваць рамку аб'екта",
+        "blocks.setFrame.params": [
+            "Імя аб'екта:",
+            "Frame:"
+        ],
+        "blocks.newMask": "Стварыць маску",
+        "blocks.newMask.params": [
+            " Імя маскі:",
+            "Імя спрайта:"
+        ],
+        "blocks.addMaskToObject": "Дадаць маску да аб'екта",
+        "blocks.addMaskToObject.params": [
+            "Назва аб'екта:",
+            "Назва маскі:"
+        ],
+        "blocks.setMaskPos": "Усталяваць пазіцыю маскі",
+        "blocks.setMaskPos.params": [
+            "Назва аб'екта:",
+            " Пазіцыя (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.setMaskScale": "Усталяваць маштаб маскі",
+        "blocks.setMaskScale.params": [
+            "Назва аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.setMaskScaleX": "Усталяваць маштаб маскі X",
+        "blocks.setMaskScaleX.params": [
+            "Імя аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.setMaskScaleY": "Усталяваць маштаб маскі Y",
+        "blocks.setMaskScaleY.params": [
+            "Назва аб'екта:",
+            "Маштаб (%):"
+        ],
+        "blocks.setMaskHitTrue": "Усталяваць маску, якая не з'яўляецца націскальнасць",
+        "blocks.setMaskHitTrue.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.setMaskHitFalse": "Усталяваць націскальнасць маскі",
+        "blocks.setMaskHitFalse.params": [
+            "Назва аб'екта:"
+        ]
+    },
+    "groups": {
+        "blocks.groups": "Групы\nі тэгі",
+        "blocks.newGroup": "Стварыць групу",
+        "blocks.newGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.removeGroup": "Выдаліць групу",
+        "blocks.removeGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.showGroup": "Паказаць групу",
+        "blocks.showGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.hideGroup": "Схаваць групу",
+        "blocks.hideGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.addGroupObject": "Уставіць аб'ект у групу",
+        "blocks.addGroupObject.params": [
+            "Назва групы:",
+            "Назва аб'екта:"
+        ],
+        "blocks.addGroupText": "Уставіць тэкст у групу",
+        "blocks.addGroupText.params": [
+            "Назва групы:",
+            "Назва тэксту:"
+        ],
+        "blocks.addGroupWidget": "Уставіць віджэт у групу",
+        "blocks.addGroupWidget.params": [
+            "Назва групы:",
+            "Назва віджэта:"
+        ],
+        "blocks.addGroupMedia": "Устаўце медыя ў групу",
+        "blocks.addGroupMedia.params": [
+            "Назва групы:",
+            "Назва медыя:"
+        ],
+        "blocks.addGroupTag": "Уставіць тэг у групу",
+        "blocks.addGroupTag.params": [
+            "Назва тэга:",
+            "Назва групы:"
+        ],
+        "blocks.addGroupGroup": "Устаўце групу2 у групу1",
+        "blocks.addGroupGroup.params": [
+            "Назва групы 1:",
+            "Назва групы 2:"
+        ],
+        "blocks.setGroupPos": "Усталяваць пазіцыю групы",
+        "blocks.setGroupPos.params": [
+            "Назва групы:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setGroupSize": "Усталюйце памер групы",
+        "blocks.setGroupSize.params": [
+            "Назва групы:",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.setGroupRotation": "Усталюйце ратацыю групы",
+        "blocks.setGroupRotation.params": [
+            "Назва групы:",
+            "Паварот (0-360):"
+        ],
+        "blocks.setGroupAlpha": "Усталюйце непразрыстасць групы",
+        "blocks.setGroupAlpha.params": [
+            "Назва групы:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.updGroupPosX": "Змяніць пазіцыю групы X",
+        "blocks.updGroupPosX.params": [
+            "Назва групы:",
+            "Пазіцыя (X):"
+        ],
+        "blocks.updGroupPosY": "Змяніць пазіцыю групы Y",
+        "blocks.updGroupPosY.params": [
+            "Назва групы:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.updGroupWidth": "Змяніць шырыню групы",
+        "blocks.updGroupWidth.params": [
+            "Назва групы:",
+            "Шырыня:"
+        ],
+        "blocks.updGroupHeight": "Змяніць вышыню групы",
+        "blocks.updGroupHeight.params": [
+            "Назва групы:",
+            "Вышыня:"
+        ],
+        "blocks.updGroupRotation": "Змяніць паварот групы",
+        "blocks.updGroupRotation.params": [
+            "Назва групы:",
+            "Паварот (0-360):"
+        ],
+        "blocks.updGroupAlpha": "Змяніць непразрыстасць групы",
+        "blocks.updGroupAlpha.params": [
+            "Назва групы:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.frontGroup": "Змесціце групу на пласт вышэй",
+        "blocks.frontGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.backGroup": "Змесціце групу на пласт ніжэй",
+        "blocks.backGroup.params": [
+            "Назва групы:"
+        ],
+        "blocks.newTag": "Стварыць табліцу",
+        "blocks.newTag.params": [
+            "Назва тэга:"
+        ],
+        "blocks.removeTag": "Выдаліць усіх з тэгам",
+        "blocks.removeTag.params": [
+            "Назва тэга:"
+        ],
+        "blocks.showTag": "Паказаць усім з тэгам",
+        "blocks.showTag.params": [
+            "Назва тэга:"
+        ],
+        "blocks.hideTag": "Схаваць усіх з тэгам",
+        "blocks.hideTag.params": [
+            "Назва тэга:"
+        ],
+        "blocks.addTagObject": "Дадаць тэг да аб'екта",
+        "blocks.addTagObject.params": [
+            "Назва тэга:",
+            "Назва аб'екта:"
+        ],
+        "blocks.addTagText": "Дадаць тэг да тэксту",
+        "blocks.addTagText.params": [
+            "Назва тэга:",
+            "Назва тэксту:"
+        ],
+        "blocks.addTagWidget": "Дадаць тэг у віджэт",
+        "blocks.addTagWidget.params": [
+            "Назва тэга:",
+            "Назва віджэта:"
+        ],
+        "blocks.addTagMedia": "Дадаць тэг да медыя",
+        "blocks.addTagMedia.params": [
+            "Назва тэга:",
+            "Назва медыя:"
+        ],
+        "blocks.addTagGroup": "Дадаць тэг да групы",
+        "blocks.addTagGroup.params": [
+            "Назва тэга:",
+            "Назва групы:"
+        ],
+        "blocks.addTagTag": "Дадайце тэг1 да тэга2",
+        "blocks.addTagTag.params": [
+            "Назва тэга 1:",
+            "Назва тэга 2:"
+        ],
+        "blocks.setTagPos": "Усталюйце пазіцыю кожнаму з тэгам",
+        "blocks.setTagPos.params": [
+            "Назва тэга:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setTagSize": "Усталюйце памер кожнаму з тэгам",
+        "blocks.setTagSize.params": [
+            "Назва тэга:",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.setTagRotation": "Усталюйце паварот для ўсіх з тэгам",
+        "blocks.setTagRotation.params": [
+            "Назва тэга:",
+            "Паварот (0-360):"
+        ],
+        "blocks.setTagAlpha": "Усталюйце празрыстасць для ўсіх з тэгам",
+        "blocks.setTagAlpha.params": [
+            "Назва тэга:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.updTagPosX": "Змяніць пазіцыю X кожнаму з тэгам",
+        "blocks.updTagPosX.params": [
+            "Назва тэга:",
+            "Пазіцыя (X):"
+        ],
+        "blocks.updTagPosY": "Змяніць пазіцыю Y кожнаму з тэгам",
+        "blocks.updTagPosY.params": [
+            "Назва тэга:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.updTagWidth": "Змяніць шырыню кожнаму з тэгам",
+        "blocks.updTagWidth.params": [
+            "Назва тэга:",
+            "Шырыня:"
+        ],
+        "blocks.updTagHeight": "Змяніць вышыню кожнаму з тэгам",
+        "blocks.updTagHeight.params": [
+            "Назва тэга:",
+            "Вышыня:"
+        ],
+        "blocks.updTagRotation": "Усталюйце паварот для ўсіх з тэгам",
+        "blocks.updTagRotation.params": [
+            "Назва тэга:",
+            "Паварот (0-360):"
+        ],
+        "blocks.updTagAlpha": "Усталюйце празрыстасць для ўсіх з тэгам",
+        "blocks.updTagAlpha.params": [
+            "Назва тэга:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.frontTag": "Размясціце ўсіх з тэгамі на пласт вышэй",
+        "blocks.frontTag.params": [
+            "Назва тэга:"
+        ],
+        "blocks.backTag": "Змесціце ўсіх з тэгамі на пласт ніжэй",
+        "blocks.backTag.params": [
+            "Назва тэга:"
+        ]
+    },
+    "physics": {
+        "blocks.physics": "Фізіка",
+        "blocks.setBody": "Задаць фізічнае цела аб'екта",
+        "blocks.setBody.params": [
+            "Назва аб'екта:",
+            "Тып:",
+            "Шчыльнасць:",
+            "Адскок:",
+            "Трэнне:",
+            "Гравітацыя:",
+            "Фільтр сутыкненняў:",
+            "Табліца сутыкненняў:"
+        ],
+        "blocks.removeBody": "Выдаліць фізічнае цела аб'екта",
+        "blocks.removeBody.params": [
+            "Імя аб'екта:"
+        ],
+        "blocks.setBodyType": " Устанавіць тып аб'екта",
+        "blocks.setBodyType.params": [
+            "Імя аб'екта:",
+            "Тып:"
+        ],
+        "blocks.setHitboxBox": "Усталяваць прастакутны хітбокс",
+        "blocks.setHitboxBox.params": [
+            "Імя аб'екта :",
+            "Паварот:",
+            "Шырыня:",
+            "Вышыня:",
+            "Зрушэнне (X):",
+            "Зрушэнне (Y):"
+        ],
+        "blocks.setHitboxCircle": "Усталяваць круглае поле ўдару",
+        "blocks.setHitboxCircle.params": [
+            "Назва аб'екта:",
+            "Радыус:"
+        ],
+        "blocks.setHitboxMesh": "Усталяваць сеткавае хітбокс (па спрайту)",
+        "blocks.setHitboxMesh.params": [
+            "Назва аб'екта:",
+            "Тэкселі грубасці:"
+        ],
+        "blocks.setHitboxPolygon": "Усталяваць паліганальнае хітбокс",
+        "blocks.setHitboxPolygon.params": [
+            "Назва аб'екта:",
+            "Хітбокс:"
+        ],
+        "blocks.updHitbox": "Абнавіць хітбокс аб'екта",
+        "blocks.updHitbox.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setGravity": "Задаць гравітацыю аб'екта",
+        "blocks.setGravity.params": [
+            "Назва аб'екта:",
+            "Gravity:"
+        ],
+        "blocks.setLinearVelocity": "Зрабіць скачок",
+        "blocks.setLinearVelocity.params": [
+            "Назва аб'екта:",
+            "Хуткасць (X):",
+            "Хуткасць (Y):"
+        ],
+        "blocks.setLinearVelocityX": " Зрабіце скачок уздоўж X",
+        "blocks.setLinearVelocityX.params": [
+            "Назва аб'екта:",
+            "Хуткасць (X):"
+        ],
+        "blocks.setLinearVelocityY": "Зрабіць скачок уздоўж Y",
+        "blocks.setLinearVelocityY.params": [
+            "Назва аб'екта:",
+            "Хуткасць (Y):"
+        ],
+        "blocks.setSensor": "Усталяваць рэжым датчыка",
+        "blocks.setSensor.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.removeSensor": "Выдаліць рэжым датчыка",
+        "blocks.removeSensor.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setFixedRotation": "Зрабіць цела непаваротлівым",
+        "blocks.setFixedRotation.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.removeFixedRotation": "Зрабіць так, каб цела магло круціцца",
+        "blocks.removeFixedRotation.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setBullet": "Усталяваць рэжым кулі",
+        "blocks.setBullet.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.removeBullet": "Выдаліць рэжым кулі",
+        "blocks.removeBullet.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setWorldGravity": "Усталяваць сусветную гравітацыю",
+        "blocks.setWorldGravity.params": [
+            "Гравітацыя (X):",
+            "Гравітацыя (Y):"
+        ],
+        "blocks.setAwake": "Абудзіць цела",
+        "blocks.setAwake.params": [
+            "Назва аб'екта:"
+        ],
+        "blocks.setBounce": "Задаць каэфіцыент адскоку",
+        "blocks.setBounce.params": [
+            "Фізічны кантакт:",
+            "Адскок:"
+        ],
+        "blocks.setFriction": "Задаць каэфіцыент трэння",
+        "blocks.setFriction.params": [
+            "Фізічны кантакт:",
+            "Friction:"
+        ],
+        "blocks.setTangentSpeed": "Задаць тангенцыяльную хуткасць",
+        "blocks.setTangentSpeed.params": [
+            "Фізічны кантакт:",
+            "Хуткасць:"
+        ],
+        "blocks.disableCollision": "Адключыць фізічнае сутыкненне",
+        "blocks.disableCollision.params": [
+            "Фізічны кантакт:"
+        ],
+        "blocks.setAngularVelocity": "Задаць вуглавую хуткасць",
+        "blocks.setAngularVelocity.params": [
+            " Імя аб'екта:",
+            "Хуткасць:"
+        ],
+        "blocks.setAngularDamping": "Усталяваць вуглавое дэмпфаванне",
+        "blocks.setAngularDamping.params": [
+            "Імя аб'екта:",
+            "Дэмпінг:"
+        ],
+        "blocks.setLinearDamping": "Задаць лінейнае дэмпфаванне",
+        "blocks.setLinearDamping.params": [
+            "Імя аб'екта:",
+            "Dempping:"
+        ],
+        "blocks.setForce": "Прыкласці сілу",
+        "blocks.setForce.params": [
+            "Назва аб'екта:",
+            "Сіла (X):",
+            "Сіла (Y):",
+            "Зрушэнне (X):",
+            "Зрушэнне (Y):"
+        ],
+        "blocks.setTorque": "Прымяніць крутоўны момант",
+        "blocks.setTorque.params": [
+            "Назва аб'екта:",
+            "Сіла:"
+        ],
+        "blocks.setLinearImpulse": "Прымяніць лінейны імпульс",
+        "blocks.setLinearImpulse.params": [
+            "Назва аб'екта:",
+            "Сіла (X):",
+            "Сіла (Y):",
+            "Зрушэнне (X):",
+            "Зрушэнне (Y):"
+        ],
+        "blocks.setAngularImpulse": "Прымяніць вуглавы імпульс",
+        "blocks.setAngularImpulse.params": [
+            "Назва аб'екта:",
+            "Сіла:"
+        ],
+        "blocks.setHitboxVisible": "Паказаць хіты",
+        "blocks.removeHitboxVisible": "Схаваць хіты",
+        "blocks.startPhysics": "Уключыць фізічны механізм",
+        "blocks.pausePhysics": "Прыпыніць фізічны механізм",
+        "blocks.stopPhysics": "Адключыць фізічны механізм",
+        "blocks.setTextBody": "Задаць фізічны тэкст",
+        "blocks.setTextBody.params": [
+            "Імя аб'екта:",
+            "Тып:",
+            "Шчыльнасць:",
+            "Адскок:",
+            "Трэнне:",
+            "Гравітацыя:"
+        ]
+    },
+    "widgets": {
+        "blocks.widgets": "Віджэты",
+        "blocks.newWebView": "Стварыць вэб-прагляд",
+        "blocks.newWebView.params": [
+            "Імя віджэта:",
+            "Url:",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.newHSlider": "Стварыць гарызантальны паўзунок",
+        "blocks.newHSlider.params": [
+            "Назва віджэта:",
+            "Шырыня:",
+            "Слухач:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.newVSlider": "Стварыць вертыкальны паўзунок",
+        "blocks.newVSlider.params": [
+            "Назва віджэта:",
+            "Вышыня:",
+            " Слухач:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.newField": "Стварыць аднарадковае тэкставае поле",
+        "blocks.newField.params": [
+            "Імя віджэта:",
+            " Тэкст:",
+            "Тып уводу:",
+            "Колер тэксту:",
+            "Памер:",
+            "Фон поля:",
+            "Выраўнаваць:",
+            "Шрыфт:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newBox": "Стварыць шматрадковае тэкставае поле",
+        "blocks.newBox.params": [
+            "Назва віджэта:",
+            "Тэкст:",
+            "Колер тэксту:",
+            "Памер:",
+            "Фон поля:",
+            "Выраўнаваць:",
+            "Шрыфт:",
+            "Шырыня:",
+            "Вышыня:",
+            "Пазіцыя (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setWidgetPos": "Усталяваць пазіцыю віджэта",
+        "blocks.setWidgetPos.params": [
+            "Імя віджэта:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.setWidgetSize": "Усталяваць памер віджэта",
+        "blocks.setWidgetSize.params": [
+            "Назва віджэта:",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.setWidgetListener": "Усталяваць функцыю змены",
+        "blocks.setWidgetListener.params": [
+            "Назва віджэта:",
+            "Назва функцыі :"
+        ],
+        "blocks.setWebViewFront": "Перайсці на вэб-сайт наперадзе",
+        "blocks.setWebViewFront.params": [
+            "Імя віджэта:"
+        ],
+        "blocks.setWebViewBack": "Назад на вэб-сайт",
+        "blocks.setWebViewBack.params": [
+            "Імя віджэта:"
+        ],
+        "blocks.updWebViewSite": "Абнавіць сайт у вэб-праглядзе",
+        "blocks.updWebViewSite.params": [
+            "Назва віджэта:"
+        ],
+        "blocks.setWebViewLink": "Усталяваць URL-адрас у вэб-праглядзе",
+        "blocks.setWebViewLink.params": [
+            "Імя віджэта:",
+            "Url:"
+        ],
+        "blocks.setSliderValue": "Усталюйце значэнне паўзунка",
+        "blocks.setSliderValue.params": [
+            "Імя віджэта:",
+            "Значэнне (0-100):"
+        ],
+        "blocks.setFieldSecure": "Усталяваць рэжым пароля",
+        "blocks.setFieldSecure.params": [
+            "Імя віджэта:"
+        ],
+        "blocks.removeFieldSecure": "Выдаліць рэжым пароля",
+        "blocks.removeFieldSecure.params": [
+            " Імя віджэта:"
+        ],
+        "blocks.setFieldRule": "Дазвол на ўвод тэкставага поля",
+        "blocks.setFieldRule.params": [
+            "Імя віджэта:",
+            "Правіла:"
+        ],
+        "blocks.setFieldText": "Усталяваць тэкст у тэкставым полі",
+        "blocks.setFieldText.params": [
+            "Імя віджэта:",
+            "Тэкст:"
+        ],
+        "blocks.setFieldFocus": "Усталяваць фокус на тэкставым полі",
+        "blocks.setFieldFocus.params": [
+            "Імя віджэта:"
+        ],
+        "blocks.setFieldFocusNil": "Выключыць клавіятуру",
+        "blocks.hidePanelInterface": "Схаваць інтэрфейс Panels",
+        "blocks.showPanelInterface": "Паказаць панэлі інтэрфейсу",
+        "blocks.newScrollView": "Стварыць выгляд прагорткі",
+        "blocks.newScrollView.params": [
+            "Імя віджэта:",
+            "Паласа пракруткі:",
+            "Слухач :",
+            "Адскок:",
+            "Трэнне:",
+            "Пракрутка па X:",
+            "Пракрутка па Y:",
+            "Колер:",
+            "Фон:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newSwitch": "Стварыць пераключальнік",
+        "blocks.newSwitch.params": [
+            "Назва віджэта:",
+            "Тып:",
+            "Стан:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):",
+            "Пры дакрананні:",
+            "Пасля дотыку:"
+        ],
+        "blocks.setSwitchState": "Усталяваць стан пераключальніка",
+        "blocks.setSwitchState.params": [
+            "Імя віджэта:",
+            "Стан:"
+        ],
+        "blocks.insertToScroll": "Уставіць для пракруткі",
+        "blocks.insertToScroll.params": [
+            "Імя віджэта:",
+            "Імя:",
+            "Тып:"
+        ],
+        "blocks.takeFocusScroll": "Усталяваць фокус для пракруткі",
+        "blocks.takeFocusScroll.params": [
+            "Імя віджэта:",
+            "Табліца падзей:"
+        ],
+        "blocks.removeWidget": "Выдаліць віджэт",
+        "blocks.removeWidget.params": [
+            "Назва віджэта:"
+        ],
+        "blocks.showWidget": "Паказаць віджэт",
+        "blocks.showWidget.params": [
+            "Імя віджэта:"
+        ],
+        "blocks.hideWidget": "Схаваць віджэт",
+        "blocks.hideWidget.params": [
+            "Імя віджэта:"
+        ]
+    },
+    "media": {
+        "blocks.media": "Медыя",
+        "blocks.newVideo": "Стварыць відэа",
+        "blocks.newVideo.params": [
+            "Назва носьбіта:",
+            "Назва відэа:",
+            "Пасля выканання:",
+            "Пазіцыя ( X):",
+            "Палажэнне (Y):",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.newRemoteVideo": "Стварыць выдаленае відэа",
+        "blocks.newRemoteVideo.params": [
+            "Назва носьбіта:",
+            "Url:",
+            "Пасля выканання:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):",
+            "Шырыня:",
+            "Вышыня: "
+        ],
+        "blocks.loadSound": "Загрузіць гук",
+        "blocks.loadSound.params": [
+            "Назва носьбіта:",
+            "Назва гуку:"
+        ],
+        "blocks.loadStream": "Загрузіць струменевы гук",
+        "blocks.loadStream.params": [
+            "Імя носьбіта:",
+            "Назва гуку:"
+        ],
+        "blocks.playSound": "Прайграць гук",
+        "blocks.playSound.params": [
+            "Назва носьбіта:",
+            "Колькасць паўтораў:",
+            "Пасля выканання:",
+            "Час (секунды):",
+            "Заміранне (секунды):"
+        ],
+        "blocks.resumeMedia": "Аднавіць медыя",
+        "blocks.resumeMedia.params": [
+            "Назва носьбіта:"
+        ],
+        "blocks.pauseMedia": "Прыпыніць мультымедыя",
+        "blocks.pauseMedia.params": [
+            "Назва носьбіта:"
+        ],
+        "blocks.seekMedia": "Пераматаць мультымедыя да меткі часу",
+        "blocks.seekMedia.params": [
+            "Назва носьбіта:",
+            "Час (секунды):"
+        ],
+        "blocks.setVolume": "Усталяваць гучнасць гуку",
+        "blocks.setVolume.params": [
+            "Назва носьбіта:",
+            "Гучнасць:"
+        ],
+        "blocks.fadeVolume": "Зніжэнне гучнасці гуку",
+        "blocks.fadeVolume.params": [
+            "Назва медыя:",
+            "Час (Секунды):",
+            "Гучнасць:"
+        ],
+        "blocks.stopSound": "Спыніць гук",
+        "blocks.stopSound.params": [
+            "Назва носьбіта: "
+        ],
+        "blocks.stopTimerSound": "Спыніць гук з дапамогай таймера",
+        "blocks.stopTimerSound.params": [
+            "Назва носьбіта:",
+            "Час (секунды):"
+        ],
+        "blocks.disposeSound": "Выдаліць гук",
+        "blocks.disposeSound.params": [
+            "Назва носьбіта:"
+        ],
+        "blocks.removeVideo": "Выдаліць відэа",
+        "blocks.removeVideo.params": [
+            "Назва медыя:"
+        ]
+    },
+    "snapshot": {
+        "blocks.snapshot": "Здымкі\nі здымкі",
+        "blocks.newSnapshot": "Create snapshot",
+        "blocks.newSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot mode:",
+            "Width:",
+            "Height:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.invalidateSnapshot": "Update snapshot",
+        "blocks.invalidateSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:"
+        ],
+        "blocks.addToSnapshot": "Add to snapshot",
+        "blocks.addToSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.removeFromSnapshot": "Remove from snapshot",
+        "blocks.removeFromSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.setSnapshotColor": "Set snapshot color",
+        "blocks.setSnapshotColor.params": [
+            "Snapshot name:",
+            "Color:"
+        ],
+        "blocks.setSnapshotPos": "Set snapshot position",
+        "blocks.setSnapshotPos.params": [
+            "Snapshot name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setSnapshotSize": "Set snapshot size",
+        "blocks.setSnapshotSize.params": [
+            "Snapshot name:",
+            "Width:",
+            "Height:"
+        ],
+        "blocks.setSnapshotRotation": "Set snapshot rotation",
+        "blocks.setSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.setSnapshotAlpha": "Set snapshot opacity",
+        "blocks.setSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.updSnapshotPosX": "Change snapshot position X",
+        "blocks.updSnapshotPosX.params": [
+            "Snapshot name:",
+            "Position (X):"
+        ],
+        "blocks.updSnapshotPosY": "Change snapshot position Y",
+        "blocks.updSnapshotPosY.params": [
+            "Snapshot name:",
+            "Position (Y):"
+        ],
+        "blocks.updSnapshotWidth": "Change snapshot width",
+        "blocks.updSnapshotWidth.params": [
+            "Snapshot name:",
+            "Width:"
+        ],
+        "blocks.updSnapshotHeight": "Change snapshot height",
+        "blocks.updSnapshotHeight.params": [
+            "Snapshot name:",
+            "Height:"
+        ],
+        "blocks.updSnapshotRotation": "Change snapshot rotation",
+        "blocks.updSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.updSnapshotAlpha": "Change snapshot opacity",
+        "blocks.updSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.frontSnapshot": "Place snapshot on layer above",
+        "blocks.frontSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.backSnapshot": "Place snapshot on layer below",
+        "blocks.backSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.removeSnapshot": "Remove snapshot",
+        "blocks.removeSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.showSnapshot": "Show snapshot",
+        "blocks.showSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.hideSnapshot": "Hide snapshot",
+        "blocks.hideSnapshot.params": [
+            "Snapshot name:"
+        ]
+    },
+    "network": {
+        "blocks.network": "Сетка",
+        "blocks.openURL": "Адкрыць URL у браўзеры",
+        "blocks.openURL.params": [
+            "URL:"
+        ],
+        "blocks.createServer": "Стварыце сервер лакальнай сеткі",
+        "blocks.createServer.params": [
+            "Порт:",
+            "Слухач сервера:"
+        ],
+        "blocks.connectToServer": "Падключыцеся да сервера лакальнай сеткі",
+        "blocks.connectToServer.params": [
+            "IP-адрас:",
+            "Порт:",
+            "Слухач кліентаў:"
+        ],
+        "blocks.requestGET": "Асінхронны запыт GET",
+        "blocks.requestGET.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.requestPOST": "Асінхронны запыт POST",
+        "blocks.requestPOST.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.requestPUT": "Асінхронны запыт PUT",
+        "blocks.requestPUT.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.requestPATCH": "Асінхронны запыт PATCH",
+        "blocks.requestPATCH.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.requestHEAD": "Асінхронны запыт HEAD",
+        "blocks.requestHEAD.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.requestDELETE": "Асінхронны запыт DELETE",
+        "blocks.requestDELETE.params": [
+            "URL:",
+            "Цела запыту:",
+            "Загаловак запыту:",
+            "Запыт слухача:",
+            "Тып слухача:",
+            "Перанакіраванне:",
+            "Тайм-аўт (секунды):"
+        ],
+        "blocks.firebasePUT": "Напісаць у Firebase",
+        "blocks.firebasePUT.params": [
+            "Токен:",
+            "Значэнне:",
+            "Ключ:",
+            "Запыт слухача:"
+        ],
+        "blocks.firebasePATCH": "Абнаўленне ў Firebase",
+        "blocks.firebasePATCH.params": [
+            "Токен:",
+            "Значэнне:",
+            "Ключ:",
+            "Запыт слухача:"
+        ],
+        "blocks.firebaseGET": "Атрымаць з Firebase",
+        "blocks.firebaseGET.params": [
+            "Токен:",
+            "Ключ:",
+            "Запыт слухача:"
+        ],
+        "blocks.firebaseDELETE": "Выдаліць з Firebase",
+        "blocks.firebaseDELETE.params": [
+            "Токен:",
+            "Ключ:",
+            "Запыт слухача:"
+        ],
+        "blocks.initAdsStartApp": "Initialize StartApp ads",
+        "blocks.initAdsStartApp.params": [
+            "Token:",
+            "Listener:"
+        ],
+        "blocks.loadAdsStartApp": "Load StartApp ads",
+        "blocks.loadAdsStartApp.params": [
+            "Ads type:"
+        ],
+        "blocks.showAdsStartApp": "Show StartApp ads",
+        "blocks.showAdsStartApp.params": [
+            "Ads type:"
+        ]
+    },
+    "transition": {
+        "blocks.transition": "Пераходы\n& часціцы",
+        "blocks.setTransitionTo": "Пачаць пераход",
+        "blocks.setTransitionTo.params": [
+            "Імя:",
+            "Тып:",
+            "Тып анімацыі:",
+            "Колькасць паўтораў:",
+            "Час (секунды):",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):",
+            "Маштаб ( X):",
+            "Маштаб (Y):",
+            "Непразрыстасць (0-100):",
+            "Паварот (0-360):",
+            "Графік пераходу:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні:"
+        ],
+        "blocks.setTransitionPos": "Устанавіць пераход пазіцыі",
+        "blocks.setTransitionPos.params": [
+            "Назва:",
+            "Тып:",
+            "Тып анімацыі:",
+            "Колькасць паўтораў:",
+            "Час (секунды):",
+            "Палажэнне (X):",
+            "Палажэнне (Y):",
+            "Пераход расклад:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні:"
+        ],
+        "blocks.setTransitionSize": "Задаць пераход памеру",
+        "blocks.setTransitionSize.params": [
+            "Назва:",
+            "Тып:",
+            "Тып анімацыі:",
+            "Колькасць паўтораў:",
+            "Час (секунды):",
+            "Шырыня:",
+            "Вышыня:",
+            "Расклад пераходу:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні:"
+        ],
+        "blocks.setTransitionScale": "Усталяваць пераход маштабу",
+        "blocks.setTransitionScale.params": [
+            "Назва:",
+            "Тып:",
+            "Тып анімацыі:",
+            "Колькасць паўтораў:",
+            "Час (секунды):",
+            "Маштаб (X):",
+            "Маштаб (Y):",
+            "Расклад пераходу:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні :"
+        ],
+        "blocks.setTransitionRotation": "Усталяваць пераход павароту",
+        "blocks.setTransitionRotation.params": [
+            "Назва:",
+            "Тып анімацыі:",
+            "Тып:",
+            "Час (секунды):",
+            "Колькасць паўтораў:",
+            "Паварот (0-360):",
+            "Расклад пераходу:",
+            "Пасля выканання: ",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні:"
+        ],
+        "blocks.setTransitionAlpha": "Усталяваць альфа-пераход",
+        "blocks.setTransitionAlpha.params": [
+            "Імя :",
+            "Тып анімацыі:",
+            "Тып:",
+            "Час (секунды):",
+            "Колькасць паўтораў:",
+            "Непразрыстасць (0-100):",
+            "Расклад пераходу:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні: "
+        ],
+        "blocks.setTransitionAngles": "Задаць вуглы пераходу",
+        "blocks.setTransitionAngles.params": [
+            "Назва:",
+            "Тып анімацыі:",
+            "Тып:",
+            "Час (секунды):",
+            "Лік паўторы:",
+            "Табліца вуглоў:",
+            "Расклад пераходу:",
+            "Пасля выканання:",
+            "Пры паўзе:",
+            "Пасля паўзы:",
+            "Пры прыпынку:",
+            "Пры паўтарэнні:"
+        ],
+        "blocks.setTransitionPause": "Прыпыніць пераход",
+        "blocks.setTransitionPause.params": [
+            "Імя:",
+            "Тып:"
+        ],
+        "blocks.setTransitionResume": "Узнавіць пераход",
+        "blocks.setTransitionResume.params": [
+            "Імя:",
+            "Тып:"
+        ],
+        "blocks.setTransitionCancel": "Скасаваць пераход",
+        "blocks.setTransitionCancel.params": [
+            "Імя:",
+            "Тып:"
+        ],
+        "blocks.setTransitionPauseAll": "Прыпыніць усе пераходы",
+        "blocks.setTransitionResumeAll": "Аднавіць усе пераходы",
+        "blocks.setTransitionCancelAll": "Скасаваць усе пераходы"
+    },
+    "varsNoob": {
+        "blocks.setVarNoob": "Стварыць value",
+        "blocks.setVarNoob.params": [
+            "Назва значэння:",
+            "Значэнне:"
+        ],
+        "blocks.updVarNoob": "Дадаць значэнне",
+        "blocks.updVarNoob.params": [
+            "Назва значэння:",
+            "Значэнне:"
+        ],
+        "blocks.saveValueNoob": "Захаваць значэнне",
+        "blocks.saveValueNoob.params": [
+            "Назва значэння:"
+        ],
+        "blocks.readValueNoob": "Прачытаць значэнне з захаванняў",
+        "blocks.readValueNoob.params": [
+            "Імя значэння:"
+        ],
+        "blocks.addGroupObjectNoob": "Уставіць выяву ў групу",
+        "blocks.addGroupObjectNoob.params": [
+            "Назва групы:",
+            "Назва малюнка:"
+        ],
+        "blocks.addTagObjectNoob": "Дадаць тэг да выявы",
+        "blocks.addTagObjectNoob.params": [
+            "Назва тэга:",
+            "Назва выявы:"
+        ]
+    },
+    "mediaNoob": {
+        "blocks.mediaNoob": "Гукі",
+        "blocks.playSoundNoob": "Прайграць гук",
+        "blocks.playSoundNoob.params": [
+            "Назва гуку:",
+            "Колькасць паўтораў:"
+        ],
+        "blocks.resumeMediaNoob": "Аднавіць гук",
+        "blocks.resumeMediaNoob.params": [
+            "Назва гуку:"
+        ],
+        "blocks.pauseMediaNoob": "Прыпыніць гук",
+        "blocks.pauseMediaNoob.params": [
+            "Назва гуку:"
+        ],
+        "blocks.seekMediaNoob": "Пераматаць гук да меткі часу",
+        "blocks.seekMediaNoob.params": [
+            "Гук імя:",
+            "Час (секунды):"
+        ],
+        "blocks.setVolumeNoob": "Наладзіць гучнасць гуку",
+        "blocks.setVolumeNoob.params": [
+            "Назва гуку:",
+            "Гучнасць:"
+        ],
+        "blocks.fadeVolumeNoob": "Зніжэнне гучнасці гуку",
+        "blocks.fadeVolumeNoob.params": [
+            "Назва гуку:",
+            "Час (Секунды):",
+            "Гучнасць:"
+        ],
+        "blocks.stopSoundNoob": "Спыніць гук",
+        "blocks.stopSoundNoob.params": [
+            "Назва гуку:"
+        ],
+        "blocks.stopTimerSoundNoob": "Спыніць гук з дапамогай таймера ",
+        "blocks.stopTimerSoundNoob.params": [
+            "Назва гуку :",
+            "Час (секунды):"
+        ]
+    },
+    "objectsNoob": {
+        "blocks.objectsNoob": "Малюнкі",
+        "blocks.newObjectNoob": "Стварыць малюнак",
+        "blocks.newObjectNoob.params": [
+            "Назва малюнка:",
+            "Палажэнне (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.newGifNoob": "Стварыць выяву gif",
+        "blocks.newGifNoob.params": [
+            "Назва выявы:",
+            "Палажэнне (X):",
+            "Палажэнне (Y) :"
+        ],
+        "blocks.setPosNoob": "Задаць пазіцыю малюнка",
+        "blocks.setPosNoob.params": [
+            "Назва выявы:",
+            "Палажэнне (X):",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setPosXNoob": "Задаць пазіцыю выявы X",
+        "blocks.setPosXNoob.params": [
+            "Назва выявы:",
+            "Палажэнне (X):"
+        ],
+        "blocks.setPosYNoob": "Задаць пазіцыю малюнка Y",
+        "blocks.setPosYNoob.params": [
+            "Назва выявы:",
+            "Пазіцыя (Y):"
+        ],
+        "blocks.setSizeNoob": "Усталяваць памер выявы",
+        "blocks.setSizeNoob.params": [
+            "Назва малюнка:",
+            "Памер (%):"
+        ],
+        "blocks.setRotationNoob": "Наладзіць паварот выявы",
+        "blocks.setRotationNoob.params": [
+            "Імя малюнка:",
+            "Паварот (0-360):"
+        ],
+        "blocks.setRotationToNoob": "Усталяваць паварот у малюнак2",
+        "blocks.setRotationToNoob.params": [
+            "Відарыс name1:",
+            "Назва відарыса2:"
+        ],
+        "blocks.setAlphaNoob": "Задаць непразрыстасць малюнка",
+        "blocks.setAlphaNoob.params": [
+            "Імя відарыса:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.setWidthNoob": "Задаць шырыню выявы",
+        "blocks.setWidthNoob.params": [
+            "Назва выявы:",
+            "Шырыня:"
+        ],
+        "blocks.setHeightNoob": "Устанавіць вышыню выявы",
+        "blocks.setHeightNoob.params": [
+            "Назва выявы:",
+            "Вышыня:"
+        ],
+        "blocks.updPosXNoob": "Змяніць становішча выявы X",
+        "blocks.updPosXNoob.params": [
+            "Назва малюнка:",
+            "Пазіцыя (X):"
+        ],
+        "blocks.updPosYNoob": "Змяніць пазіцыю выявы Y",
+        "blocks.updPosYNoob.params": [
+            "Назва выявы:",
+            "Палажэнне (Y):"
+        ],
+        "blocks.updSizeNoob": "Змяніць памер малюнка",
+        "blocks.updSizeNoob.params": [
+            "Назва малюнка:",
+            "Памер (%):"
+        ],
+        "blocks.updRotationNoob": "Змяніць паварот выявы",
+        "blocks.updRotationNoob.params": [
+            "Назва выявы:",
+            "Паварот (0-360):"
+        ],
+        "blocks.updAlphaNoob": "Змяніць непразрыстасць малюнка",
+        "blocks.updAlphaNoob.params": [
+            "Назва малюнка:",
+            "Непразрыстасць (0-100):"
+        ],
+        "blocks.updWidthNoob": "Змяніць шырыню малюнка",
+        "blocks.updWidthNoob.params": [
+            "Назва малюнка:",
+            "Шырыня:"
+        ],
+        "blocks.updHeightNoob": "Змяніць вышыню малюнка",
+        "blocks.updHeightNoob.params": [
+            "Назва відарыса:",
+            "Вышыня:"
+        ]
+    },
+    "shapesNoob": {
+        "blocks.shapesNoob": "Фігуры",
+        "blocks.setSpriteNoob": "Накласці малюнак2 на малюнак1",
+        "blocks.setSpriteNoob.params": [
+            "Імя відарыса1:",
+            "Імя відарыса2:"
+        ],
+        "blocks.newRectNoob": "Стварыць прамавухі з колерам",
+        "blocks.newRectNoob.params": [
+            "Імя відарыса:",
+            "Колер:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newRoundedRectNoob": "Стварыць прамавугольнік з вугламі",
+        "blocks.newRoundedRectNoob.params": [
+            "Назва малюнка:",
+            "Закругленыя вуглы:",
+            "Шырыня:",
+            "Вышыня:",
+            "Палажэнне (X) ):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.newCircleNoob": "Стварыць круг",
+        "blocks.newCircleNoob.params": [
+            "Назва выявы:",
+            "Радыус:",
+            "Палажэнне (X): ",
+            "Палажэнне (Y):"
+        ],
+        "blocks.setColorNoob": "Задаць колер малюнка",
+        "blocks.setColorNoob.params": [
+            "Назва малюнка:",
+            "Колер:"
+        ],
+        "blocks.hideObjectNoob": "Схаваць малюнак",
+        "blocks.hideObjectNoob.params": [
+            "Назва малюнка:"
+        ],
+        "blocks.showObjectNoob": "Паказаць малюнак",
+        "blocks.showObjectNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.removeObjectNoob": "Выдаліць выяву",
+        "blocks.removeObjectNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.frontObjectNoob": " Змесціце малюнак на пласт вышэй",
+        "blocks.frontObjectNoob.params": [
+            "Імя выявы:"
+        ],
+        "blocks.backObjectNoob": "Змясціць малюнак на пласт ніжэй",
+        "blocks.backObjectNoob.params": [
+            "Імя малюнка:"
+        ]
+    },
+    "physicsNoob": {
+        "blocks.setBodyNoob": "Зрабіць малюнак фізічным",
+        "blocks.setBodyNoob.params": [
+            "Назва выявы:",
+            "Тып:",
+            "Адскок:",
+            "Гравітацыя:"
+        ],
+        "blocks.removeBodyNoob": "Выдаліць фізічныя характарыстыкі выявы",
+        "blocks.removeBodyNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.setLinearVelocityXNoob": "Зрабіць скачок уздоўж X",
+        "blocks.setLinearVelocityXNoob.params": [
+            "Назва малюнка:",
+            "Хуткасць (X):"
+        ],
+        "blocks.setLinearVelocityYNoob": "Зрабіць скачок уздоўж Y",
+        "blocks.setLinearVelocityYNoob.params": [
+            "Назва малюнка:",
+            "Хуткасць (Y):"
+        ],
+        "blocks.setSensorNoob": "Выдаліць магчымасць сутыкнення выявы",
+        "blocks.setSensorNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.removeSensorNoob": "Вярнуць магчымасці сутыкнення выявы",
+        "blocks.removeSensorNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.setFixedRotationNoob": "Зрабіць малюнак непаваротлівым",
+        "blocks.setFixedRotationNoob.params": [
+            "Імя выявы:"
+        ],
+        "blocks.removeFixedRotationNoob": "Зрабіць магчымасць павароту выявы",
+        "blocks.removeFixedRotationNoob.params": [
+            "Імя выявы:"
+        ]
+    },
+    "transitionNoob": {
+        "blocks.transitionNoob": "Пераходы",
+        "blocks.setTransitionPosNoob": "Усталяваць пераход пазіцыі",
+        "blocks.setTransitionPosNoob.params": [
+            "Імя:",
+            "Тып:",
+            "Час (секунды):",
+            "Палажэнне (X):",
+            "Палажэнне (Y):"
+        ],
+        "blocks.setTransitionSizeNoob": "Усталяваць пераход памеру",
+        "blocks.setTransitionSizeNoob.params": [
+            "Назва:",
+            "Тып:",
+            "Час (секунды):",
+            "Шырыня:",
+            "Вышыня:"
+        ],
+        "blocks.setTransitionScaleNoob": "Усталяваць пераход маштабу",
+        "blocks.setTransitionScaleNoob.params": [
+            "Назва:",
+            "Тып:",
+            "Час (секунды):",
+            "Маштаб (X):",
+            "Маштаб (Y):"
+        ],
+        "blocks.setTransitionRotationNoob": "Усталяваць пераход павароту",
+        "blocks.setTransitionRotationNoob.params": [
+            "Назва:",
+            "Тып:",
+            "Час (секунды):",
+            "Паварот (0-360):"
+        ],
+        "blocks.setTransitionAlphaNoob": "Задаць непразрыстасць пераходу",
+        "blocks.setTransitionAlphaNoob.params": [
+            "Назва:",
+            "Тып:",
+            "Час (секунды):",
+            "Непразрыстасць (0-100):"
+        ]
+    },
+    "eventsNoob": {
+        "blocks.onConditionNoob": "Паўтарайце, пакуль умова не выканае",
+        "blocks.onConditionNoob.params": [
+            "Умова:"
+        ],
+        "blocks.onFunNoob": "Стварыць дзеянне",
+        "blocks.onFunNoob.params": [
+            "Дзеянне:"
+        ],
+        "blocks.onTouchBeganNoob": "Калі палец дакранаецца да выявы",
+        "blocks.onTouchBeganNoob.params": [
+            "Назва выявы:"
+        ],
+        "blocks.onTouchEndedNoob": "Калі палец адпускае малюнак",
+        "blocks.onTouchEndedNoob.params": [
+            "Назва малюнка:"
+        ],
+        "blocks.onTouchMovedNoob": "Калі палец рухаецца па малюнку",
+        "blocks.onTouchMovedNoob.params": [
+            "Назва малюнка: "
+        ],
+        "blocks.onTouchDisplayBeganNoob": "Калі палец дакранаецца экрана",
+        "blocks.onTouchDisplayEndedNoob": "Калі палец адпускае экран",
+        "blocks.onTouchDisplayMovedNoob": "Калі палец рухаецца па экране",
+        "blocks.onLocalCollisionBeganNoob": "Калі выявы сутыкаюцца",
+        "blocks.onLocalCollisionBeganNoob.params": [
+            "Выява name1:",
+            "Picture name2:"
+        ],
+        "blocks.requestFunNoob": "Выканаць дзеянне",
+        "blocks.requestFunNoob.params": [
+            "Дзеянне:"
+        ]
+    },
+    "editor.interface": {
+        "editor.window.error": "Памылка ў выразе",
+        "editor.button.error": "Выправіць",
+        "editor.button.text": "Тэкст",
+        "editor.button.local": "{}",
+        "editor.button.hide": "Схаваць",
+        "editor.list.var": "Зменныя",
+        "editor.list.var.noob": "Значэнні",
+        "editor.list.table": "Табліцы",
+        "editor.list.funs": "Функцыі",
+        "editor.list.funs.noob": "Дзеянні",
+        "editor.list.fun": "Метады",
+        "editor.list.fun.noob": "Інструменты",
+        "editor.list.math": "Матэматыка",
+        "editor.list.prop": "Уласцівасці",
+        "editor.list.log": "Логіка",
+        "editor.list.device": "Прылада",
+        "editor.list.custom": "Карыстальніцкі",
+        "editor.list.event": "Падзея",
+        "editor.list.script": "Скрыпт",
+        "editor.list.project": "Праект",
+        "editor.list.prop.obj": "Аб'ект",
+        "editor.list.prop.obj.noob": "Малюнак",
+        "editor.list.prop.text": "Тэкст",
+        "editor.list.prop.media": "Медыя",
+        "editor.list.prop.group": "Група",
+        "editor.list.prop.widget": "Віджэт"
+    },
+    "editor.fun": {
+        "editor.list.fun.get_text": "атрымаць тэкст",
+        "editor.list.fun.read_save": "чытаць захаваць",
+        "editor.list.fun.random_str": "выпадковы радок",
+        "editor.list.fun.concat": "счапіць радок",
+        "editor.list.fun.tonumber": "У лік",
+        "editor.list.fun.tostring": "У тэкст",
+        "editor.list.fun.totable": "У табліцу",
+        "editor.list.fun.len_table": "колькасць аб'ектаў у табліцы",
+        "editor.list.fun.unix_time": "час unix",
+        "editor.list.fun.encode": "кадзіраваць json",
+        "editor.list.fun.gsub": "замяніць у тэксце",
+        "editor.list.fun.sub": "сімвал з тэксту",
+        "editor.list.fun.len": "даўжыня тэксту",
+        "editor.list.fun.find": "знайсці ў тэксце",
+        "editor.list.fun.split": "падзелены тэкст",
+        "editor.list.fun.match": "рэгулярнае выраз",
+        "editor.list.fun.color_pixel": "колер пікселя",
+        "editor.list.fun.get_ip": "атрымаць уласны ip",
+        "editor.list.fun.noise": "перлін шум"
+    },
+    "editor.math": {
+        "editor.list.math.random": "выпадковы",
+        "editor.list.math.radical": "радыкальны",
+        "editor.list.math.power": "магутнасць",
+        "editor.list.math.round": "круг",
+        "editor.list.math.remainder": "астатак",
+        "editor.list.math.module": "модуль",
+        "editor.list.math.max": "максімум",
+        "editor.list.math.min": "мінімум",
+        "editor.list.math.sin": "сінус",
+        "editor.list.math.cos": "косінус",
+        "editor.list.math.tan": "тангенс",
+        "editor.list.math.ctan": "котангенс",
+        "editor.list.math.pi": "пі",
+        "editor.list.math.exp": "паказчык",
+        "editor.list.math.factorial": "фактарыял",
+        "editor.list.math.log": "Лагарыфм",
+        "editor.list.math.log10": "Лагарыфм з 10",
+        "editor.list.math.asin": "арксінус",
+        "editor.list.math.acos": "аркасінус",
+        "editor.list.math.atan": "арктангенс",
+        "editor.list.math.atan2": "арктангенс 2",
+        "editor.list.math.raycast": "адсочванне прамянёў"
+    },
+    "editor.prop": {
+        "editor.list.prop.obj.touch": "дотык",
+        "editor.list.prop.obj.tag": "тэг ",
+        "editor.list.prop.obj.var": "зменныя",
+        "editor.list.prop.obj.pos_x": "пазіцыя x",
+        "editor.list.prop.obj.pos_y": "пазіцыя y",
+        "editor.list.prop.obj.width": "шырыня",
+        "editor.list.prop.obj.height": "вышыня",
+        "editor.list.prop.obj.rotation": "паварот",
+        "editor.list.prop.obj.alpha": "непразрыстасць",
+        "editor.list.prop.obj.name_texture": "імя тэкстуры",
+        "editor.list.prop.obj.velocity_x": "хуткасць х",
+        "editor.list.prop.obj.velocity_y": "хуткасць y",
+        "editor.list.prop.obj.angular_velocity": "кутняя скорасць",
+        "editor.list.prop.text.get_text": "атрымаць тэкст",
+        "editor.list.prop.text.tag": "тэкставы тэг",
+        "editor.list.prop.text.pos_x": "пазіцыя x тэкста",
+        "editor.list.prop.text.pos_y": "пазіцыя y тэкста",
+        "editor.list.prop.text.width": "шырыня тэксту",
+        "editor.list.prop.text.height": "вышыня тэксту",
+        "editor.list.prop.text.rotation": "Паварот тэксту",
+        "editor.list.prop.text.alpha": "Непразрыстасць тэксту",
+        "editor.list.prop.group.tag": "тэг групы",
+        "editor.list.prop.group.pos_x": "пазіцыя x групы",
+        "editor.list.prop.group.pos_y": "пазіцыя y групы",
+        "editor.list.prop.group.width": "шырыня групы",
+        "editor.list.prop.group.height": "вышыня групы",
+        "editor.list.prop.group.rotation": "ратацыя групы",
+        "editor.list.prop.group.alpha": "непразрыстасць групы",
+        "editor.list.prop.widget.tag": "віджэт тэг",
+        "editor.list.prop.widget.pos_x": "віджэт x пазіцыі",
+        "editor.list.prop.widget.pos_y": "віджэт y пазіцыi",
+        "editor.list.prop.widget.value": "значэнне паўзунка",
+        "editor.list.prop.widget.state": "стан пераключэння",
+        "editor.list.prop.widget.text": "тэкст з поля",
+        "editor.list.prop.widget.link": "адрас вэб-прагляду",
+        "editor.list.prop.media.current_time": "бягучы час відэа",
+        "editor.list.prop.media.total_time": "агульны час відэа",
+        "editor.list.prop.media.sound_volume": "гучнасць гуку",
+        "editor.list.prop.media.sound_total_time": "агульны час гуку",
+        "editor.list.prop.media.sound_pause": "гук прыпынены",
+        "editor.list.prop.media.sound_play": "прайграваецца гук"
+    },
+    "editor.log": {
+        "editor.list.log.true": "праўда",
+        "editor.list.log.false": "ілжывы",
+        "editor.list.log.nil": "нуль",
+        "editor.list.log.>": ">",
+        "editor.list.log.<": "<",
+        "editor.list.log.>=": "≥",
+        "editor.list.log.<=": "≤",
+        "editor.list.log.~=": "≠",
+        "editor.list.log.and": "і",
+        "editor.list.log.or": "або",
+        "editor.list.log.not": "не"
+    },
+    "editor.device": {
+        "editor.list.device.fps": "кадраў у секунду",
+        "editor.list.device.read_save": "чытаць захаваць",
+        "editor.list.device.device_id": "ідэнтыфікатар прылады",
+        "editor.list.device.width_screen": "шырыня экрана",
+        "editor.list.device.height_screen": "вышыня экрана",
+        "editor.list.device.top_point_screen": "верхняя кропка экрана",
+        "editor.list.device.bottom_point_screen": "ніжняя кропка экрана",
+        "editor.list.device.right_point_screen": "правая кропка экрана",
+        "editor.list.device.left_point_screen": "левая кропка экрана",
+        "editor.list.device.height_top": "вышыня верхняй межы",
+        "editor.list.device.height_bottom": "вышыня ніжняй межы",
+        "editor.list.device.finger_touching_screen": "дакрананне экрана пальцам",
+        "editor.list.device.finger_touching_screen_x": "дотык пальцам да экрана x",
+        "editor.list.device.finger_touching_screen_y": "дотык пальцам да экрана y",
+        "editor.list.device.get_ip": "атрымаць уласны ip"
+    }
+}

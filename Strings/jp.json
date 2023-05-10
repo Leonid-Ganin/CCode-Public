@@ -1,0 +1,2589 @@
+{
+    "interface": {
+        "lang.ru": "Русский",
+        "lang.en": "English",
+        "lang.pt": "Brasileiro",
+        "lang.pl": "Polski",
+        "lang.ua": "Українська",
+        "lang.by": "Беларускі",
+        "lang.cn": "中文",
+        "lang.jp": "日本語",
+        "lang.custom": "カスタム",
+        "button.yes": "はい",
+        "button.no": "ない",
+        "button.okay": "よし",
+        "button.close": "を閉める",
+        "button.download": "ダウンロードる",
+        "button.change": "変更る",
+        "button.remove": "デリートる",
+        "button.rename": "リネームる",
+        "button.copy": "コピー",
+        "button.to.buffer": "クリップボードに",
+        "button.from.buffer": "クリップボードから",
+        "button.paste": "ペーストる",
+        "button.alldelete": "すべて削除",
+        "button.find": "サーチる",
+        "button.debug": "デバッグ",
+        "button.comment": "無効にする",
+        "button.uncomment": "有効にする",
+        "button.hide": "隠す",
+        "button.show": "示す",
+        "button.addIfElse": "条件を追加",
+        "button.block.find": "れんがを探す",
+        "button.pasteFromClipboard": "クリップボードから貼り付け",
+        "button.importLuaFile": ".lua ファイルのインポート",
+        "menu.myprogram": "私のプログラム",
+        "menu.continue": "続くる",
+        "menu.settings": "設定",
+        "menu.testers": "テスター版：",
+        "menu.developers": "開発者バージョン：",
+        "menu.version.new": "新しいテスト版が出ました！",
+        "menu.version.wait": "アプリを閉じずにお待ちください！",
+        "programs.entername": "プログラムの名前を入力して",
+        "programs.changename": "プログラム名の変更",
+        "programs.noobmode": "シンプルモード",
+        "program.images": "スプライト",
+        "program.pictures": "ピクチャー",
+        "program.scripts": "スクリプト",
+        "program.scenarios": "シナリオ",
+        "program.levels": "Levels",
+        "program.sounds": "オーディオ",
+        "program.videos": "ビデオ",
+        "program.fonts": "フォント",
+        "program.resources": "リソース",
+        "program.psettings": "プロジェクト設定",
+        "program.export": "エクスポート",
+        "program.build": "Build APK",
+        "program.aab": "Build AAB",
+        "program.editor": "式エディター",
+        "scripts.entername": "スクリプト名を入力",
+        "scripts.entername.noob": "スクリプト名を入力",
+        "scripts.changename": "スクリプトの名前を変更する",
+        "scripts.changename.noob": "スクリプトの名前を変更する",
+        "scripts.sandbox": "サンドボックス",
+        "scripts.sandbox.exit": "アクションを選択",
+        "scripts.sandbox.save": "保存る",
+        "scripts.sandbox.not.save": "保存しない",
+        "images.entername": "名を入力",
+        "images.entername.noob": "名を入力",
+        "images.changename": "スプライトの名前を変更する",
+        "images.changename.noob": "名を入力",
+        "images.pixel": "ピクセルスプライト",
+        "images.pixel.noob": "ピクセルスプライト",
+        "images.gif.convert": "GIF　をスプライト・シートにコンバートしますか？",
+        "images.gif.okay": "コンバート",
+        "images.gif.complete": "コンバートが完了しました。 次の値を覚えておいてください：",
+        "sounds.entername": "オーディオ名を入力",
+        "sounds.changename": "オーディオの名を変更する",
+        "videos.entername": "ビデオ名を入力",
+        "videos.changename": "ビデオの名を変更する",
+        "resources.entername": "リソース名を入力",
+        "resources.changename": "リソース名を変更する",
+        "fonts.entername": "フォント名を入力",
+        "fonts.changename": "フォントの名前を変更する",
+        "fonts.needexit": "Ccodeを閉じるまでフォントが削除されないため、プログラムは閉じます",
+        "settings.applang": "アプリケーション言語：",
+        "settings.confirmdelete": "削除を確認するかどうか：",
+        "settings.autoplace": "自動入力パラメーター：",
+        "settings.keystore": "Developer Key:",
+        "settings.keystore.testkey": "Testkey",
+        "settings.keystore.custom": "Custom",
+        "settings.keystore.alias": "Key alias",
+        "settings.keystore.pass": "Key password",
+        "settings.keystore.create": "Create",
+        "settings.keystore.import": "Import",
+        "settings.keystore.enteralias": "Enter key alias",
+        "settings.keystore.enterpass": "Enter key password",
+        "settings.keystore.create.successfully": "Key was successfully created",
+        "settings.keystore.import.successfully": "Key was successfully imported",
+        "settings.back": "下のパネル：",
+        "settings.backCCode": "応用",
+        "settings.backSystem": "システム",
+        "settings.backNo": "削除する",
+        "settings.showads": "広告を表示します：",
+        "settings.posads": "どこで宣伝するか：",
+        "settings.topads": "上から",
+        "settings.bottomads": "下から",
+        "settings.orientation": "オリエンテーション：",
+        "psettings.icon": "プロジェクト アイコン：",
+        "psettings.orientation": "プロジェクトのオリエンテーション：",
+        "psettings.build": "バージョンナンバー：",
+        "psettings.version": "バージョン名：",
+        "psettings.package": "パッケージ名：",
+        "psettings.enterbuild": "バージョン番号を入力して",
+        "psettings.enterversion": "バージョン名を入力",
+        "psettings.enterpackage": "パッケージ名を入力",
+        "errors.build": "エラーです。 整数を入力して",
+        "errors.package": "エラーです。 有効なパッケージ名を入力してください",
+        "errors.name": "エラーです。 名前はすでに取られています",
+        "errors.filter": "エラーです。 空の名前は使用できません",
+        "errors.min8sym": "Error, at least 8 characters are required",
+        "errors.max32sym": "Error, maximum 32 characters allowed",
+        "build.start": "APK のビルドが開始されました。お待ちください",
+        "build.start.aab": "AAB build started, please wait",
+        "export.start": "輸出を開始しました。 お待ちください",
+        "import.error": "インポートエラー＃",
+        "game.debug": "プログラムの　lua　コードがクリップボードに保存されました",
+        "game.isbug": "シミュレーションの実行に失敗しまし"
+    },
+    "blocks": {
+        "blocks.create.var": "変数を作成する",
+        "blocks.create.var.noob": "価値を作成する",
+        "blocks.create.table": "テーブルを作成する",
+        "blocks.create.fun": "関数を作成する",
+        "blocks.create.fun.noob": "アクシオンを作成する",
+        "blocks.create.objects": "オブジェクト",
+        "blocks.create.filters": "フィルター",
+        "blocks.create.groups": "グループ",
+        "blocks.create.tags": "タグ",
+        "blocks.create.transition": "トランジション",
+        "blocks.create.particle": "粒子た",
+        "blocks.create.block": "作る",
+        "blocks.create.color": "色",
+        "blocks.create.copy": "コピー",
+        "blocks.create.block.save.lua": "Lua コードとして保存",
+        "blocks.create.block.save.sandbox": "サンドボックスに保存",
+        "blocks.create.block.save.lua.title": "lua コードをインポートするオプションを選択します",
+        "blocks.select.dynamic": "動的",
+        "blocks.select.static": "静的",
+        "blocks.select.forward": "線形",
+        "blocks.select.bounce": "逆関数",
+        "blocks.select.inputDefault": "標準",
+        "blocks.select.inputNumber": "番号",
+        "blocks.select.inputDecimal": "10 進数",
+        "blocks.select.inputPhone": "電話番号",
+        "blocks.select.inputUrl": "リンク",
+        "blocks.select.inputEmail": "Eメール",
+        "blocks.select.inputNoEmoji": "絵文字なし",
+        "blocks.select.alignLeft": "左から",
+        "blocks.select.alignRight": "右から",
+        "blocks.select.alignCenter": "途中で",
+        "blocks.select.backgroundTrue": "を残す",
+        "blocks.select.backgroundFalse": "片付ける",
+        "blocks.select.ruleTrue": "承認済み",
+        "blocks.select.ruleFalse": "禁断",
+        "blocks.select.switchRadio": "ラジオ",
+        "blocks.select.switchCheckbox": "チェックボックス",
+        "blocks.select.switchToggle": "トグル",
+        "blocks.select.switchOn": "オン",
+        "blocks.select.switchOff": "オフ",
+        "blocks.select.adsInterstitial": "Banner",
+        "blocks.select.adsRewardedVideo": "RewardedVideo",
+        "blocks.select.adsVideo": "Video",
+        "blocks.select.pic": "ピクチャ",
+        "blocks.select.obj": "オブジェクト",
+        "blocks.select.text": "テキスト",
+        "blocks.select.group": "グループ",
+        "blocks.select.tag": "タグ",
+        "blocks.select.widget": "ウィジェット",
+        "blocks.select.snapshot": "Snapshot",
+        "blocks.select.progressDefault": "既定",
+        "blocks.select.progressDownload": "ダウンロード",
+        "blocks.select.progressUpload": "アップロード",
+        "blocks.select.redirectsTrue": "自動的",
+        "blocks.select.redirectsFalse": "手動で",
+        "blocks.select.canvasModeAppend": "Append",
+        "blocks.select.canvasModeDiscard": "Discard",
+        "blocks.select.snapshotGroup": "Group",
+        "blocks.select.snapshotCanvas": "Canvas",
+        "blocks.color.red": "赤色",
+        "blocks.color.green": "緑色",
+        "blocks.color.blue": "青い色",
+        "blocks.color.hex": "16 進数の色を入力します",
+        "blocks.sure?": "本気ですか？",
+        "blocks.delete.yes": "はい、削除します",
+        "blocks.delete.no": "いいえ、削除しないで",
+        "blocks.entertext": "テキストを入力",
+        "blocks.everyone": "すべてのレンガ",
+        "blocks.custom": "あなた自身のレンガ",
+        "blocks.none": "空",
+        "blocks.not.exist": "レンガは存在しません",
+        "blocks.type.noobmode": "このカテゴリへのアクセスはシンプルモードでは閉じられています",
+        "blocks.default": "レンガ名",
+        "blocks.": "レンガ名",
+        "blocks.params": "パラメータ",
+        "blocks.params.add": "パラメータを追加",
+        "blocks.params.remove": "パラメータを削除",
+        "blocks..params": {}
+    },
+    "events": {
+        "blocks.events": "イベント",
+        "blocks.onStart": "開始時",
+        "blocks.onStart.params": [
+            "ノート："
+        ],
+        "blocks.onFun": "関数を作成する",
+        "blocks.onFun.params": [
+            "関数名："
+        ],
+        "blocks.onFunParams": "パラメーターを使用して関数を作成",
+        "blocks.onFunParams.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onCondition": "条件",
+        "blocks.onCondition.params": [
+            "調子："
+        ],
+        "blocks.onTouchBegan": "物に指が触れた瞬間",
+        "blocks.onTouchBegan.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onTouchEnded": "指がオブジェクトを離す",
+        "blocks.onTouchEnded.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onTouchMoved": "オブジェクト上で指が動いている間",
+        "blocks.onTouchMoved.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onTouchDisplayBegan": "指が画面に触れたとき",
+        "blocks.onTouchDisplayBegan.params": [
+            "テーブル名："
+        ],
+        "blocks.onTouchDisplayEnded": "画面から指を離したとき",
+        "blocks.onTouchDisplayEnded.params": [
+            "テーブル名："
+        ],
+        "blocks.onTouchDisplayMoved": "指が画面上を移動している間",
+        "blocks.onTouchDisplayMoved.params": [
+            "テーブル名："
+        ],
+        "blocks.onFirebase": "Firebase　からの応答を取得する",
+        "blocks.onFirebase.params": [
+            "関数名：",
+            "応答："
+        ],
+        "blocks.onBackPress": "「戻る」ボタンを押したとき",
+        "blocks.onSuspend": "アプリケーションが画面から最小化されたとき",
+        "blocks.onResume": "アプリが画面に戻ったとき",
+        "blocks.onLocalCollisionBegan": "ローカルコリジョンの始まり",
+        "blocks.onLocalCollisionBegan.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onLocalCollisionEnded": "ローカルコリジョンの終わり",
+        "blocks.onLocalCollisionEnded.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onLocalPreCollision": "ローカルコリジョンの前",
+        "blocks.onLocalPreCollision.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onLocalPostCollision": "ローカルコリジョンの突後",
+        "blocks.onLocalPostCollision.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onGlobalCollisionBegan": "グローバルコリジョンの始まり",
+        "blocks.onGlobalCollisionBegan.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onGlobalCollisionEnded": "グローバルコリジョンの終わり",
+        "blocks.onGlobalCollisionEnded.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onGlobalPreCollision": "グローバルコリジョンの前",
+        "blocks.onGlobalPreCollision.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onGlobalPostCollision": "グローバルコリジョンの突後",
+        "blocks.onGlobalPostCollision.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onWebViewCallback": "WebView が変更されたとき",
+        "blocks.onWebViewCallback.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onSwitchCallback": "スイッチのイベントが始まりました",
+        "blocks.onSwitchCallback.params": [
+            "Function 名：",
+            "Variable 名："
+        ],
+        "blocks.onSliderMoved": "スライダーの移動中",
+        "blocks.onSliderMoved.params": [
+            "関数名：",
+            "変数名："
+        ],
+        "blocks.onFieldBegan": "テキストフィールド編集開始時",
+        "blocks.onFieldBegan.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onFieldEditing": "ユーザーがテキストフィールドに入力している間",
+        "blocks.onFieldEditing.params": [
+            "関数名：",
+            "テーブル名："
+        ],
+        "blocks.onFieldEnded": "テキストフィールドの編集後",
+        "blocks.onFieldEnded.params": [
+            "関数名：",
+            "テーブル名："
+        ]
+    },
+    "vars": {
+        "blocks.vars": "データ\n&テキスト",
+        "blocks.setVar": "変数の値を設定する",
+        "blocks.setVar.params": [
+            "変数名：",
+            "値："
+        ],
+        "blocks.updVar": "変数に値を追加する",
+        "blocks.updVar.params": [
+            "変数名：",
+            "値："
+        ],
+        "blocks.setObjVar": "オブジェクト変数の設定する",
+        "blocks.setObjVar.params": [
+            "キー（K）：",
+            "オブジェクト名：",
+            "値："
+        ],
+        "blocks.addTable": "テーブルに値を設定",
+        "blocks.addTable.params": [
+            "キー（K）：",
+            "テーブル名：",
+            "値："
+        ],
+        "blocks.insertTable": "配列に値を挿入する",
+        "blocks.insertTable.params": [
+            "キー（N）：",
+            "テーブル名：",
+            "値："
+        ],
+        "blocks.removeTable": "配列から値を削除",
+        "blocks.removeTable.params": [
+            "テーブル名：",
+            "キー（N）："
+        ],
+        "blocks.resetTable": "テーブルを上書きする",
+        "blocks.resetTable.params": [
+            "テーブル名：",
+            "JSON　コード："
+        ],
+        "blocks.saveValue": "値を保存",
+        "blocks.saveValue.params": [
+            "キー（\"K\"）：",
+            "値："
+        ],
+        "blocks.setRandomSeed": "乱数のシードを設定",
+        "blocks.setRandomSeed.params": [
+            "シード："
+        ],
+        "blocks.newText": "テキストを作成する",
+        "blocks.newText.params": [
+            "テキスト名：",
+            "テキスト：",
+            "フォント：",
+            "サイズ：",
+            "色：",
+            "不透明度（0-100）：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newText2": "幅と高さのあるテキストを作成する",
+        "blocks.newText2.params": [
+            "テキスト名：",
+            "テキスト：",
+            "フォント：",
+            "サイズ：",
+            "色：",
+            "テキストの配置：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setText": "テキストを設定",
+        "blocks.setText.params": [
+            "テキスト名：",
+            "テキスト："
+        ],
+        "blocks.setTextSize": "テキストのサイズの設定する",
+        "blocks.setTextSize.params": [
+            "テキスト名：",
+            "サイズ："
+        ],
+        "blocks.hideText": "テキストを非表示",
+        "blocks.hideText.params": [
+            "テキスト名："
+        ],
+        "blocks.showText": "テキストを表示",
+        "blocks.showText.params": [
+            "テキスト名："
+        ],
+        "blocks.removeText": "テキストを削除",
+        "blocks.removeText.params": [
+            "テキスト名："
+        ],
+        "blocks.setTextPos": "テキスト位置の設定する",
+        "blocks.setTextPos.params": [
+            "テキスト名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setTextPosX": "テキストの X 位置を設定する",
+        "blocks.setTextPosX.params": [
+            "テキスト名：",
+            "位置（X）："
+        ],
+        "blocks.setTextPosY": "テキストの Y 位置を設定する",
+        "blocks.setTextPosY.params": [
+            "テキスト名：",
+            "位置（Y）："
+        ],
+        "blocks.setTextRotation": "テキストの回転を設定する",
+        "blocks.setTextRotation.params": [
+            "テキスト名：",
+            "回転（0-360）："
+        ],
+        "blocks.setTextAlpha": "テキストのアルファを設定する",
+        "blocks.setTextAlpha.params": [
+            "テキスト名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.setTextColor": "テキストの色を設定する",
+        "blocks.setTextColor.params": [
+            "テキスト名：",
+            "色："
+        ],
+        "blocks.setTextRGB": "RGB テキストの色を設定する",
+        "blocks.setTextRGB.params": [
+            "テキスト名：",
+            "色（R）：",
+            "色（G）：",
+            "色（B）："
+        ],
+        "blocks.setTextHEX": "HEX テキストの色を設定する",
+        "blocks.setTextHEX.params": [
+            "テキスト名：",
+            "色（HEX）："
+        ],
+        "blocks.setTextAnchor": "テキストのアンカーポイントを設定",
+        "blocks.setTextAnchor.params": [
+            "テキスト名：",
+            "アンカー X（0-100）：",
+            "アンカー Y（0-100）："
+        ],
+        "blocks.updTextPosX": "テキストの X 位置を変更する",
+        "blocks.updTextPosX.params": [
+            "テキスト名：",
+            "位置（X）："
+        ],
+        "blocks.updTextPosY": "テキストの Y 位置を変更する",
+        "blocks.updTextPosY.params": [
+            "テキスト名：",
+            "位置（Y）："
+        ],
+        "blocks.updTextRotation": "テキストの回転を変更する",
+        "blocks.updTextRotation.params": [
+            "テキスト名：",
+            "回転（0-360）："
+        ],
+        "blocks.updTextAlpha": "テキストのアルファを変更する",
+        "blocks.updTextAlpha.params": [
+            "テキスト名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.frontText": "テキストのレイヤーを上に変更する",
+        "blocks.frontText.params": [
+            "テキスト名："
+        ],
+        "blocks.backText": "テキストのレイヤーを下に変更する",
+        "blocks.backText.params": [
+            "テキスト名："
+        ]
+    },
+    "objects": {
+        "blocks.objects": "オブジェクト\n&フィルター",
+        "blocks.newObject": "オブジェクトを作成する",
+        "blocks.newObject.params": [
+            "オブジェクト名：",
+            "スプライト名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newSprite": "スプライトのパーツからオブジェクトを作成する",
+        "blocks.newSprite.params": [
+            "オブジェクト名：",
+            "スプライト名：",
+            "フレーム幅：",
+            "フレームの高さ：",
+            "フレーム数：",
+            "アニメーション一覧：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newGif": "GIF スプライトからオブジェクトを作成する",
+        "blocks.newGif.params": [
+            "オブジェクト名：",
+            "スプライト名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setPos": "オブジェクトの位置を設定",
+        "blocks.setPos.params": [
+            "オブジェクト名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setPosX": "オブジェクトの X 位置の設定する",
+        "blocks.setPosX.params": [
+            "オブジェクト名：",
+            "位置（X）："
+        ],
+        "blocks.setPosY": "オブジェクトの Y 位置の設定する",
+        "blocks.setPosY.params": [
+            "オブジェクト名：",
+            "位置（Y）："
+        ],
+        "blocks.setSize": "オブジェクトのサイズの設定する",
+        "blocks.setSize.params": [
+            "オブジェクト名：",
+            "サイズ（%）："
+        ],
+        "blocks.setRotation": "オブジェクトの回転を設定する",
+        "blocks.setRotation.params": [
+            "オブジェクト名：",
+            "回転（0-360）："
+        ],
+        "blocks.setRotationTo": "回転をオブジェクト ２ に設定する",
+        "blocks.setRotationTo.params": [
+            "オブジェクト１名：",
+            "オブジェクト２名："
+        ],
+        "blocks.setAlpha": "オブジェクトのアルファを設定する",
+        "blocks.setAlpha.params": [
+            "オブジェクト名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.setWidth": "オブジェクトの幅を設定する",
+        "blocks.setWidth.params": [
+            "オブジェクト名：",
+            "幅："
+        ],
+        "blocks.setHeight": "オブジェクトの高さを設定",
+        "blocks.setHeight.params": [
+            "オブジェクト名：",
+            "身長："
+        ],
+        "blocks.setAnchor": "オブジェクトのアンカーポイントを設定",
+        "blocks.setAnchor.params": [
+            "オブジェクト名：",
+            "アンカー X（0-100）：",
+            "アンカー Y（0-100）："
+        ],
+        "blocks.updPosX": "オブジェクトの X 位置を変更する",
+        "blocks.updPosX.params": [
+            "オブジェクト名：",
+            "位置（X）："
+        ],
+        "blocks.updPosY": "オブジェクトの Y 位置を変更する",
+        "blocks.updPosY.params": [
+            "オブジェクト名：",
+            "位置（Y）："
+        ],
+        "blocks.updSize": "オブジェクトのサイズ変更",
+        "blocks.updSize.params": [
+            "オブジェクト名：",
+            "サイズ（%）："
+        ],
+        "blocks.updRotation": "オブジェクトの回転を変更する",
+        "blocks.updRotation.params": [
+            "オブジェクト名：",
+            "回転（0-360）："
+        ],
+        "blocks.updAlpha": "オブジェクトのアルファを変更する",
+        "blocks.updAlpha.params": [
+            "オブジェクト名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.updWidth": "オブジェクトの幅を変更する",
+        "blocks.updWidth.params": [
+            "オブジェクト名：",
+            "幅："
+        ],
+        "blocks.updHeight": "オブジェクトの高さを変更する",
+        "blocks.updHeight.params": [
+            "オブジェクト名：",
+            "身長："
+        ],
+        "blocks.hideObject": "オブジェクトを隠す",
+        "blocks.hideObject.params": [
+            "オブジェクト名："
+        ],
+        "blocks.showObject": "オブジェクトを表示",
+        "blocks.showObject.params": [
+            "オブジェクト名："
+        ],
+        "blocks.removeObject": "オブジェクトを削除",
+        "blocks.removeObject.params": [
+            "オブジェクト名："
+        ],
+        "blocks.frontObject": "オブジェクトのレイヤーを上に変更する",
+        "blocks.frontObject.params": [
+            "オブジェクト名："
+        ],
+        "blocks.backObject": "オブジェクトのレイヤーを下に変更する",
+        "blocks.backObject.params": [
+            "オブジェクト名："
+        ]
+    },
+    "control": {
+        "blocks.control": "コントロール",
+        "blocks.timerEnd": "タイマー終了",
+        "blocks.timer": "タイマー",
+        "blocks.timer.params": [
+            "時間（秒）：",
+            "繰り返し回数："
+        ],
+        "blocks.timerNameEnd": "タイマー終了",
+        "blocks.timerName": "名前付きタイマー",
+        "blocks.timerName.params": [
+            "タイマー名：",
+            "時間（秒）：",
+            "繰り返し回数："
+        ],
+        "blocks.timerPause": "タイマーを止める",
+        "blocks.timerPause.params": [
+            "タイマー名："
+        ],
+        "blocks.timerResume": "タイマーを再開",
+        "blocks.timerResume.params": [
+            "タイマー名："
+        ],
+        "blocks.timerCancel": "タイマーを無効にする",
+        "blocks.timerCancel.params": [
+            "タイマー名："
+        ],
+        "blocks.timerPauseAll": "すべてのタイマーを停止",
+        "blocks.timerResumeAll": "すべてのタイマーを再開する",
+        "blocks.timerCancelAll": "すべてのタイマーを無効にする",
+        "blocks.ifEnd": "条件構文の終わり",
+        "blocks.ifElse": "それ以外の場合、条件が true の場合",
+        "blocks.ifElse.params": [
+            "状態："
+        ],
+        "blocks.if": "条件が true の場合",
+        "blocks.if.params": [
+            "状態："
+        ],
+        "blocks.foreverEnd": "永遠の終わり",
+        "blocks.forever": "永遠に繰り返す",
+        "blocks.repeatEnd": "担当者の終わり",
+        "blocks.repeat": "N回繰り返す",
+        "blocks.repeat.params": [
+            "繰り返し回数："
+        ],
+        "blocks.forEnd": "サイクルの終わり",
+        "blocks.for": "サイクル",
+        "blocks.for.params": [
+            "から：",
+            "まで：",
+            "変数名：",
+            "ステップ："
+        ],
+        "blocks.whileEnd": "繰り返すの終わり",
+        "blocks.while": "条件が真になるまで繰り返す",
+        "blocks.while.params": [
+            "状態："
+        ],
+        "blocks.foreachEnd": "サイクルの終わり",
+        "blocks.foreach": "すべてのテーブル要素をバイパス",
+        "blocks.foreach.params": [
+            "テブル名：",
+            "Element:",
+            "Key:"
+        ],
+        "blocks.break": "停止サイクル",
+        "blocks.requestFun": "関数を呼び出す",
+        "blocks.requestFun.params": [
+            "関数名："
+        ],
+        "blocks.requestFunParams": "パラメータを指定して関数を呼び出する",
+        "blocks.requestFunParams.params": [
+            "関数名：",
+            "オプション："
+        ],
+        "blocks.setListener": "タッチ機能を割り当て",
+        "blocks.setListener.params": [
+            "オブジェクト名：",
+            "関数名："
+        ],
+        "blocks.setListener3": "すべてのタッチ機能を設定",
+        "blocks.setListener3.params": [
+            "オブジェクト名：",
+            "関数名：",
+            "関数名：",
+            "関数名："
+        ],
+        "blocks.setLocalCollision": "ローカルコリジョンの機能の割り当てする",
+        "blocks.setLocalCollision.params": [
+            "オブジェクト名：",
+            "関数名："
+        ],
+        "blocks.setLocalPreCollision": "ローカル衝突前の機能の割り当てする",
+        "blocks.setLocalPreCollision.params": [
+            "オブジェクト名：",
+            "関数名："
+        ],
+        "blocks.setLocalPostCollision": "ローカルコリジョン後に関数を割り当てる",
+        "blocks.setLocalPostCollision.params": [
+            "オブジェクト名：",
+            "関数名："
+        ],
+        "blocks.setGlobalCollision": "グローバルコリジョンの機能の割り当てする",
+        "blocks.setGlobalCollision.params": [
+            "関数名："
+        ],
+        "blocks.setGlobalPreCollision": "グローバル衝突前の機能の割り当てする",
+        "blocks.setGlobalPreCollision.params": [
+            "関数名："
+        ],
+        "blocks.setGlobalPostCollision": "グローバルコリジョン後に関数を割り当てる",
+        "blocks.setGlobalPostCollision.params": [
+            "関数名："
+        ],
+        "blocks.setFocus": "タッチフォーカスの設定",
+        "blocks.setFocus.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setFocusMultitouch": "マルチタッチ フォーカスの設定",
+        "blocks.setFocusMultitouch.params": [
+            "オブジェクト名：",
+            "一意のインデックス："
+        ],
+        "blocks.activateMultitouch": "マルチタッチを有効にする",
+        "blocks.deactivateMultitouch": "マルチタッチを無効にする",
+        "blocks.returnValue": "値を戻する",
+        "blocks.returnValue.params": [
+            "値："
+        ],
+        "blocks.requestApi": "API メソッドを呼び出す",
+        "blocks.requestApi.params": [
+            "Luaコード："
+        ],
+        "blocks.requestApiRes": "リソースから API メソッドをリクエストする",
+        "blocks.requestApiRes.params": [
+            "リソース名："
+        ],
+        "blocks.toastShort": "短いポップアップ通知",
+        "blocks.toastShort.params": [
+            "テキスト"
+        ],
+        "blocks.toastLong": "長いポップアップ通知",
+        "blocks.toastLong.params": [
+            "テキスト"
+        ],
+        "blocks.comment": "コメント（自分用）",
+        "blocks.comment.params": [
+            "ノート："
+        ],
+        "blocks.requestExit": "プログラムを閉じる",
+        "blocks.setBackgroundColor": "背景色を設定する",
+        "blocks.setBackgroundColor.params": [
+            "色："
+        ],
+        "blocks.setBackgroundRGB": "RGB背景色を設定する",
+        "blocks.setBackgroundRGB.params": [
+            "色（Ｒ）：",
+            "色（Ｇ）：",
+            "色（Ｂ）："
+        ],
+        "blocks.setBackgroundHEX": "HEX背景色を設定する",
+        "blocks.setBackgroundHEX.params": [
+            "色（HEX）："
+        ],
+        "blocks.newLevel": "Load level",
+        "blocks.newLevel.params": [
+            "Level name:"
+        ],
+        "blocks.removeLevel": "Unload level",
+        "blocks.removeLevel.params": [
+            "Level name:"
+        ],
+        "blocks.showLevel": "Show level",
+        "blocks.showLevel.params": [
+            "Level name:"
+        ],
+        "blocks.hideLevel": "Hide level",
+        "blocks.hideLevel.params": [
+            "Level name:"
+        ],
+        "blocks.setPortraitOrientation": "縦向きの設定する",
+        "blocks.setPortraitOrientation.params": [
+            "関数名："
+        ],
+        "blocks.setLandscapeOrientation": "横向きに設定する",
+        "blocks.setLandscapeOrientation.params": [
+            "関数名："
+        ],
+        "blocks.turnOnAccelerometer": "加速度計機能を設定する",
+        "blocks.turnOnAccelerometer.params": [
+            "関数名："
+        ],
+        "blocks.setAccelerometerFrequency": "加速度計周波数を設定する",
+        "blocks.setAccelerometerFrequency.params": [
+            "周波数（HZ）："
+        ],
+        "blocks.scheduleNotification": "通知を作成する",
+        "blocks.scheduleNotification.params": [
+            "テキスト：",
+            "時間（秒："
+        ],
+        "blocks.cancelNotification": "Cancel all notifications",
+        "blocks.readFileRes": "Read file from resources",
+        "blocks.readFileRes.params": [
+            "Variable name:",
+            "Resource name:"
+        ],
+        "blocks.pasteboardCopy": "Copy to Clipboard",
+        "blocks.pasteboardCopy.params": [
+            "Текст:"
+        ],
+        "blocks.pasteboardPaste": "Read from Clipboard",
+        "blocks.pasteboardPaste.params": [
+            "Variable name:"
+        ],
+        "blocks.pasteboardClear": "Clear the Clipboard"
+    },
+    "shapes": {
+        "blocks.shapes": "テクスチャ\n形",
+        "blocks.setSprite": "オブジェクト のテクスチャを設定する",
+        "blocks.setSprite.params": [
+            "オブジェクト名：",
+            "スプライト名："
+        ],
+        "blocks.newRect": "色付きの長方形を作成する",
+        "blocks.newRect.params": [
+            "オブジェクト名：",
+            "色：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newRoundedRect": "角が丸い長方形を作成する",
+        "blocks.newRoundedRect.params": [
+            "オブジェクト名：",
+            "角の丸みの度合い：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newCircle": "サークルを作成する",
+        "blocks.newCircle.params": [
+            "オブジェクト名：",
+            "半径：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newPolygon": "ポリゴンを作成する",
+        "blocks.newPolygon.params": [
+            "オブジェクト名：",
+            "アングルテーブル：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newLine": "ラインを作成する",
+        "blocks.newLine.params": [
+            "オブジェクト名：",
+            "色：",
+            "位置１（X）：",
+            "位置１（Y）：",
+            "位置２（X）：",
+            "位置２（Y）："
+        ],
+        "blocks.appendLine": "ポイントをラインに追加する",
+        "blocks.appendLine.params": [
+            "オブジェクト名：",
+            "座標テーブル："
+        ],
+        "blocks.newBitmap": "新しいビットマップ テクスチャを作成する",
+        "blocks.newBitmap.params": [
+            "ラスタ テクスチャ名：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.setPixel": "ピクセルの色を設定する",
+        "blocks.setPixel.params": [
+            "ラスタ テクスチャ名：",
+            "位置（X）：",
+            "位置（Y）：",
+            "色："
+        ],
+        "blocks.setPixelRGB": "RGB ピクセルの色を設定する",
+        "blocks.setPixelRGB.params": [
+            "ラスタ テクスチャ名：",
+            "位置（X）：",
+            "位置（Y）：",
+            "色（R）：",
+            "色（G）：",
+            "色（B）："
+        ],
+        "blocks.removePixel": "ピクセルの色を削除",
+        "blocks.removePixel.params": [
+            "ラスタ テクスチャ名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.updBitmap": "ビットマップ テクスチャを更新する",
+        "blocks.updBitmap.params": [
+            "ラスタ テクスチャ名："
+        ],
+        "blocks.setBitmapSprite": "ビットマップ オブジェクト テクスチャを設定する",
+        "blocks.setBitmapSprite.params": [
+            "オブジェクト名：",
+            "ラスタ テクスチャ名："
+        ],
+        "blocks.getBitmapSprite": "スプライトのビットマップ テクスチャを取得する",
+        "blocks.getBitmapSprite.params": [
+            "スプライト名：",
+            "ラスタ テクスチャ名："
+        ],
+        "blocks.setColor": "オブジェクトの色を設定する",
+        "blocks.setColor.params": [
+            "オブジェクト名：",
+            "色："
+        ],
+        "blocks.setRGB": "RGBオブジェクトの色を設定する",
+        "blocks.setRGB.params": [
+            "オブジェクト名：",
+            "色（R）：",
+            "色（G）：",
+            "色（B）："
+        ],
+        "blocks.setHEX": "HEXオブジェクトの色を設定する",
+        "blocks.setHEX.params": [
+            "オブジェクト名：",
+            "色（HEX）："
+        ],
+        "blocks.setStrokeWidth": "ストロークの幅を設定する",
+        "blocks.setStrokeWidth.params": [
+            "オブジェクト名：",
+            "幅："
+        ],
+        "blocks.updStrokeWidth": "ストロークの幅を変更する",
+        "blocks.updStrokeWidth.params": [
+            "オブジェクト名：",
+            "幅："
+        ],
+        "blocks.setStrokeColor": "ストローク カラーを設定する",
+        "blocks.setStrokeColor.params": [
+            "オブジェクト名：",
+            "色："
+        ],
+        "blocks.setStrokeRGB": "RGB ストローク カラーを設定する",
+        "blocks.setStrokeRGB.params": [
+            "オブジェクト名：",
+            "色（R）：",
+            "色（G）：",
+            "色（B）："
+        ],
+        "blocks.setGradientPaint": "グラデーションカラーを適用する",
+        "blocks.setGradientPaint.params": [
+            "オブジェクト名：",
+            "色１：",
+            "色２：",
+            "アルファ1（0-100）：",
+            "アルファ2（0-100）："
+        ]
+    },
+    "objects2": {
+        "blocks.objects2": "アニメーション\n&マスク",
+        "blocks.setScale": "オブジェクトのスケールを設定",
+        "blocks.setScale.params": [
+            "オブジェクト名：",
+            "規模（%）："
+        ],
+        "blocks.setScaleX": "オブジェクトの X スケールを設定する",
+        "blocks.setScaleX.params": [
+            "オブジェクト名：",
+            "規模（X）："
+        ],
+        "blocks.setScaleY": "オブジェクトの Y スケールを設定する",
+        "blocks.setScaleY.params": [
+            "オブジェクト名：",
+            "規模（Y）："
+        ],
+        "blocks.newSeqAnimation": "シーケンシャル アニメーションを作成する",
+        "blocks.newSeqAnimation.params": [
+            "アニメーション名：",
+            "アニメーションの種類：",
+            "開始フレーム：",
+            "フレーム数：",
+            "繰り返し回数：",
+            "時間（秒）："
+        ],
+        "blocks.newParAnimation": "パラレル アニメーションを作成する",
+        "blocks.newParAnimation.params": [
+            "フレームテーブル：",
+            "アニメーション名：",
+            "アニメーションの種類：",
+            "繰り返し回数：",
+            "時間（秒）："
+        ],
+        "blocks.playAnimation": "アニメーションを開始する",
+        "blocks.playAnimation.params": [
+            "オブジェクト名：",
+            "アニメーション名："
+        ],
+        "blocks.pauseAnimation": "アニメーションを停止する",
+        "blocks.pauseAnimation.params": [
+            "オブジェクト名：",
+            "アニメーション名："
+        ],
+        "blocks.setFrame": "オブジェクトのフレームを設定する",
+        "blocks.setFrame.params": [
+            "オブジェクト名：",
+            "フレーム："
+        ],
+        "blocks.newMask": "マスクを作成する",
+        "blocks.newMask.params": [
+            "マスク名：",
+            "スプライト名："
+        ],
+        "blocks.addMaskToObject": "オブジェクトにマスクを追加する",
+        "blocks.addMaskToObject.params": [
+            "オブジェクト名：",
+            "マスク名："
+        ],
+        "blocks.setMaskPos": "マスク位置の設定",
+        "blocks.setMaskPos.params": [
+            "オブジェクト名：",
+            "位置（Ｘ）：",
+            "位置（Ｙ）："
+        ],
+        "blocks.setMaskScale": "マスクスケールを設定する",
+        "blocks.setMaskScale.params": [
+            "オブジェクト名：",
+            "マスクスケール（％）："
+        ],
+        "blocks.setMaskScaleX": "マスクスケール X を設定する",
+        "blocks.setMaskScaleX.params": [
+            "オブジェクト名：",
+            "マスクスケール（％）："
+        ],
+        "blocks.setMaskScaleY": "マスクスケール Y を設定する",
+        "blocks.setMaskScaleY.params": [
+            "オブジェクト名：",
+            "マスクスケール（％）："
+        ],
+        "blocks.setMaskHitTrue": "クリックできないマスクを設定する",
+        "blocks.setMaskHitTrue.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setMaskHitFalse": "マスクのクリッカビリティを設定する",
+        "blocks.setMaskHitFalse.params": [
+            "オブジェクト名："
+        ]
+    },
+    "groups": {
+        "blocks.groups": "グループ\n& テグ",
+        "blocks.newGroup": "グループを作成する",
+        "blocks.newGroup.params": [
+            "グループ名："
+        ],
+        "blocks.removeGroup": "グループを削除する",
+        "blocks.removeGroup.params": [
+            "グループ名："
+        ],
+        "blocks.showGroup": "グループを表示する",
+        "blocks.showGroup.params": [
+            "グループ名："
+        ],
+        "blocks.hideGroup": "グループを非表示する",
+        "blocks.hideGroup.params": [
+            "グループ名："
+        ],
+        "blocks.addGroupObject": "グループにオブジェクトを追加する",
+        "blocks.addGroupObject.params": [
+            "グループ名：",
+            "オブジェクト名："
+        ],
+        "blocks.addGroupText": "グループにテキストを追加する",
+        "blocks.addGroupText.params": [
+            "グループ名：",
+            "テキスト名："
+        ],
+        "blocks.addGroupWidget": "グループにウィジェットを追加する",
+        "blocks.addGroupWidget.params": [
+            "グループ名：",
+            "ウィジェット名："
+        ],
+        "blocks.addGroupMedia": "グループにメディアを追加する",
+        "blocks.addGroupMedia.params": [
+            "グループ名：",
+            "メディア名："
+        ],
+        "blocks.addGroupTag": "グループにタグを追加する",
+        "blocks.addGroupTag.params": [
+            "グループ名：",
+            "タグ名："
+        ],
+        "blocks.addGroupGroup": "グループ２をグループ１に追加する",
+        "blocks.addGroupGroup.params": [
+            "グループ１名：",
+            "グループ２名："
+        ],
+        "blocks.setGroupPos": "グループ位置を設定する",
+        "blocks.setGroupPos.params": [
+            "グループ名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setGroupSize": "グループサイズを設定する",
+        "blocks.setGroupSize.params": [
+            "グループ名：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.setGroupRotation": "グループの回転を設定する",
+        "blocks.setGroupRotation.params": [
+            "グループ名：",
+            "回転（0-360）："
+        ],
+        "blocks.setGroupAlpha": "グループアルファを設定する",
+        "blocks.setGroupAlpha.params": [
+            "グループ名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.updGroupPosX": "グループ X の位置を変更する",
+        "blocks.updGroupPosX.params": [
+            "グループ名：",
+            "位置（X）："
+        ],
+        "blocks.updGroupPosY": "グループ Y の位置を変更する",
+        "blocks.updGroupPosY.params": [
+            "グループ名：",
+            "位置（Y）："
+        ],
+        "blocks.updGroupWidth": "グループ幅を変更する",
+        "blocks.updGroupWidth.params": [
+            "グループ名：",
+            "幅："
+        ],
+        "blocks.updGroupHeight": "グループの高さを変更する",
+        "blocks.updGroupHeight.params": [
+            "グループ名：",
+            "身長："
+        ],
+        "blocks.updGroupRotation": "グループの回転を変更する",
+        "blocks.updGroupRotation.params": [
+            "グループ名：",
+            "回転（0-360）："
+        ],
+        "blocks.updGroupAlpha": "グループアルファを変更する",
+        "blocks.updGroupAlpha.params": [
+            "グループ名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.frontGroup": "グループレイヤーを高くする",
+        "blocks.frontGroup.params": [
+            "グループ名："
+        ],
+        "blocks.backGroup": "グループレイヤーを下に移動する",
+        "blocks.backGroup.params": [
+            "グループ名："
+        ],
+        "blocks.newTag": "テグを作成する",
+        "blocks.newTag.params": [
+            "タグ名："
+        ],
+        "blocks.removeTag": "タグを削除する",
+        "blocks.removeTag.params": [
+            "タグ名："
+        ],
+        "blocks.showTag": "タグを表示する",
+        "blocks.showTag.params": [
+            "タグ名："
+        ],
+        "blocks.hideTag": "タグを非表示する",
+        "blocks.hideTag.params": [
+            "タグ名："
+        ],
+        "blocks.addTagObject": "オブジェクトにタグを付ける",
+        "blocks.addTagObject.params": [
+            "タグ名：",
+            "オブジェクト名："
+        ],
+        "blocks.addTagText": "テキストにタグを付ける",
+        "blocks.addTagText.params": [
+            "タグ名：",
+            "テキスト名："
+        ],
+        "blocks.addTagWidget": "ウィジェットにタグを付ける",
+        "blocks.addTagWidget.params": [
+            "タグ名：",
+            "ウィジェット名："
+        ],
+        "blocks.addTagMedia": "メディアにタグを付ける",
+        "blocks.addTagMedia.params": [
+            "タグ名：",
+            "メディア名："
+        ],
+        "blocks.addTagGroup": "タグにタグを付ける",
+        "blocks.addTagGroup.params": [
+            "タグ名：",
+            "グループ名："
+        ],
+        "blocks.addTagTag": "タグ１をタグ２にリンクする",
+        "blocks.addTagTag.params": [
+            "タグ１名：",
+            "タグ２名："
+        ],
+        "blocks.setTagPos": "タグの位置を設定する",
+        "blocks.setTagPos.params": [
+            "タグ名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setTagSize": "タグのサイズを設定する",
+        "blocks.setTagSize.params": [
+            "タグ名：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.setTagRotation": "タグの回転を設定する",
+        "blocks.setTagRotation.params": [
+            "タグ名：",
+            "回転（0-360）："
+        ],
+        "blocks.setTagAlpha": "タグのアルファを設定する",
+        "blocks.setTagAlpha.params": [
+            "タグ名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.updTagPosX": "Xタグの位置変を更する",
+        "blocks.updTagPosX.params": [
+            "タグ名：",
+            "位置（X）："
+        ],
+        "blocks.updTagPosY": "Yタグの位置変を更する",
+        "blocks.updTagPosY.params": [
+            "タグ名：",
+            "位置（Y）："
+        ],
+        "blocks.updTagWidth": "タグの幅を変更する",
+        "blocks.updTagWidth.params": [
+            "タグ名：",
+            "幅："
+        ],
+        "blocks.updTagHeight": "タグの高さを変更する",
+        "blocks.updTagHeight.params": [
+            "タグ名：",
+            "身長："
+        ],
+        "blocks.updTagRotation": "タグの回転を変更する",
+        "blocks.updTagRotation.params": [
+            "タグ名：",
+            "回転（0-360）："
+        ],
+        "blocks.updTagAlpha": "タグのアルファを変更する",
+        "blocks.updTagAlpha.params": [
+            "タグ名：",
+            "不透明度（0-100）："
+        ],
+        "blocks.frontTag": "以のタグですべてのオブジェクトのレイヤーを上げます",
+        "blocks.frontTag.params": [
+            "タグ名："
+        ],
+        "blocks.backTag": "以のタグですべてのオブジェクトのレイヤーを下げます",
+        "blocks.backTag.params": [
+            "タグ名："
+        ]
+    },
+    "physics": {
+        "blocks.physics": "物理",
+        "blocks.setBody": "オブジェクトの物理的なボディを設定する",
+        "blocks.setBody.params": [
+            "オブジェクト名：",
+            "タイプ：",
+            "密度：",
+            "弾性：",
+            "摩擦：",
+            "重力：",
+            "コリジョンフィルター：",
+            "衝突表："
+        ],
+        "blocks.removeBody": "オブジェクトの物理的なボディを削除する",
+        "blocks.removeBody.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setBodyType": "オブジェクトの タイプを設定",
+        "blocks.setBodyType.params": [
+            "オブジェクト名：",
+            "タイプ："
+        ],
+        "blocks.setHitboxBox": "長方形のヒットボックスを設定する",
+        "blocks.setHitboxBox.params": [
+            "オブジェクト名：",
+            "回転（0-360）：",
+            "幅：",
+            "身長：",
+            "バイアス（X）：",
+            "バイアス（Y）："
+        ],
+        "blocks.setHitboxCircle": "ラウンドヒットボックスを設定する",
+        "blocks.setHitboxCircle.params": [
+            "オブジェクト名：",
+            "半径："
+        ],
+        "blocks.setHitboxMesh": "メッシュヒットボックスの設定（スプライト単位）",
+        "blocks.setHitboxMesh.params": [
+            "オブジェクト名：",
+            "テクセルの粗さ："
+        ],
+        "blocks.setHitboxPolygon": "ポリゴンヒットボックスを設定する",
+        "blocks.setHitboxPolygon.params": [
+            "オブジェクト名：",
+            "ヒットボックス："
+        ],
+        "blocks.updHitbox": "オブジェクトの当たり判定を更新する",
+        "blocks.updHitbox.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setGravity": "オブジェクトの重力を設定する",
+        "blocks.setGravity.params": [
+            "オブジェクト名：",
+            "重力："
+        ],
+        "blocks.setLinearVelocity": "ジャンプをする",
+        "blocks.setLinearVelocity.params": [
+            "オブジェクト名：",
+            "速度（X）：",
+            "速度（Y）："
+        ],
+        "blocks.setLinearVelocityX": "Xジャンプをする",
+        "blocks.setLinearVelocityX.params": [
+            "オブジェクト名：",
+            "速度（X）："
+        ],
+        "blocks.setLinearVelocityY": "Yジャンプをする",
+        "blocks.setLinearVelocityY.params": [
+            "オブジェクト名：",
+            "速度（Y）："
+        ],
+        "blocks.setSensor": "センサーモード追加する",
+        "blocks.setSensor.params": [
+            "オブジェクト名："
+        ],
+        "blocks.removeSensor": "センサーモード削除する",
+        "blocks.removeSensor.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setFixedRotation": "身体の回転をブロックする",
+        "blocks.setFixedRotation.params": [
+            "オブジェクト名："
+        ],
+        "blocks.removeFixedRotation": "身体の回転を有効にする",
+        "blocks.removeFixedRotation.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setBullet": "弾丸プロパティを追加",
+        "blocks.setBullet.params": [
+            "オブジェクト名："
+        ],
+        "blocks.removeBullet": "弾丸のプロパティを削除する",
+        "blocks.removeBullet.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setWorldGravity": "一般的な重力を設定する",
+        "blocks.setWorldGravity.params": [
+            "重力（X）：",
+            "重力（Y）："
+        ],
+        "blocks.setAwake": "肉体を目覚めさせる",
+        "blocks.setAwake.params": [
+            "オブジェクト名："
+        ],
+        "blocks.setBounce": "バウンス係数を設定する",
+        "blocks.setBounce.params": [
+            "身体的接触：",
+            "弾性："
+        ],
+        "blocks.setFriction": "摩擦係数を設定する",
+        "blocks.setFriction.params": [
+            "身体的接触：",
+            "摩擦："
+        ],
+        "blocks.setTangentSpeed": "接線速度を設定する",
+        "blocks.setTangentSpeed.params": [
+            "身体的接触：",
+            "スピード："
+        ],
+        "blocks.disableCollision": "物理的な衝突を無効にする",
+        "blocks.disableCollision.params": [
+            "身体的接触："
+        ],
+        "blocks.setAngularVelocity": "角速度を設定する",
+        "blocks.setAngularVelocity.params": [
+            "オブジェクト名：",
+            "スピード："
+        ],
+        "blocks.setAngularDamping": "ボディの角度減衰を設定する",
+        "blocks.setAngularDamping.params": [
+            "オブジェクト名：",
+            "減衰："
+        ],
+        "blocks.setLinearDamping": "リニア・ボディ・ディケイを設定する",
+        "blocks.setLinearDamping.params": [
+            "オブジェクト名：",
+            "減衰："
+        ],
+        "blocks.setForce": "力を加える",
+        "blocks.setForce.params": [
+            "オブジェクト名：",
+            "力（X）：",
+            "力（Y）：",
+            "バイアス（X）：",
+            "バイアス（Y）："
+        ],
+        "blocks.setTorque": "トルクをかける",
+        "blocks.setTorque.params": [
+            "オブジェクト名：",
+            "力："
+        ],
+        "blocks.setLinearImpulse": "線形運動量を適用する",
+        "blocks.setLinearImpulse.params": [
+            "オブジェクト名：",
+            "力（X）：",
+            "力（Y）：",
+            "バイアス（X）：",
+            "バイアス（Y）："
+        ],
+        "blocks.setAngularImpulse": "角運動量を適用する",
+        "blocks.setAngularImpulse.params": [
+            "オブジェクト名：",
+            "力："
+        ],
+        "blocks.setHitboxVisible": "すべてのヒットボックスを表示する",
+        "blocks.removeHitboxVisible": "すべての当たり判定を隠する",
+        "blocks.startPhysics": "物理エンジンを有効にする",
+        "blocks.pausePhysics": "物理エンジンを一時停止する",
+        "blocks.stopPhysics": "物理エンジンを無効にする",
+        "blocks.setTextBody": "物理的なボディをテキストに設定",
+        "blocks.setTextBody.params": [
+            "テキスト名：",
+            "タイプ：",
+            "密度：",
+            "弾性：",
+            "摩擦：",
+            "重力："
+        ]
+    },
+    "widgets": {
+        "blocks.widgets": "ウィジェット",
+        "blocks.newWebView": "WebViewを作成する",
+        "blocks.newWebView.params": [
+            "ウィジェット名：",
+            "リンク：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.newHSlider": "水平スライダーを作成する",
+        "blocks.newHSlider.params": [
+            "ウィジェット名：",
+            "幅：",
+            "リスナーを変更：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newVSlider": "垂直スライダーを作成する",
+        "blocks.newVSlider.params": [
+            "ウィジェット名：",
+            "身長：",
+            "リスナーを変更：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newField": "1 行のテキスト フィールドを作成する",
+        "blocks.newField.params": [
+            "ウィジェット名：",
+            "テキスト",
+            "入力方式：",
+            "テキストの色：",
+            "サイズ：",
+            "入力方式：",
+            "アライメント：",
+            "フォント：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newBox": "複数行のテキスト フィールドを作成する",
+        "blocks.newBox.params": [
+            "ウィジェット名：",
+            "テキスト",
+            "テキストの色：",
+            "サイズ：",
+            "入力方式：",
+            "アライメント：",
+            "フォント：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setWidgetPos": "ウィジェットの位置を設定する",
+        "blocks.setWidgetPos.params": [
+            "ウィジェット名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setWidgetSize": "ウィジェットのサイズを設定する",
+        "blocks.setWidgetSize.params": [
+            "ウィジェット名：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.setWidgetListener": "セットチェンジ機能する",
+        "blocks.setWidgetListener.params": [
+            "ウィジェット名：",
+            "関数名："
+        ],
+        "blocks.setWebViewFront": "次のサイトへする",
+        "blocks.setWebViewFront.params": [
+            "ウィジェット名："
+        ],
+        "blocks.setWebViewBack": "前のサイトへする",
+        "blocks.setWebViewBack.params": [
+            "ウィジェット名："
+        ],
+        "blocks.updWebViewSite": "WebView でサイトを更新する",
+        "blocks.updWebViewSite.params": [
+            "ウィジェット名："
+        ],
+        "blocks.setWebViewLink": "WebView でリンクを設定する",
+        "blocks.setWebViewLink.params": [
+            "ウィジェット名：",
+            "リンク："
+        ],
+        "blocks.setSliderValue": "スライダーに値を設定",
+        "blocks.setSliderValue.params": [
+            "ウィジェット名：",
+            "値（0-100）："
+        ],
+        "blocks.setFieldSecure": "パスワード モードを設定する",
+        "blocks.setFieldSecure.params": [
+            "ウィジェット名："
+        ],
+        "blocks.removeFieldSecure": "パスワードモードを削除する",
+        "blocks.removeFieldSecure.params": [
+            "ウィジェット名："
+        ],
+        "blocks.setFieldRule": "テキストボックスに入力許可を設定する",
+        "blocks.setFieldRule.params": [
+            "ウィジェット名：",
+            "ルール："
+        ],
+        "blocks.setFieldText": "テキスト・ボックスにテキストを設定する",
+        "blocks.setFieldText.params": [
+            "ウィジェット名：",
+            "テキスト"
+        ],
+        "blocks.setFieldFocus": "テキストフィールドに焦点を合わせまする",
+        "blocks.setFieldFocus.params": [
+            "ウィジェット名："
+        ],
+        "blocks.setFieldFocusNil": "キーボードをオフにする",
+        "blocks.hidePanelInterface": "インターフェイスパネルを非表示にします",
+        "blocks.showPanelInterface": "インターフェイスパネルを表示します",
+        "blocks.newScrollView": "ScrollViewを作成する",
+        "blocks.newScrollView.params": [
+            "ウィジェット名：",
+            "スクロール・バー：",
+            "リスナー：",
+            "バウンド：",
+            "摩擦：",
+            "Xでのスクロール：",
+            "Yでのスクロール：",
+            "色：",
+            "バックグラウンド：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newSwitch": "スイッチを作成する",
+        "blocks.newSwitch.params": [
+            "ウィジェット名：",
+            "タイプ：",
+            "調子：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）：",
+            "触れるとき：",
+            "触れた後："
+        ],
+        "blocks.setSwitchState": "スイッチ状態を設定する",
+        "blocks.setSwitchState.params": [
+            "ウィジェット名：",
+            "調子："
+        ],
+        "blocks.insertToScroll": "挿入してスクロールする",
+        "blocks.insertToScroll.params": [
+            "ウィジェット名：",
+            "名：",
+            "タイプ："
+        ],
+        "blocks.takeFocusScroll": "スクロールに焦点を合わせまする",
+        "blocks.takeFocusScroll.params": [
+            "ウィジェット名：",
+            "イベントテーブル："
+        ],
+        "blocks.removeWidget": "ウィジェットを削除する",
+        "blocks.removeWidget.params": [
+            "ウィジェット名："
+        ],
+        "blocks.showWidget": "ウィジェットを表示する",
+        "blocks.showWidget.params": [
+            "ウィジェット名："
+        ],
+        "blocks.hideWidget": "ウィジェットを非表示する",
+        "blocks.hideWidget.params": [
+            "ウィジェット名："
+        ]
+    },
+    "media": {
+        "blocks.media": "メディア",
+        "blocks.newVideo": "ビデオを作成する",
+        "blocks.newVideo.params": [
+            "メディア名：",
+            "ビデオ名：",
+            "終了後",
+            "位置（X）：",
+            "位置（Y）：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.newRemoteVideo": "リモートビデオを作成する",
+        "blocks.newRemoteVideo.params": [
+            "メディア名：",
+            "リンク：",
+            "終了後",
+            "位置（X）：",
+            "位置（Y）：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.loadSound": "サウンドをダウンロードする",
+        "blocks.loadSound.params": [
+            "メディア名：",
+            "サウンド名："
+        ],
+        "blocks.loadStream": "ストリーミング音声をダウンロード",
+        "blocks.loadStream.params": [
+            "メディア名：",
+            "サウンド名："
+        ],
+        "blocks.playSound": "音を出す",
+        "blocks.playSound.params": [
+            "メディア名：",
+            "繰り返し回数：",
+            "終了後",
+            "時間（秒）：",
+            "ディケイ（秒）："
+        ],
+        "blocks.resumeMedia": "メディアを再開する",
+        "blocks.resumeMedia.params": [
+            "メディア名："
+        ],
+        "blocks.pauseMedia": "メディアを一時停止する",
+        "blocks.pauseMedia.params": [
+            "メディア名："
+        ],
+        "blocks.seekMedia": "タイムスタンプまでメディアを巻き戻す",
+        "blocks.seekMedia.params": [
+            "メディア名：",
+            "時間（秒）："
+        ],
+        "blocks.setVolume": "音量を設定する",
+        "blocks.setVolume.params": [
+            "メディア名：",
+            "音量："
+        ],
+        "blocks.fadeVolume": "ミュート音量する",
+        "blocks.fadeVolume.params": [
+            "メディア名：",
+            "時間（秒）：",
+            "音量："
+        ],
+        "blocks.stopSound": "音を止める",
+        "blocks.stopSound.params": [
+            "メディア名："
+        ],
+        "blocks.stopTimerSound": "タイマーで音を止める",
+        "blocks.stopTimerSound.params": [
+            "メディア名：",
+            "時間（秒）："
+        ],
+        "blocks.disposeSound": "サウンドのアップロード",
+        "blocks.disposeSound.params": [
+            "メディア名："
+        ],
+        "blocks.removeVideo": "ビデオを削除する",
+        "blocks.removeVideo.params": [
+            "メディア名："
+        ]
+    },
+    "snapshot": {
+        "blocks.snapshot": "スナップショット",
+        "blocks.newSnapshot": "Create snapshot",
+        "blocks.newSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot mode:",
+            "Width:",
+            "Height:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.invalidateSnapshot": "Update snapshot",
+        "blocks.invalidateSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:"
+        ],
+        "blocks.addToSnapshot": "Add to snapshot",
+        "blocks.addToSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.removeFromSnapshot": "Remove from snapshot",
+        "blocks.removeFromSnapshot.params": [
+            "Snapshot name:",
+            "Snapshot type:",
+            "Name:",
+            "Type:"
+        ],
+        "blocks.setSnapshotColor": "Set snapshot color",
+        "blocks.setSnapshotColor.params": [
+            "Snapshot name:",
+            "Color:"
+        ],
+        "blocks.setSnapshotPos": "Set snapshot position",
+        "blocks.setSnapshotPos.params": [
+            "Snapshot name:",
+            "Position (X):",
+            "Position (Y):"
+        ],
+        "blocks.setSnapshotSize": "Set snapshot size",
+        "blocks.setSnapshotSize.params": [
+            "Snapshot name:",
+            "Width:",
+            "Height:"
+        ],
+        "blocks.setSnapshotRotation": "Set snapshot rotation",
+        "blocks.setSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.setSnapshotAlpha": "Set snapshot opacity",
+        "blocks.setSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.updSnapshotPosX": "Change snapshot position X",
+        "blocks.updSnapshotPosX.params": [
+            "Snapshot name:",
+            "Position (X):"
+        ],
+        "blocks.updSnapshotPosY": "Change snapshot position Y",
+        "blocks.updSnapshotPosY.params": [
+            "Snapshot name:",
+            "Position (Y):"
+        ],
+        "blocks.updSnapshotWidth": "Change snapshot width",
+        "blocks.updSnapshotWidth.params": [
+            "Snapshot name:",
+            "Width:"
+        ],
+        "blocks.updSnapshotHeight": "Change snapshot height",
+        "blocks.updSnapshotHeight.params": [
+            "Snapshot name:",
+            "Height:"
+        ],
+        "blocks.updSnapshotRotation": "Change snapshot rotation",
+        "blocks.updSnapshotRotation.params": [
+            "Snapshot name:",
+            "Rotation (0-360):"
+        ],
+        "blocks.updSnapshotAlpha": "Change snapshot opacity",
+        "blocks.updSnapshotAlpha.params": [
+            "Snapshot name:",
+            "Opacity (0-100):"
+        ],
+        "blocks.frontSnapshot": "Place snapshot on layer above",
+        "blocks.frontSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.backSnapshot": "Place snapshot on layer below",
+        "blocks.backSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.removeSnapshot": "Remove snapshot",
+        "blocks.removeSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.showSnapshot": "Show snapshot",
+        "blocks.showSnapshot.params": [
+            "Snapshot name:"
+        ],
+        "blocks.hideSnapshot": "Hide snapshot",
+        "blocks.hideSnapshot.params": [
+            "Snapshot name:"
+        ]
+    },
+    "network": {
+        "blocks.network": "インターネット",
+        "blocks.openURL": "リンクをブラウザで開く",
+        "blocks.openURL.params": [
+            "リンク："
+        ],
+        "blocks.createServer": "ローカル サーバーの作成",
+        "blocks.createServer.params": [
+            "ポート",
+            "サーバーリスナー："
+        ],
+        "blocks.connectToServer": "ローカルサーバーに接続する",
+        "blocks.connectToServer.params": [
+            "アドレス：",
+            "ポート",
+            "クライアントリスナー："
+        ],
+        "blocks.requestGET": "非同期GETリクエスト",
+        "blocks.requestGET.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.requestPOST": "非同期POSTリクエスト",
+        "blocks.requestPOST.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.requestPUT": "非同期PUTリクエスト",
+        "blocks.requestPUT.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.requestPATCH": "非同期PATCHリクエスト",
+        "blocks.requestPATCH.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.requestHEAD": "非同期HEADリクエスト",
+        "blocks.requestHEAD.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.requestDELETE": "非同期DELETEリクエスト",
+        "blocks.requestDELETE.params": [
+            "リンク：",
+            "リクエスト本文：",
+            "リクエストヘッダー：",
+            "リクエストリスナー：",
+            "リスナーの種類：",
+            "リダイレクト：",
+            "タイムアウト（秒）："
+        ],
+        "blocks.firebasePUT": "Firebaseに書き込むする",
+        "blocks.firebasePUT.params": [
+            "トークン：",
+            "値：",
+            "キー：",
+            "答え："
+        ],
+        "blocks.firebasePATCH": "Firebaseで更新する",
+        "blocks.firebasePATCH.params": [
+            "トークン：",
+            "値：",
+            "キー：",
+            "答え："
+        ],
+        "blocks.firebaseGET": "Firebaseから取得する",
+        "blocks.firebaseGET.params": [
+            "トークン：",
+            "キー：",
+            "答え："
+        ],
+        "blocks.firebaseDELETE": "Firebaseから削除する",
+        "blocks.firebaseDELETE.params": [
+            "トークン：",
+            "キー：",
+            "答え："
+        ],
+        "blocks.initAdsStartApp": "Initialize StartApp ads",
+        "blocks.initAdsStartApp.params": [
+            "Token:",
+            "Listener:"
+        ],
+        "blocks.loadAdsStartApp": "Load StartApp ads",
+        "blocks.loadAdsStartApp.params": [
+            "Ads type:"
+        ],
+        "blocks.showAdsStartApp": "Show StartApp ads",
+        "blocks.showAdsStartApp.params": [
+            "Ads type:"
+        ]
+    },
+    "transition": {
+        "blocks.transition": "トランジション\n& 粒子",
+        "blocks.setTransitionTo": "スムーズな移行を開始する",
+        "blocks.setTransitionTo.params": [
+            "名前：",
+            "タイプ：",
+            "アニメーションの種類：",
+            "繰り返し回数：",
+            "時間（秒）：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）：",
+            "規模（X）：",
+            "規模（Y）：",
+            "不透明度（0-100）：",
+            "回転（0-360）：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionPos": "スムーズに位置を設定する",
+        "blocks.setTransitionPos.params": [
+            "名前：",
+            "タイプ：",
+            "アニメーションの種類：",
+            "繰り返し回数：",
+            "時間（秒）：",
+            "位置（X）：",
+            "位置（Y）：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionSize": "スムーズにサイズを設定する",
+        "blocks.setTransitionSize.params": [
+            "名前：",
+            "タイプ：",
+            "アニメーションの種類：",
+            "繰り返し回数：",
+            "時間（秒）：",
+            "幅：",
+            "身長：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionScale": "スムーズに規模を設定する",
+        "blocks.setTransitionScale.params": [
+            "名前：",
+            "タイプ：",
+            "アニメーションの種類：",
+            "繰り返し回数：",
+            "時間（秒）：",
+            "規模（X）：",
+            "規模（Y）：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionRotation": "スムーズに回転を設定する",
+        "blocks.setTransitionRotation.params": [
+            "名前：",
+            "アニメーションの種類：",
+            "タイプ：",
+            "時間（秒）：",
+            "繰り返し回数：",
+            "回転（0-360）：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionAlpha": "スムーズにアルファを設定する",
+        "blocks.setTransitionAlpha.params": [
+            "名前：",
+            "アニメーションの種類：",
+            "タイプ：",
+            "時間（秒）：",
+            "繰り返し回数：",
+            "不透明度（0-100）：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionAngles": "に位置を滑らかにセットする",
+        "blocks.setTransitionAngles.params": [
+            "名前：",
+            "アニメーションの種類：",
+            "タイプ：",
+            "時間（秒）：",
+            "繰り返し回数：",
+            "角度表：",
+            "遷移グラフ：",
+            "終了後",
+            "一時停止中：",
+            "一一時停止後：",
+            "仕上げ：",
+            "繰り返す場合："
+        ],
+        "blocks.setTransitionPause": "スムーズブロックを一時停止する",
+        "blocks.setTransitionPause.params": [
+            "名前：",
+            "タイプ："
+        ],
+        "blocks.setTransitionResume": "スムーズブロックを再開する",
+        "blocks.setTransitionResume.params": [
+            "名前：",
+            "タイプ："
+        ],
+        "blocks.setTransitionCancel": "スムーズ ブロックを無効にする",
+        "blocks.setTransitionCancel.params": [
+            "名前：",
+            "タイプ："
+        ],
+        "blocks.setTransitionPauseAll": "すべてのフロー ブロックを一時停止する",
+        "blocks.setTransitionResumeAll": "すべてのスムーズ ブロックを再開する",
+        "blocks.setTransitionCancelAll": "すべてのスムーズ ブロックを無効にする"
+    },
+    "varsNoob": {
+        "blocks.setVarNoob": "メモリセルを作成する",
+        "blocks.setVarNoob.params": [
+            "メモリ・セル名：",
+            "価値："
+        ],
+        "blocks.updVarNoob": "価値を付加する",
+        "blocks.updVarNoob.params": [
+            "メモリ・セル名：",
+            "価値："
+        ],
+        "blocks.saveValueNoob": "デバイスにメモリ・セルを保存する",
+        "blocks.saveValueNoob.params": [
+            "メモリ・セル名："
+        ],
+        "blocks.readValueNoob": "デバイスからメモリ・セルを読み取る",
+        "blocks.readValueNoob.params": [
+            "メモリセル名："
+        ],
+        "blocks.addGroupObjectNoob": "グループにぴくチャを挿入",
+        "blocks.addGroupObjectNoob.params": [
+            "グループ名：",
+            "ピクチャー名："
+        ],
+        "blocks.addTagObjectNoob": "ピクチャにタグを追加",
+        "blocks.addTagObjectNoob.params": [
+            "タグ名：",
+            "ピクチャー名："
+        ]
+    },
+    "mediaNoob": {
+        "blocks.mediaNoob": "音",
+        "blocks.playSoundNoob": "音を出す",
+        "blocks.playSoundNoob.params": [
+            "Sound 名：",
+            "Number repetitions："
+        ],
+        "blocks.resumeMediaNoob": "サウンドを再開",
+        "blocks.resumeMediaNoob.params": [
+            "音名："
+        ],
+        "blocks.pauseMediaNoob": "音を一時停止",
+        "blocks.pauseMediaNoob.params": [
+            "音名："
+        ],
+        "blocks.seekMediaNoob": "音をタイムスタンプに巻き戻す",
+        "blocks.seekMediaNoob.params": [
+            "音名：",
+            "時間（秒）："
+        ],
+        "blocks.setVolumeNoob": "音量を設定する",
+        "blocks.setVolumeNoob.params": [
+            "音名：",
+            "Volume："
+        ],
+        "blocks.fadeVolumeNoob": "フェード音量",
+        "blocks.fadeVolumeNoob.params": [
+            "音名：",
+            "時間（秒）：",
+            "音量："
+        ],
+        "blocks.stopSoundNoob": "音を止める",
+        "blocks.stopSoundNoob.params": [
+            "音名："
+        ],
+        "blocks.stopTimerSoundNoob": "時間後に音を止める",
+        "blocks.stopTimerSoundNoob.params": [
+            "音名：",
+            "時間（秒）："
+        ]
+    },
+    "objectsNoob": {
+        "blocks.objectsNoob": "ピクチャー",
+        "blocks.newObjectNoob": "ピクチャーを作成する",
+        "blocks.newObjectNoob.params": [
+            "ピクチャー名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newGifNoob": "GIF　ピクチャーを作成する",
+        "blocks.newGifNoob.params": [
+            "ピクチャー名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setPosNoob": "ピクチャーの位置を設定する",
+        "blocks.setPosNoob.params": [
+            "ピクチャー名：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setPosXNoob": "ピクチャーの位置　X　を設定する",
+        "blocks.setPosXNoob.params": [
+            "ピクチャー名：",
+            "位置（X）："
+        ],
+        "blocks.setPosYNoob": "ピクチャーの位置　Y　を設定する",
+        "blocks.setPosYNoob.params": [
+            "ピクチャー名：",
+            "位置（Y）："
+        ],
+        "blocks.setSizeNoob": "ピクチャーのサイズを設定する",
+        "blocks.setSizeNoob.params": [
+            "ピクチャー名：",
+            "サイズ（％）："
+        ],
+        "blocks.setRotationNoob": "ピクチャーの回転を設定する",
+        "blocks.setRotationNoob.params": [
+            "ピクチャー名：",
+            "回転（0-360）："
+        ],
+        "blocks.setRotationToNoob": "回転をピクチャ２に設定する",
+        "blocks.setRotationToNoob.params": [
+            "ピクチャー名１：",
+            "ピクチャー名２："
+        ],
+        "blocks.setAlphaNoob": "ピクチャーのアルファを設定する",
+        "blocks.setAlphaNoob.params": [
+            "ピクチャー名：",
+            "アルファ（0-100）："
+        ],
+        "blocks.setWidthNoob": "ピクチャーの幅を設定する",
+        "blocks.setWidthNoob.params": [
+            "ピクチャー名：",
+            "幅："
+        ],
+        "blocks.setHeightNoob": "ピクチャーの身長を設定する",
+        "blocks.setHeightNoob.params": [
+            "ピクチャー名：",
+            "身長："
+        ],
+        "blocks.updPosXNoob": "ピクチャーの位置　X　を変更する",
+        "blocks.updPosXNoob.params": [
+            "ピクチャー名：",
+            "位置（X）："
+        ],
+        "blocks.updPosYNoob": "ピクチャーの位置　X　を変更する",
+        "blocks.updPosYNoob.params": [
+            "ピクチャー名：",
+            "位置（Y）："
+        ],
+        "blocks.updSizeNoob": "ピクチャーのサイズを変更する",
+        "blocks.updSizeNoob.params": [
+            "ピクチャー名：",
+            "Size（％）："
+        ],
+        "blocks.updRotationNoob": "クチャーの回転を変更する",
+        "blocks.updRotationNoob.params": [
+            "ピクチャー名：",
+            "回転（0-360）："
+        ],
+        "blocks.updAlphaNoob": "ピクチャーのアルファを変更する",
+        "blocks.updAlphaNoob.params": [
+            "ピクチャー名：",
+            "アルファ（0-100）："
+        ],
+        "blocks.updWidthNoob": "ピクチャーの幅を変更する",
+        "blocks.updWidthNoob.params": [
+            "ピクチャー名：",
+            "幅："
+        ],
+        "blocks.updHeightNoob": "ピクチャーの身長を変更する",
+        "blocks.updHeightNoob.params": [
+            "ピクチャー名：",
+            "身長："
+        ]
+    },
+    "shapesNoob": {
+        "blocks.shapesNoob": "姿",
+        "blocks.setSpriteNoob": "ピクチャ１にピクチャ２を重ねる",
+        "blocks.setSpriteNoob.params": [
+            "ピクチャ１名：",
+            "ピクチャ２名："
+        ],
+        "blocks.newRectNoob": "色付きの長方形を作成する",
+        "blocks.newRectNoob.params": [
+            "ピクチャー名：",
+            "色：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newRoundedRectNoob": "角のある四角形を作成",
+        "blocks.newRoundedRectNoob.params": [
+            "ピクチャー名：",
+            "丸い角：",
+            "幅：",
+            "身長：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.newCircleNoob": "サークルを作成",
+        "blocks.newCircleNoob.params": [
+            "ピクチャー名：",
+            "半径：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setColorNoob": "ピクチャの色を設定する",
+        "blocks.setColorNoob.params": [
+            "ピクチャー名：",
+            "色："
+        ],
+        "blocks.hideObjectNoob": "ピクチャを隠す",
+        "blocks.hideObjectNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.showObjectNoob": "ピクチャを表示",
+        "blocks.showObjectNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.removeObjectNoob": "ピクチャを削除",
+        "blocks.removeObjectNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.frontObjectNoob": "ピクチャレイヤーを増やす",
+        "blocks.frontObjectNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.backObjectNoob": "ピクチャレイヤーを上げる",
+        "blocks.backObjectNoob.params": [
+            "ピクチャー名："
+        ]
+    },
+    "physicsNoob": {
+        "blocks.setBodyNoob": "ピクチャを物理的にする",
+        "blocks.setBodyNoob.params": [
+            "ピクチャー名：",
+            "タイプ：",
+            "バウンス：",
+            "重力："
+        ],
+        "blocks.removeBodyNoob": "ピクチャの物理を削除",
+        "blocks.removeBodyNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.setLinearVelocityXNoob": "X に沿ってジャンプする",
+        "blocks.setLinearVelocityXNoob.params": [
+            "ピクチャー名：",
+            "スピード（X）："
+        ],
+        "blocks.setLinearVelocityYNoob": "Y に沿ってジャンプする",
+        "blocks.setLinearVelocityYNoob.params": [
+            "ピクチャー名：",
+            "スピード（Y）："
+        ],
+        "blocks.setSensorNoob": "ピクチャ衝突のを削除",
+        "blocks.setSensorNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.removeSensorNoob": "ピクチャ衝突のを戻る",
+        "blocks.removeSensorNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.setFixedRotationNoob": "ピクチャを回転不能にする",
+        "blocks.setFixedRotationNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.removeFixedRotationNoob": "ピクチャ衝突のを削除",
+        "blocks.removeFixedRotationNoob.params": [
+            "ピクチャー名："
+        ]
+    },
+    "transitionNoob": {
+        "blocks.transitionNoob": "トランジション",
+        "blocks.setTransitionPosNoob": "セット位置トランジション",
+        "blocks.setTransitionPosNoob.params": [
+            "名：",
+            "タイプ：",
+            "時間（秒）：",
+            "位置（X）：",
+            "位置（Y）："
+        ],
+        "blocks.setTransitionSizeNoob": "セット位置トランジション",
+        "blocks.setTransitionSizeNoob.params": [
+            "名：",
+            "タイプ：",
+            "時間（秒）：",
+            "幅：",
+            "身長："
+        ],
+        "blocks.setTransitionScaleNoob": "セットサイズトランジション",
+        "blocks.setTransitionScaleNoob.params": [
+            "名：",
+            "タイプ：",
+            "時間（秒）：",
+            "Scale（X）：",
+            "Scale（Y）："
+        ],
+        "blocks.setTransitionRotationNoob": "セット回転トランジション",
+        "blocks.setTransitionRotationNoob.params": [
+            "名：",
+            "タイプ：",
+            "時間（秒）：",
+            "回転（0-360）："
+        ],
+        "blocks.setTransitionAlphaNoob": "セットアルファトランジション",
+        "blocks.setTransitionAlphaNoob.params": [
+            "名：",
+            "タイプ：",
+            "時間（秒）：",
+            "アルファ（0-100）："
+        ]
+    },
+    "eventsNoob": {
+        "blocks.onConditionNoob": "条件が真になるまで繰り返す",
+        "blocks.onConditionNoob.params": [
+            "状態："
+        ],
+        "blocks.onFunNoob": "アクションを作成する",
+        "blocks.onFunNoob.params": [
+            "アクション："
+        ],
+        "blocks.onTouchBeganNoob": "指がピクチャに触れたとき",
+        "blocks.onTouchBeganNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.onTouchEndedNoob": "指はピクチャを離すとき",
+        "blocks.onTouchEndedNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.onTouchMovedNoob": "指がピクチャ上を移動する限り",
+        "blocks.onTouchMovedNoob.params": [
+            "ピクチャー名："
+        ],
+        "blocks.onTouchDisplayBeganNoob": "指が画面に触れたとき",
+        "blocks.onTouchDisplayEndedNoob": "指は画面を離すとき",
+        "blocks.onTouchDisplayMovedNoob": "指が画面上を移動する限り",
+        "blocks.onLocalCollisionBeganNoob": "ピクチャが衝突するとき",
+        "blocks.onLocalCollisionBeganNoob.params": [
+            "ピクチャ名１：",
+            "ピクチャ名２："
+        ],
+        "blocks.requestFunNoob": "アクションを実行",
+        "blocks.requestFunNoob.params": [
+            "アクション："
+        ]
+    },
+    "editor.interface": {
+        "editor.window.error": "表現の誤り",
+        "editor.button.error": "なおす",
+        "editor.button.text": "テキスト",
+        "editor.button.local": "{ }",
+        "editor.button.hide": "隠れる",
+        "editor.list.var": "変数",
+        "editor.list.var.noob": "価値",
+        "editor.list.table": "てぶる",
+        "editor.list.funs": "機能",
+        "editor.list.funs.noob": "アクション",
+        "editor.list.fun": "メソッド",
+        "editor.list.fun.noob": "ツール",
+        "editor.list.math": "数学",
+        "editor.list.prop": "プロパティ",
+        "editor.list.log": "ロジック",
+        "editor.list.device": "デバイス",
+        "editor.list.custom": "きみの",
+        "editor.list.event": "イベント",
+        "editor.list.script": "脚本",
+        "editor.list.project": "プロジェクト",
+        "editor.list.prop.obj": "オブジェクト",
+        "editor.list.prop.obj.noob": "ピクチャ",
+        "editor.list.prop.text": "テキスト",
+        "editor.list.prop.media": "メヂア",
+        "editor.list.prop.group": "グループ",
+        "editor.list.prop.widget": "ウィジェット"
+    },
+    "editor.fun": {
+        "editor.list.fun.get_text": "テキストを取得する",
+        "editor.list.fun.read_save": "セイブを読み取る",
+        "editor.list.fun.random_str": "ランダムな文字列",
+        "editor.list.fun.concat": "文字列を連結する",
+        "editor.list.fun.tonumber": "数値に変換",
+        "editor.list.fun.tostring": "テキストに変換",
+        "editor.list.fun.totable": "テーブルに変換する",
+        "editor.list.fun.len_table": "テーブルサイズ",
+        "editor.list.fun.unix_time": "ユニックス時間",
+        "editor.list.fun.encode": "jsonをエンコードする",
+        "editor.list.fun.gsub": "テキスト内を置き換える",
+        "editor.list.fun.sub": "テキストからの文字",
+        "editor.list.fun.len": "テキストの長さ",
+        "editor.list.fun.find": "テキストで検索",
+        "editor.list.fun.split": "テキストを分割する",
+        "editor.list.fun.match": "正規表現",
+        "editor.list.fun.color_pixel": "ピクセルの色",
+        "editor.list.fun.get_ip": "あなたの住所を取得する",
+        "editor.list.fun.noise": "パーリンノイズ"
+    },
+    "editor.math": {
+        "editor.list.math.random": "ランダム",
+        "editor.list.math.radical": "根",
+        "editor.list.math.power": "度",
+        "editor.list.math.round": "ラウンド",
+        "editor.list.math.remainder": "剰余",
+        "editor.list.math.module": "モジュール",
+        "editor.list.math.max": "最大",
+        "editor.list.math.min": "最小",
+        "editor.list.math.sin": "正弦",
+        "editor.list.math.cos": "余弦",
+        "editor.list.math.tan": "接線",
+        "editor.list.math.ctan": "コタンジェント",
+        "editor.list.math.pi": "円周率",
+        "editor.list.math.exp": "出展者",
+        "editor.list.math.factorial": "階乗",
+        "editor.list.math.log": "ログ",
+        "editor.list.math.log10": "対数",
+        "editor.list.math.asin": "逆正弦",
+        "editor.list.math.acos": "逆余弦",
+        "editor.list.math.atan": "アークタンジェント",
+        "editor.list.math.atan2": "逆正接 2",
+        "editor.list.math.raycast": "レイキャスト"
+    },
+    "editor.prop": {
+        "editor.list.prop.obj.touch": "タッチ",
+        "editor.list.prop.obj.tag": "タグ",
+        "editor.list.prop.obj.var": "変数",
+        "editor.list.prop.obj.pos_x": "位置＿X",
+        "editor.list.prop.obj.pos_y": "位置＿Y",
+        "editor.list.prop.obj.width": "幅",
+        "editor.list.prop.obj.height": "身長",
+        "editor.list.prop.obj.rotation": "回転",
+        "editor.list.prop.obj.alpha": "アルファ",
+        "editor.list.prop.obj.name_texture": "テクスチャ名",
+        "editor.list.prop.obj.velocity_x": "スピード＿X",
+        "editor.list.prop.obj.velocity_y": "スピード＿Y",
+        "editor.list.prop.obj.angular_velocity": "回転速度",
+        "editor.list.prop.text.get_text": "テキストを取得",
+        "editor.list.prop.text.tag": "テキストのタグ",
+        "editor.list.prop.text.pos_x": "テキスト位置＿X",
+        "editor.list.prop.text.pos_y": "テキスト位置＿Y",
+        "editor.list.prop.text.width": "テキストの幅",
+        "editor.list.prop.text.height": "テキストの高さ",
+        "editor.list.prop.text.rotation": "テキストの回転",
+        "editor.list.prop.text.alpha": "テキストのアルファ",
+        "editor.list.prop.group.tag": "グループのタグ",
+        "editor.list.prop.group.pos_x": "グループ位置＿X",
+        "editor.list.prop.group.pos_y": "グループ位置＿Y",
+        "editor.list.prop.group.width": "グループの幅",
+        "editor.list.prop.group.height": "グループの高さ",
+        "editor.list.prop.group.rotation": "グループの回転",
+        "editor.list.prop.group.alpha": "グループのアルファ",
+        "editor.list.prop.widget.tag": "ウィジェットのタグ",
+        "editor.list.prop.widget.pos_x": "ウィジェット位置＿X",
+        "editor.list.prop.widget.pos_y": "ウィジェット位置＿Y",
+        "editor.list.prop.widget.value": "スライダー値",
+        "editor.list.prop.widget.state": "スイッチ状態",
+        "editor.list.prop.widget.text": "フィールドからのテキスト",
+        "editor.list.prop.widget.link": "WebViewおｎリンク",
+        "editor.list.prop.media.current_time": "現在のビデオ時間",
+        "editor.list.prop.media.total_time": "合計ビデオ時間",
+        "editor.list.prop.media.sound_volume": "音量",
+        "editor.list.prop.media.sound_total_time": "合計音時間",
+        "editor.list.prop.media.sound_pause": "音声は現在一時停止中です",
+        "editor.list.prop.media.sound_play": "オーディオは現在再生中です"
+    },
+    "editor.log": {
+        "editor.list.log.true": "true",
+        "editor.list.log.false": "false",
+        "editor.list.log.nil": "なし",
+        "editor.list.log.>": ">",
+        "editor.list.log.<": "<",
+        "editor.list.log.>=": "≥",
+        "editor.list.log.<=": "≤",
+        "editor.list.log.~=": "≠",
+        "editor.list.log.and": "AND",
+        "editor.list.log.or": "OR",
+        "editor.list.log.not": "NOT"
+    },
+    "editor.device": {
+        "editor.list.device.fps": "fps",
+        "editor.list.device.read_save": "セーブを読む",
+        "editor.list.device.device_id": "デバイスID",
+        "editor.list.device.width_screen": "画面の幅",
+        "editor.list.device.height_screen": "画面の身長",
+        "editor.list.device.top_point_screen": "画面の上端",
+        "editor.list.device.bottom_point_screen": "画面の下端",
+        "editor.list.device.right_point_screen": "画面の右端",
+        "editor.list.device.left_point_screen": "画面の左端",
+        "editor.list.device.height_top": "上枠国境の身長",
+        "editor.list.device.height_bottom": "下枠国境の身長",
+        "editor.list.device.finger_touching_screen": "指が画面に触れる",
+        "editor.list.device.finger_touching_screen_x": "x 軸上の指の位置",
+        "editor.list.device.finger_touching_screen_y": "y 軸上の指の位置",
+        "editor.list.device.get_ip": "IP アドレスを取得する"
+    }
+}
