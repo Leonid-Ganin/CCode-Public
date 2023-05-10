@@ -57,7 +57,6 @@ BUILD = (not IS_SIM and not IS_WIN) and system.getInfo('androidAppVersionCode') 
 MY_PATH = '/data/data/' .. tostring(system.getInfo('androidAppPackageName')) .. '/files/ganin'
 RES_PATH = '/data/data/' .. tostring(system.getInfo('androidAppPackageName')) .. '/files/coronaResources'
 MASK = graphics.newMask('Sprites/mask.png')
-SOLAR = _G.B .. _G.D .. _G.A .. _G.C
 KEYORDER = {
     'build', 'version', 'package', 'orientation', 'title', 'link', 'resources', 'scripts',
     'settings', 'fonts', 'others', 'videos', 'sounds', 'images', 'funs', 'tables',
